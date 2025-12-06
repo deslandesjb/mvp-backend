@@ -1,0 +1,9 @@
+{
+	"useTabs": true,
+	"printWidth": 120,
+	"pluginSearchDirs": false,
+	"bracketSpacing": false,
+	"bracketSameLine": true,
+	"htmlWhitespaceSensitivity": "strict",
+	"singleQuote": true
+}
