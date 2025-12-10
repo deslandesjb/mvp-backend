@@ -8,6 +8,9 @@ const Product = require('../models/product');
 router.get('/lists/:idUser', function (req, res) {
   const idUser = req.params.idUser
   List.find({ idUser: idUser })
+    .then(result => {
+      res.json({ result: result })
+    })
 });
 
 
@@ -17,19 +20,31 @@ router.post('/newLists/:token/', async (req, res) => {
     const token = req.params.token;
     const name = req.body.name;
 
-    const user = await User.findOne({ token: token })
+    // $in verifie dans un tableau dans le cas de user il contient un tableau de token 
+    const user = await User.findOne({ token: { $in: [token] } })
     if (!user) {
       return res.json({ result: false, response: 'User not connected !' })
     }
 
-    const newList = new List({
-      name: name,
-      idUser: user._id,
-      idProduct: [],
-      done: false,
-    });
+    List.find({ idUser: user._id }, { name: name })
+    .then(found=>{
+      console.log("user",found)
+    if (found.length === 0) {
+      const newList = new List({
+        name: name,
+        idUser: user._id,
+        idProduct: [],
+        done: false,
+      });
+      newList.save().then(newList => {
+        return res.json({ result: true, newList: newList })
+      })
+    } else {
+      return res.json({ result: false, response: "Name already used !"})
+    }
+    })
 
-    newList.save()
+
   } catch (err) {
     console.error(err);
     return res.status(500).json({ result: false, response: 'Server error' });
@@ -38,7 +53,7 @@ router.post('/newLists/:token/', async (req, res) => {
 
 router.post('/listDone/:idList', async (req, res) => {
   try {
-    const user = await User.findOne({ token: token })
+    const user = await User.findOne({ token: { $in: [token] } })
     const list = await List.findOne({ _id: req.params.idList })
     if (!user) {
       return res.json({ result: false, response: 'User not connected !' })
@@ -68,8 +83,7 @@ router.post('/listDone/:idList', async (req, res) => {
 router.post('/addToLists/:token/:idProduct/:idList', async (req, res) => {
   try {
     const { token, idProduct, idList } = req.params;
-
-    const user = await User.findOne({ token: token })
+    const user = await User.findOne({ token: { $in: [token] } })
     if (!user) {
       return res.json({ result: false, response: 'User not connected !' })
     }
@@ -81,12 +95,12 @@ router.post('/addToLists/:token/:idProduct/:idList', async (req, res) => {
     if (!list) {
       return res.json({ result: false, response: 'List not found !' })
     }
-    
+
     // List.findOne({ idProduct: product._id }).then(list())
-    List.findOne({ resulte: { $elemMatch: {idProduct: product._id,   } } }).then(list())
+    List.findOne({ resulte: { $elemMatch: { idProduct: product._id, } } }).then(list())
     // utiliser elementmatch mongoose dans findOne pour trouver si il existe
 
-    
+
 
   } catch (err) {
     console.error(err);
