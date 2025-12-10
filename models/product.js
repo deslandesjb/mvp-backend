@@ -11,7 +11,7 @@ const avisSchema = mongoose.Schema({
 });
 const sellersSchema = mongoose.Schema({
 	seller: String,
-	avis: avisSchema,
+	avis: [avisSchema],
 	url: String,
 	price: Number,
 });
@@ -22,7 +22,7 @@ const productSchema = mongoose.Schema({
 	picture: pictureSchema,
 	brand: String,
 	categorie: String,
-	sellers: sellersSchema,
+	sellers: [sellersSchema],
 });
 
 const Product = mongoose.model('products', productSchema);

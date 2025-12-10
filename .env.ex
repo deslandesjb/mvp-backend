@@ -1,1 +1,0 @@
-CONNECTION_STRING=mongodb+srv://johansonzoda_db_user:q1VEuKzYYaUtCv9d@cluster0.hvgvvl4.mongodb.net/testmvps
