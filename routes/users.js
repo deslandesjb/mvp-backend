@@ -5,7 +5,7 @@ var router = express.Router();
 // POST /signup -> crée un utilisateur (mot de passe hashé) + wishlist par défaut, renvoie un token
 // POST /signin -> authentifie l'utilisateur et renvoie son token
 require("../models/connection");
-const { checkBody } = require('../modules/checkBody');
+const { checkBody } = require("../modules/checkBody");
 const User = require("../models/user");
 const List = require("../models/list");
 const uid2 = require("uid2");
@@ -45,7 +45,8 @@ router.post("/signup", (req, res) => {
         const defaultList = new List({
           nom: "WishList",
           idUser: newDoc._id,  
-          idProduct: []
+          idProduct: [],
+          done: false
         });
         
         defaultList.save()
@@ -84,4 +85,4 @@ router.post("/signin", (req, res) => {
   });
 });
 
-module.exports = router;
+module.exports = router; 
