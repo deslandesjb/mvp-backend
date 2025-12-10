@@ -4,12 +4,13 @@ var router = express.Router();
 // Routes utilisateur :
 // POST /signup -> crée un utilisateur (mot de passe hashé) + wishlist par défaut, renvoie un token
 // POST /signin -> authentifie l'utilisateur et renvoie son token
-require('../models/connection');
-// const { checkBody } = require('../modules/checkBody');
-const User = require('../models/user');
-const List = require('../models/list');
-const uid2 = require('uid2');
-const bcrypt = require('bcrypt');
+require("../models/connection");
+const { checkBody } = require("../modules/checkBody");
+const User = require("../models/user");
+const List = require("../models/list");
+const uid2 = require("uid2");
+const bcrypt = require("bcrypt");
+
 
 // POST /signup
 // 1) Vérifie les champs requis et le format de l'email
@@ -40,14 +41,30 @@ router.post('/signup', (req, res) => {
 				list: [],
 			});
 
-			newUser
-				.save()
-				.then((newDoc) => {
-					const defaultList = new List({
-						nom: 'WishList',
-						idUser: newDoc._id,
-						idProduct: [],
-					});
+      newUser.save().then((newDoc) => {
+        const defaultList = new List({
+          nom: "WishList",
+          idUser: newDoc._id,  
+          idProduct: [],
+          done: false
+        });
+        
+        defaultList.save()
+          .then((savedList) => {
+            res.json({ result: true, token: newDoc.token });
+          })
+          .catch((err) => {
+            res.status(500).json({ result: false, error: "Failed to create default list" });
+          });
+      })
+      .catch((err) => {
+        res.status(500).json({ result: false, error: "User save failed" });
+      });
+    } else {
+      res.json({ result: false, error: "User already exists" });
+    }
+  });
+});
 
 					defaultList
 						.save()
