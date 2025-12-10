@@ -47,41 +47,65 @@ router.get('/', (req, res) => {
 					noteMoy: noteMoy.toFixed(2),
 				};
 			});
-			// TODO calc moyenne notes Azeddine
-			// for (let dataProduct of dataProducts) {
-			// 	let allNotes = [];
-			// 	let i = 0;
-			// 	// for (let seller of dataProduct.sellers[i].seller) {
-			// 	for (let i = 0; i < dataProduct.sellers.length; i++) {
-			// 		i++;
-			// 		console.log(seller.note);
-			// 	}
-			// 	console.log(allNotes);
-			// }
 			res.status(200).json({result: true, products: productsReworked});
 		});
 });
 
-// Post each category products OLD
-// router.post('/', (req, res) => {
-// 	let {categorie} = req.body;
-// 	categorie = new RegExp(categorie, 'i');
-// 	if (!categorie) {
-// 		res.status(406).json({result: false, error: 'One or many of the fields are missing'});
-// 		return;
-// 	}
+// get all products
+router.post('/', (req, res) => {
+	let {categorie} = req.body;
+	categorie = new RegExp(categorie, 'i');
+	if (!categorie) {
+		res.status(406).json({result: false, error: 'One or many of the fields are missing'});
+		return;
+	}
 
-// 	Product.find({categorie: categorie})
-// 		// .sort({date: -1})
-// 		.then((dataProducts) => {
-// 			if (dataProducts.length <= 1) {
-// 				res.status(404).json({result: false, error: `Couldn't find products`});
-// 				return;
-// 			}
-// 			res.status(200).json({result: true, products: dataProducts});
-// 			console.log(dataProducts.length);
-// 		});
-// });
+	Product.find({categorie: categorie})
+		// .sort({date: -1})
+		.then((dataProducts) => {
+			if (!dataProducts) {
+				res.status(404).json({result: false, error: `Couldn't find products`});
+				return;
+			}
+			// calc moyenne notes
+			const productsReworked = dataProducts.map((p) => {
+				// noteMoy
+				let allNotes = [];
+				let allPrices = [];
+				for (let sellers of p.sellers) {
+					// console.log(sellers.price);
+					allPrices.push(sellers.price);
+					for (let avis of sellers.avis) {
+						const note = avis.note;
+						allNotes.push(note);
+					}
+				}
+
+				let totalNote = 0;
+				for (let note of allNotes) {
+					// console.log(note);
+					totalNote += note;
+				}
+				const noteMoy = totalNote / allNotes.length;
+
+				let totalPrice = 0;
+				for (let price of allPrices) {
+					totalPrice += price;
+				}
+				const priceMoy = totalPrice / allPrices.length;
+
+				return {
+					name: p.name,
+					desc: p.desc,
+					brand: p.brand,
+					categorie: p.categorie,
+					priceMoy: priceMoy.toFixed(2),
+					noteMoy: noteMoy.toFixed(2),
+				};
+			});
+			res.status(200).json({result: true, products: productsReworked});
+		});
+});
 
 // Post search
 router.post('/search', (req, res) => {
@@ -96,7 +120,7 @@ router.post('/search', (req, res) => {
 	Product.find({$or: [{categorie: search}, {name: search}, {brand: search}]})
 		// .sort({date: -1})
 		.then((dataSearched) => {
-			if (dataSearched.length <= 1) {
+			if (dataSearched.length > 0) {
 				res.status(404).json({result: false, error: `No products to show`});
 				return;
 			}
