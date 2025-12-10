@@ -43,7 +43,7 @@ router.post('/signup', (req, res) => {
 
 			newUser.save().then((newDoc) => {
 				const defaultList = new List({
-					nom: "WishList",
+					name: "WishList",
 					idUser: newDoc._id,
 					idProduct: [],
 					done: false
@@ -83,5 +83,6 @@ router.post('/signin', (req, res) => {
 		}
 	});
 });
+
 
 module.exports = router;
