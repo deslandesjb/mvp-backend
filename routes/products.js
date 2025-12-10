@@ -11,9 +11,8 @@ router.get('/', (req, res) => {
 				res.status(404).json({result: false, error: `Couldn't find products`});
 				return;
 			}
-			// calc moyenne notes
+			// new table w/ moyenne & notes
 			const productsReworked = dataProducts.map((p) => {
-				// noteMoy
 				let allNotes = [];
 				let allPrices = [];
 				for (let sellers of p.sellers) {
@@ -25,6 +24,7 @@ router.get('/', (req, res) => {
 					}
 				}
 
+				// noteMoy Calc
 				let totalNote = 0;
 				for (let note of allNotes) {
 					// console.log(note);
@@ -32,6 +32,7 @@ router.get('/', (req, res) => {
 				}
 				const noteMoy = totalNote / allNotes.length;
 
+				// priceMoy Calc
 				let totalPrice = 0;
 				for (let price of allPrices) {
 					totalPrice += price;
@@ -39,6 +40,7 @@ router.get('/', (req, res) => {
 				const priceMoy = totalPrice / allPrices.length;
 
 				return {
+					id: p.id,
 					name: p.name,
 					desc: p.desc,
 					brand: p.brand,
@@ -51,7 +53,7 @@ router.get('/', (req, res) => {
 		});
 });
 
-// get all products
+// /post products by categories
 router.post('/', (req, res) => {
 	let {categorie} = req.body;
 	categorie = new RegExp(categorie, 'i');
@@ -67,9 +69,8 @@ router.post('/', (req, res) => {
 				res.status(404).json({result: false, error: `Couldn't find products`});
 				return;
 			}
-			// calc moyenne notes
+			// new table w/ moyenne & notes
 			const productsReworked = dataProducts.map((p) => {
-				// noteMoy
 				let allNotes = [];
 				let allPrices = [];
 				for (let sellers of p.sellers) {
@@ -81,6 +82,7 @@ router.post('/', (req, res) => {
 					}
 				}
 
+				// noteMoy Calc
 				let totalNote = 0;
 				for (let note of allNotes) {
 					// console.log(note);
@@ -88,6 +90,7 @@ router.post('/', (req, res) => {
 				}
 				const noteMoy = totalNote / allNotes.length;
 
+				// priceMoy Calc
 				let totalPrice = 0;
 				for (let price of allPrices) {
 					totalPrice += price;
@@ -95,6 +98,7 @@ router.post('/', (req, res) => {
 				const priceMoy = totalPrice / allPrices.length;
 
 				return {
+					id: p.id,
 					name: p.name,
 					desc: p.desc,
 					brand: p.brand,
@@ -104,6 +108,63 @@ router.post('/', (req, res) => {
 				};
 			});
 			res.status(200).json({result: true, products: productsReworked});
+		});
+});
+
+// post 1 products by ID (product page)
+router.post('/id', (req, res) => {
+	let {idProduct} = req.body;
+	if (!idProduct) {
+		res.status(406).json({result: false, error: 'One or many of the fields are missing'});
+		return;
+	}
+
+	Product.findById(idProduct)
+		// .sort({date: -1})
+		.then((dataProduct) => {
+			if (!dataProduct) {
+				res.status(404).json({result: false, error: `Product not found`});
+				return;
+			}
+			// new obj with moyenne & notes
+			let allNotes = [];
+			let allPrices = [];
+			for (let seller of dataProduct.sellers) {
+				// console.log(sellers.price);
+				allPrices.push(seller.price);
+				for (let avis of seller.avis) {
+					const note = avis.note;
+					allNotes.push(note);
+				}
+			}
+
+			// noteMoy Calc
+			let totalNote = 0;
+			for (let note of allNotes) {
+				// console.log(note);
+				totalNote += note;
+			}
+			const noteMoy = totalNote / allNotes.length;
+
+			// priceMoy Calc
+			let totalPrice = 0;
+			for (let price of allPrices) {
+				totalPrice += price;
+			}
+			const priceMoy = totalPrice / allPrices.length;
+
+			const productReworked = {
+				id: dataProduct._id,
+				name: dataProduct.name,
+				desc: dataProduct.desc,
+				brand: dataProduct.brand,
+				categorie: dataProduct.categorie,
+				sellers: dataProduct.sellers,
+				priceMoy: priceMoy.toFixed(2),
+				noteMoy: noteMoy.toFixed(2),
+			};
+
+			res.status(200).json({result: true, products: productReworked});
 		});
 });
 
@@ -128,44 +189,6 @@ router.post('/search', (req, res) => {
 			res.status(200).json({result: true, products: dataSearched});
 			console.log(dataSearched.length);
 		});
-});
-
-// imp guigz
-router.post('/', (req, res) => {
-	const {firstname, username, password} = req.body;
-	if (!firstname || !username || !password) {
-		res.status(406).json({result: false, error: 'One or many of the fields are missing'});
-		return;
-	}
-
-	User.findOne({username: username}).then((dataProducts) => {
-		if (!dataProducts) {
-			const hash = bcrypt.hashSync(password, 10);
-			const newUser = new User({
-				firstname,
-				username,
-				password: hash,
-				token: uid2(32),
-			});
-			newUser.save().then((dataProducts) => {
-				if (dataProducts) {
-					const {username, token} = dataProducts;
-					res.status(201).json({
-						result: true,
-						message: 'User created',
-						userdataProducts: {username, token},
-					});
-				} else {
-					res.status(500).json({
-						result: false,
-						error: 'Error while trying to connect you to the DB. Try later',
-					});
-				}
-			});
-		} else {
-			res.status(401).json({result: false, error: 'Unauthorized to create an account'});
-		}
-	});
 });
 
 module.exports = router;
