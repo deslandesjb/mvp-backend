@@ -43,6 +43,7 @@ router.get('/', (req, res) => {
 					id: p.id,
 					name: p.name,
 					desc: p.desc,
+					picture: p.picture,
 					brand: p.brand,
 					categorie: p.categorie,
 					priceMoy: priceMoy.toFixed(2),
