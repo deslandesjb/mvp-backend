@@ -62,26 +62,26 @@ router.get('/', (req, res) => {
 		});
 });
 
-// Post each category products
-router.post('/', (req, res) => {
-	let {categorie} = req.body;
-	categorie = new RegExp(categorie, 'i');
-	if (!categorie) {
-		res.status(406).json({result: false, error: 'One or many of the fields are missing'});
-		return;
-	}
+// Post each category products OLD
+// router.post('/', (req, res) => {
+// 	let {categorie} = req.body;
+// 	categorie = new RegExp(categorie, 'i');
+// 	if (!categorie) {
+// 		res.status(406).json({result: false, error: 'One or many of the fields are missing'});
+// 		return;
+// 	}
 
-	Product.find({categorie: categorie})
-		// .sort({date: -1})
-		.then((dataProducts) => {
-			if (dataProducts.length <= 1) {
-				res.status(404).json({result: false, error: `Couldn't find products`});
-				return;
-			}
-			res.status(200).json({result: true, products: dataProducts});
-			console.log(dataProducts.length);
-		});
-});
+// 	Product.find({categorie: categorie})
+// 		// .sort({date: -1})
+// 		.then((dataProducts) => {
+// 			if (dataProducts.length <= 1) {
+// 				res.status(404).json({result: false, error: `Couldn't find products`});
+// 				return;
+// 			}
+// 			res.status(200).json({result: true, products: dataProducts});
+// 			console.log(dataProducts.length);
+// 		});
+// });
 
 // Post search
 router.post('/search', (req, res) => {
