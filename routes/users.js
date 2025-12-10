@@ -45,7 +45,8 @@ router.post("/signup", (req, res) => {
         const defaultList = new List({
           nom: "WishList",
           idUser: newDoc._id,  
-          idProduct: []
+          idProduct: [],
+          done: false
         });
         
         defaultList.save()
