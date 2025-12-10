@@ -92,7 +92,6 @@ router.post('/search', (req, res) => {
 		return;
 	}
 
-	// db.inventory.find( { $or: [ { quantity: { $lt: 20 } }, { price: 10 } ] } )
 	// $or check si l'un des element est dans ma propriété
 	Product.find({$or: [{categorie: search}, {name: search}, {brand: search}]})
 		// .sort({date: -1})
