@@ -8,8 +8,9 @@ const Product = require('../models/product');
 router.get('/:idUser', function (req, res) {
   const idUser = req.params.idUser
   List.find({ idUser: idUser })
+    .populate('idProduct')
     .then(result => {
-      res.json({ result: result })
+      res.json({ result: true ,listsUser: result })
     })
 });
 
@@ -26,7 +27,7 @@ router.post('/newLists/:token/', async (req, res) => {
       return res.json({ result: false, response: 'User not connected !' })
     }
 
-    await List.find({ idUser: user._id , name: name })
+    await List.find({ idUser: user._id, name: name })
       .then(found => {
         console.log("user", found)
         if (found.length < 1) {
@@ -36,9 +37,10 @@ router.post('/newLists/:token/', async (req, res) => {
             idProduct: [],
             done: false,
           });
-          newList.save().then(newList => {
-            User.updateOne({idUser: user._id },{$push:{lists:newList._id}})
-            return res.json({ result: true, newList: newList })
+          newList.save().then(list => {
+            User.findByIdAndUpdate(user._id , { $push: { lists: list._id } }).then(() => {
+              return res.json({ result: true, newList: list })
+            })
           })
         } else {
           return res.json({ result: false, response: "Name already used !" })
