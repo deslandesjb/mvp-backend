@@ -18,10 +18,10 @@ const bcrypt = require("bcrypt");
 // 3) Création d'une liste par défaut (`WishList`) liée à l'_id du user
 // 4) Renvoie `{ result: true, token }` en cas de succès, ou une erreur (400/500)
 router.post('/signup', (req, res) => {
-	// if (!checkBody(req.body, ["firstname", "lastname", "password", "mail"])) {
-	//   res.json({ result: false, error: "Missing or empty fields" });
-	//   return;
-	// }
+	if (!checkBody(req.body, ["firstname", "lastname", "password", "mail"])) {
+	  res.json({ result: false, error: "Missing or empty fields" });
+	   return;
+	 }
 
 	const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 	if (!regex.test(req.body.mail)) {
@@ -41,45 +41,27 @@ router.post('/signup', (req, res) => {
 				list: [],
 			});
 
-      newUser.save().then((newDoc) => {
-        const defaultList = new List({
-          nom: "WishList",
-          idUser: newDoc._id,  
-          idProduct: [],
-          done: false
-        });
-        
-        defaultList.save()
-          .then((savedList) => {
-            res.json({ result: true, token: newDoc.token });
-          })
-          .catch((err) => {
-            res.status(500).json({ result: false, error: "Failed to create default list" });
-          });
-      })
-      .catch((err) => {
-        res.status(500).json({ result: false, error: "User save failed" });
-      });
-    } else {
-      res.json({ result: false, error: "User already exists" });
-    }
-  });
-});
-
-	defaultList
-						.save()
-						.then((savedList) => {
-							res.json({result: true, token: newDoc.token});
-						})
-						.catch((err) => {
-							res.status(500).json({result: false, error: 'Failed to create default list'});
-						});
-				})
-				.catch((err) => {
-					res.status(500).json({result: false, error: 'User save failed'});
+			newUser.save().then((newDoc) => {
+				const defaultList = new List({
+					nom: "WishList",
+					idUser: newDoc._id,
+					idProduct: [],
+					done: false
 				});
+
+				defaultList.save()
+					.then((savedList) => {
+						res.json({ result: true, token: newDoc.token });
+					})
+					.catch((err) => {
+						res.status(500).json({ result: false, error: "Failed to create default list" });
+					});
+			})
+			.catch((err) => {
+				res.status(500).json({ result: false, error: "User save failed" });
+			});
 		} else {
-			res.json({result: false, error: 'User already exists'});
+			res.json({ result: false, error: "User already exists" });
 		}
 	});
 });
