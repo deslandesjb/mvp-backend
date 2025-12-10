@@ -38,7 +38,7 @@ router.post('/signup', (req, res) => {
 				lastname: req.body.lastname,
 				password: hash,
 				token: uid2(32),
-				list: [],
+				lists: [],
 			});
 
 			newUser.save().then((newDoc) => {
@@ -51,7 +51,9 @@ router.post('/signup', (req, res) => {
 
 				defaultList.save()
 					.then((savedList) => {
-						res.json({ result: true, token: newDoc.token });
+						User.updateOne({_id:newDoc._id},{$push:{list:savedList._id}}).then(()=>{
+							res.json({newUser:newDoc})
+						})
 					})
 					.catch((err) => {
 						res.status(500).json({ result: false, error: "Failed to create default list" });

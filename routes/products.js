@@ -53,6 +53,28 @@ router.get('/', (req, res) => {
 		});
 });
 
+// get unique categories
+router.get('/categories', (req, res) => {
+	Product.find()
+		// .sort({date: -1})
+		.then((dataCats) => {
+			if (!dataCats) {
+				res.status(404).json({result: false, error: `Couldn't find products`});
+				return;
+			}
+			const arrayCat = [];
+			dataCats.forEach((c) => {
+				// if (!arrayCat.includes(c.categorie)) {
+				if (!arrayCat.find((cat) => cat === c.categorie)) {
+					arrayCat.push(c.categorie);
+				}
+
+				return arrayCat;
+			});
+			res.status(200).json({result: true, categories: arrayCat});
+		});
+});
+
 // /post products by categories
 router.post('/', (req, res) => {
 	let {categorie} = req.body;
