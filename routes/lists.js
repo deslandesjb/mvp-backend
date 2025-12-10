@@ -81,11 +81,12 @@ router.post('/addToLists/:token/:idProduct/:idList', async (req, res) => {
     if (!list) {
       return res.json({ result: false, response: 'List not found !' })
     }
-
-    List.findOne({ _idProduct: product._id }).then(list())
+    
+    // List.findOne({ idProduct: product._id }).then(list())
+    List.findOne({ resulte: { $elemMatch: {idProduct: product._id,   } } }).then(list())
     // utiliser elementmatch mongoose dans findOne pour trouver si il existe
 
-
+    
 
   } catch (err) {
     console.error(err);
