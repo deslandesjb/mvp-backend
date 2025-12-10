@@ -12,6 +12,12 @@ const uid2 = require("uid2");
 const bcrypt = require("bcrypt");
 
 
+router.get('/allUsers', (req, res) => {
+	User.find().then(allUser=>{
+		res.json({result: true, Users:allUser})
+	})
+})
+	
 // POST /signup
 // 1) Vérifie les champs requis et le format de l'email
 // 2) Si l'email n'existe pas : hash du mot de passe, création du User
@@ -51,7 +57,7 @@ router.post('/signup', (req, res) => {
 
 				defaultList.save()
 					.then((savedList) => {
-						User.updateOne({_id:newDoc._id},{$push:{list:savedList._id}}).then(()=>{
+						User.updateOne({_id:newDoc._id},{$push:{lists:savedList._id}}).then(()=>{
 							res.json({newUser:newDoc})
 						})
 					})

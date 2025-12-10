@@ -5,7 +5,7 @@ const User = require('../models/user')
 const Product = require('../models/product');
 
 /* GET Lists. */
-router.get('/lists/:idUser', function (req, res) {
+router.get('/:idUser', function (req, res) {
   const idUser = req.params.idUser
   List.find({ idUser: idUser })
     .then(result => {
@@ -26,24 +26,24 @@ router.post('/newLists/:token/', async (req, res) => {
       return res.json({ result: false, response: 'User not connected !' })
     }
 
-    List.find({ idUser: user._id }, { name: name })
-    .then(found=>{
-      console.log("user",found)
-    if (found.length = 0) {
-      const newList = new List({
-        name: name,
-        idUser: user._id,
-        idProduct: [],
-        done: false,
-      });
-      newList.save().then(newList => {
-        return res.json({ result: true, newList: newList })
+    await List.find({ idUser: user._id , name: name })
+      .then(found => {
+        console.log("user", found)
+        if (found.length < 1) {
+          const newList = new List({
+            name: name,
+            idUser: user._id,
+            idProduct: [],
+            done: false,
+          });
+          newList.save().then(newList => {
+            User.updateOne({idUser: user._id },{$push:{lists:newList._id}})
+            return res.json({ result: true, newList: newList })
+          })
+        } else {
+          return res.json({ result: false, response: "Name already used !" })
+        }
       })
-    } else {
-      return res.json({ result: false, response: "Name already used !"})
-    }
-    })
-
 
   } catch (err) {
     console.error(err);
