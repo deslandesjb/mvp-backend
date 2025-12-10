@@ -29,7 +29,7 @@ router.post('/newLists/:token/', async (req, res) => {
     List.find({ idUser: user._id }, { name: name })
     .then(found=>{
       console.log("user",found)
-    if (found.length === 0) {
+    if (found.length = 0) {
       const newList = new List({
         name: name,
         idUser: user._id,
