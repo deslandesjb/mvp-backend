@@ -70,10 +70,10 @@ router.post('/signup', (req, res) => {
 // Vérifie `mail` et `password`, recherche l'utilisateur, compare le hash
 // Si succès -> renvoie `{ result: true, token }`, sinon erreur
 router.post('/signin', (req, res) => {
-	// if (!checkBody(req.body, ["mail","password"])) {
-	//   res.json({ result: false, error: "Missing or empty fields" });
-	//   return;
-	// }
+	if (!checkBody(req.body, ["mail","password"])) {
+	 res.json({ result: false, error: "Missing or empty fields" });
+	   return;
+	 }
 
 	User.findOne({mail: req.body.mail}).then((data) => {
 		if (data && bcrypt.compareSync(req.body.password, data.password)) {
