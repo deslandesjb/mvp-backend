@@ -50,6 +50,11 @@ router.get('/', (req, res) => {
 					noteMoy: noteMoy.toFixed(2),
 				};
 			});
+
+			// sort product by noteMoy
+			productsReworked.sort((a, b) => b.noteMoy - a.noteMoy);
+			// console.log(productsReworked[0].noteMoy);
+			// console.log(productsReworked[100].noteMoy);
 			res.status(200).json({result: true, products: productsReworked});
 		});
 });
@@ -130,13 +135,15 @@ router.get('/:category', (req, res) => {
 					noteMoy: noteMoy.toFixed(2),
 				};
 			});
+			// sort products by noteMoy
+			productsReworked.sort((a, b) => b.noteMoy - a.noteMoy);
 			res.status(200).json({result: true, products: productsReworked});
 		});
 });
 
 // post 1 products by ID (product page)
-router.post('/id', (req, res) => {
-	let {idProduct} = req.body;
+router.get('/id/:idProduct', (req, res) => {
+	let {idProduct} = req.params;
 	if (!idProduct) {
 		res.status(406).json({result: false, error: 'One or many of the fields are missing'});
 		return;
@@ -210,7 +217,7 @@ router.post('/search', (req, res) => {
 			}
 
 			res.status(200).json({result: true, products: dataSearched});
-			console.log(dataSearched.length);
+			// console.log(dataSearched.length);
 		});
 });
 
