@@ -8,7 +8,7 @@ const Product = require('../models/product');
 router.get('/:idUser', function (req, res) {
   const idUser = req.params.idUser
   List.find({ idUser: idUser })
-    .populate('idProduct')
+    .populate('lists')
     .then(result => {
       res.json({ result: true, listsUser: result })
     })
