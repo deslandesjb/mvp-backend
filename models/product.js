@@ -19,7 +19,7 @@ const sellersSchema = mongoose.Schema({
 const productSchema = mongoose.Schema({
 	name: String,
 	desc: String,
-	picture: pictureSchema,
+	picture: [pictureSchema],
 	brand: String,
 	categorie: String,
 	sellers: [sellersSchema],
