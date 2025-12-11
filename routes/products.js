@@ -77,15 +77,15 @@ router.get('/categories', (req, res) => {
 });
 
 // /post products by categories
-router.post('/', (req, res) => {
-	let {categorie} = req.body;
-	categorie = new RegExp(categorie, 'i');
-	if (!categorie) {
+router.get('/:category', (req, res) => {
+	let {category} = req.params;
+	category = new RegExp(category, 'i');
+	if (!category) {
 		res.status(406).json({result: false, error: 'One or many of the fields are missing'});
 		return;
 	}
 
-	Product.find({categorie: categorie})
+	Product.find({categorie: category})
 		// .sort({date: -1})
 		.then((dataProducts) => {
 			if (!dataProducts) {
