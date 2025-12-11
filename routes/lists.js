@@ -118,14 +118,23 @@ router.post('/addToLists/:token/:idProduct/:idList', async (req, res) => {
   }
 });
 /* Post removeList. */
-router.delete('/removeList/:idList/:idUser', (req, res) => {
+router.delete('/removeList/:idList', (req, res) => {
   const {idList,idUser} = req.params
   List.deleteOne({ _id: idList }).then(() => {
-    User.findByIdAndUpdate(
-      idUser,
+  User.findOneAndUpdate(
+      { lists: { $in: [idList] } },
       { $pull: { lists: idList } },
-    );
-    res.json({ result: true, list: "Supprimé !" });
+    ).then(()=>{
+      res.json({ result: true, list: "Supprimé !" });
+    })
+    // ------------ avec idUser pour être sur  en rajouter un params idUser ----------
+  // User.findByIdAndUpdate(
+  //     idUser,
+  //     { $pull: { lists: idList } },
+  //   ).then(()=>{
+
+  //     res.json({ result: true, list: "Supprimé !" });
+  //   })
   })
 })
 
