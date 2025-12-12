@@ -59,7 +59,13 @@ router.post('/signup', (req, res) => {
 					.then((savedList) => {
 						User.updateOne({_id:newDoc._id},{$push:{lists:savedList._id}}).then(()=>{
 							//res.json({newUser:newDoc})
-							res.json({result: true, token: newDoc.token});
+							res.json({
+  result: true,
+  token: newDoc.token,
+  firstname: newDoc.firstname,
+  lastname: newDoc.lastname,
+   mail: newDoc.mail
+});
 						})
 					})
 					.catch((err) => {
