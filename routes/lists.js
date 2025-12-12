@@ -6,54 +6,46 @@ const Product = require('../models/product');
 
 /* GET Lists. */
 router.get('/:idUser', function (req, res) {
-  const idUser = req.params.idUser;
+	const idUser = req.params.idUser;
 
-  List.find({ idUser })
-    .populate('idProduct')
-    .then(lists => {
+	List.find({idUser})
+		.populate('idProduct')
+		.then((lists) => {
+			const formattedLists = lists.map((list) => {
+				return {
+					_id: list._id,
+					name: list.name,
+					idUser: list.idUser,
+					products: list.idProduct.map((product) => {
+						// calcul prix moyen
+						const priceMoy =
+							product.sellers && product.sellers.length
+								? product.sellers.reduce((sum, s) => sum + s.price, 0) / product.sellers.length
+								: 0;
 
-      const formattedLists = lists.map(list => {
+						// calcul note moyenne
+						const allNotes = product.sellers ? product.sellers.flatMap((s) => s.avis.map((a) => a.note)) : [];
 
-        return {
-          _id: list._id,
-          name: list.name,
-          idUser: list.idUser,
-          products: list.idProduct.map(product => {
+						const noteMoy = allNotes.length ? allNotes.reduce((sum, n) => sum + n, 0) / allNotes.length : 0;
 
-            // calcul prix moyen
-            const priceMoy = product.sellers && product.sellers.length
-              ? product.sellers.reduce((sum, s) => sum + s.price, 0) / product.sellers.length
-              : 0;
+						return {
+							id: product._id,
+							name: product.name,
+							desc: product.desc,
+							picture: product.picture,
+							priceMoy: priceMoy.toFixed(2),
+							noteMoy: noteMoy.toFixed(2),
+						};
+					}),
+				};
+			});
 
-            // calcul note moyenne
-            const allNotes = product.sellers
-              ? product.sellers.flatMap(s => s.avis.map(a => a.note))
-              : [];
-
-            const noteMoy = allNotes.length
-              ? allNotes.reduce((sum, n) => sum + n, 0) / allNotes.length
-              : 0;
-
-            return {
-              id: product._id,
-              name: product.name,
-              desc: product.desc,
-              picture: product.picture,
-              priceMoy: priceMoy.toFixed(2),
-              noteMoy: noteMoy.toFixed(2),
-            };
-          })
-        };
-
-      });
-
-      res.json({ result: true, listsUser: formattedLists });
-
-    })
-    .catch(error => {
-      console.error(error);
-      res.status(500).json({ result: false, error });
-    });
+			res.json({result: true, listsUser: formattedLists});
+		})
+		.catch((error) => {
+			console.error(error);
+			res.status(500).json({result: false, error});
+		});
 });
 /* Post newList. */
 router.post('/newLists/:token/', function (req, res) {
@@ -149,28 +141,23 @@ router.post('/addToLists/:token/:idProduct/:idList', async (req, res) => {
 });
 /* Post removeList. */
 router.delete('/removeList/:idList', (req, res) => {
-  const { idList, idUser } = req.params
-  List.deleteOne({ _id: idList }).then(() => {
-    User.findOneAndUpdate(
-      { lists: { $in: [idList] } },
-      { $pull: { lists: idList } },
-    ).then(() => {
-      res.json({ result: true, list: "Supprimé !" });
-    })
-    // ------------ avec idUser pour être sur  en rajouter un params idUser ----------
-    // User.findByIdAndUpdate(
-    //     idUser,
-    //     { $pull: { lists: idList } },
-    //   ).then(()=>{
-
-    //     res.json({ result: true, list: "Supprimé !" });
-    //   })
-  })
-})
+	const {idList, idUser} = req.params;
+	List.deleteOne({_id: idList}).then(() => {
+		User.findOneAndUpdate({lists: {$in: [idList]}}, {$pull: {lists: idList}}).then(() => {
+			res.json({result: true, list: 'Supprimé !'});
+		});
+		// ------------ avec idUser pour être sur  en rajouter un params idUser ----------
+		// User.findByIdAndUpdate(
+		//     idUser,
+		//     { $pull: { lists: idList } },
+		//   ).then(()=>{
 
 		//     res.json({ result: true, list: "Supprimé !" });
 		//   })
 	});
 });
+
+//     res.json({ result: true, list: "Supprimé !" });
+//   })
 
 module.exports = router;
