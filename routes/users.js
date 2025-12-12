@@ -58,7 +58,8 @@ router.post('/signup', (req, res) => {
 				defaultList.save()
 					.then((savedList) => {
 						User.updateOne({_id:newDoc._id},{$push:{lists:savedList._id}}).then(()=>{
-							res.json({newUser:newDoc})
+							//res.json({newUser:newDoc})
+							res.json({result: true, token: newDoc.token});
 						})
 					})
 					.catch((err) => {
