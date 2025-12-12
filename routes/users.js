@@ -78,20 +78,41 @@ router.post('/signup', (req, res) => {
 // POST /signin
 // Vérifie `mail` et `password`, recherche l'utilisateur, compare le hash
 // Si succès -> renvoie `{ result: true, token }`, sinon erreur
-router.post('/signin', (req, res) => {
-	if (!checkBody(req.body, ["mail","password"])) {
-	 res.json({ result: false, error: "Missing or empty fields" });
-	   return;
-	 }
+// router.post('/signin', (req, res) => {
+// 	if (!checkBody(req.body, ["mail","password"])) {
+// 	 res.json({ result: false, error: "Missing or empty fields" });
+// 	   return;
+// 	 }
 
-	User.findOne({mail: req.body.mail}).then((data) => {
-		if (data && bcrypt.compareSync(req.body.password, data.password)) {
-			res.json({result: true, token: data.token});
-		} else {
-			res.json({result: false, error: 'User not found or wrong password'});
-		}
-	});
+// 	User.findOne({mail: req.body.mail}).then((data) => {
+// 		if (data && bcrypt.compareSync(req.body.password, data.password)) {
+// 			res.json({result: true, token: data.token});
+// 		} else {
+// 			res.json({result: false, error: 'User not found or wrong password'});
+// 		}
+// 	})
+// });
+
+router.post('/signin', (req, res) => {
+  if (!checkBody(req.body, ["mail","password"])) {
+    return res.json({ result: false, error: "Missing or empty fields" });
+  }
+
+  User.findOne({ mail: req.body.mail }).then((user) => {
+    if (user && bcrypt.compareSync(req.body.password, user.password)) {
+      res.json({
+        result: true,
+        token: user.token,
+        firstname: user.firstname,
+        lastname: user.lastname,
+        mail: user.mail
+      });
+    } else {
+      res.json({result: false, error: 'User not found or wrong password'});
+    }
+  });
 });
+
 
 
 module.exports = router;
