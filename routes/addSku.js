@@ -8,7 +8,7 @@ router.post('/', (req, res) => {
 		.then((data) => {
 			for (let d of data) {
 				console.log(d.name);
-				table.push(d.name);
+				table.push(data.name);
 			}
 		});
 
