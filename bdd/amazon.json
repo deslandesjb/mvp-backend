@@ -9,7 +9,7 @@
 			}
 		],
 		"brand": "Sony",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Très bonne réduction de bruit pour le prix.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Casque+Sony+WH-CH720N+Noir",
@@ -25,7 +25,7 @@
 			}
 		],
 		"brand": "JBL",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Un son clair et des bonnes basses.", "note": 4.2}],
 		"url": "https://www.amazon.fr/s?k=Casque+JBL+Tune+770NC+Noir",
@@ -41,7 +41,7 @@
 			}
 		],
 		"brand": "JBL",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Très bon rapport qualité-prix.", "note": 4.1}],
 		"url": "https://www.amazon.fr/s?k=Casque+JBL+Tune+525BT+Noir",
@@ -57,7 +57,7 @@
 			}
 		],
 		"brand": "Bose",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Confort et qualité Bose garantis.", "note": 4.6}],
 		"url": "https://www.amazon.fr/s?k=Bose+QuietComfort+SC+Noir",
@@ -73,7 +73,7 @@
 			}
 		],
 		"brand": "Marshall",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Basses puissantes et son clair.", "note": 4.6}],
 		"url": "https://www.amazon.fr/s?k=Casque+Marshall+Major+IV+Noir",
@@ -89,7 +89,7 @@
 			}
 		],
 		"brand": "Sony",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Fonctionne parfaitement pour les trajets quotidiens.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Casque+Sony+WH-CH720N+Bleu",
@@ -105,7 +105,7 @@
 			}
 		],
 		"brand": "JBL",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Micro clair pour communiquer en ligne.", "note": 4.2}],
 		"url": "https://www.amazon.fr/s?k=JBL+Quantum+200+Noir",
@@ -121,7 +121,7 @@
 			}
 		],
 		"brand": "Sony",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Très bonne alternative aux modèles chers.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=Casque+Sony+WH-CH720+Rose",
@@ -137,7 +137,7 @@
 			}
 		],
 		"brand": "Sony",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Son exceptionnel, autonomie longue durée.", "note": 4.8}],
 		"url": "https://www.amazon.fr/s?k=Sony+WH-1000XM5+noir",
@@ -153,7 +153,7 @@
 			}
 		],
 		"brand": "Sony",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Connexion multipoint très pratique.", "note": 4.3}],
 		"url": "https://www.amazon.fr/s?k=Sony+WH-CH520+Noir",
@@ -169,7 +169,7 @@
 			}
 		],
 		"brand": "JBL",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Autonomie longue et recharge rapide.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=JBL+Tune+720BT+Noir",
@@ -185,7 +185,7 @@
 			}
 		],
 		"brand": "JBL",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Excellent concurrent des modèles haut de gamme.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=JBL+Live+770+NC+Noir",
@@ -201,7 +201,7 @@
 			}
 		],
 		"brand": "Avizar",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Fnac",
 		"avis": [{"content": "Prix imbattable, convient pour les enfants.", "note": 3.8}],
 		"url": "https://www.fnac.com/mp52202149/Casque-Audio-Sans-Fil-Bluetooth-5-1-avec-Coussinets-Confort-Modele-Hawai-Avizar-Noir/w-4#omnsearchpos=13",
@@ -229,7 +229,7 @@
 			}
 		],
 		"brand": "Sony",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Bonne autonomie pour la semaine.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=Casque+Sony+WH-CH720N+Blanc",
@@ -245,7 +245,7 @@
 			}
 		],
 		"brand": "Bose",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Très confortable, même pour de longues heures.", "note": 4.7}],
 		"url": "https://www.amazon.fr/s?k=Bose+QuietComfort+Ultra+Noir",
@@ -261,7 +261,7 @@
 			}
 		],
 		"brand": "Marshall",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Un son clair et puissant, typique de Marshall.", "note": 4.6}],
 		"url": "https://www.amazon.fr/s?k=Marshall+Monitor+III+ANC+Noir",
@@ -277,7 +277,7 @@
 			}
 		],
 		"brand": "Sony",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Réduction de bruit efficace et bon prix.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Casque+Sony+ULT+Wear+WH-ULT900NB+Noir",
@@ -293,7 +293,7 @@
 			}
 		],
 		"brand": "Shokz",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Tiens très bien en place même en mouvement.", "note": 4.7}],
 		"url": "https://www.amazon.fr/s?k=Casque+Shokz+Bluetooth+Noir",
@@ -309,7 +309,7 @@
 			}
 		],
 		"brand": "HyperX",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Casque très durable et robuste.", "note": 4.6}],
 		"url": "https://www.amazon.fr/s?k=HyperX+Cloud+Alpha+Noir+Rouge",
@@ -325,7 +325,7 @@
 			}
 		],
 		"brand": "SteelSeries",
-		"category": "casque",
+		"categorie": "casque",
 		"seller": "Amazon",
 		"avis": [{"content": "Connexion Bluetooth stable et rapide.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=SteelSeries+Arctis+Nova+5P+Blanc",
@@ -341,7 +341,7 @@
 			}
 		],
 		"brand": "Samsung",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Design premium et très fin.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Book4+Edge+Snapdragon+X",
@@ -357,7 +357,7 @@
 			}
 		],
 		"brand": "Blackview",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Écran large et bonne capacité de stockage pour le prix.", "note": 4.1}],
 		"url": "https://www.amazon.fr/s?k=BLACKVIEW+A52+PRO+Android+Bleu",
@@ -373,7 +373,7 @@
 			}
 		],
 		"brand": "Générique / Reseller",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Windows 11 Pro est un plus.", "note": 4.2}],
 		"url": "https://www.amazon.fr/s?k=PC+portable+Pentium+Gold+32Go+RAM",
@@ -389,7 +389,7 @@
 			}
 		],
 		"brand": "Xiaomi",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "L'enceinte est un petit bonus sympa.", "note": 4.3}],
 		"url": "https://www.amazon.fr/s?k=Xiaomi+Redmi+Note+14+5G+Enceinte",
@@ -405,7 +405,7 @@
 			}
 		],
 		"brand": "Acer",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Léger et facile à transporter.", "note": 4.1}],
 		"url": "https://www.amazon.fr/s?k=Acer+Aspire+Lite+15+Celeron",
@@ -421,7 +421,7 @@
 			}
 		],
 		"brand": "HP",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Design élégant et discret.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=PC+portable+HP+15-fd1016nf+i5",
@@ -437,7 +437,7 @@
 			}
 		],
 		"brand": "Samsung",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Interface simple et conviviale.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+A16+Bleu+nuit",
@@ -453,7 +453,7 @@
 			}
 		],
 		"brand": "Logicom",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Simple, efficace et pas cher.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Logicom+Posh+405+Noir",
@@ -469,7 +469,7 @@
 			}
 		],
 		"brand": "Doogee",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Capacité de stockage suffisante.", "note": 4.2}],
 		"url": "https://www.amazon.fr/s?k=Doogee+Note+58+Telephone+Argent",
@@ -485,7 +485,7 @@
 			}
 		],
 		"brand": "Acer",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Convient au montage vidéo léger.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Acer+Aspire+Go+15+Ryzen+5",
@@ -501,7 +501,7 @@
 			}
 		],
 		"brand": "Lenovo",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "SSD rapide pour le démarrage.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Lenovo+IdeaPad+Slim+3+i3+15.6",
@@ -517,7 +517,7 @@
 			}
 		],
 		"brand": "Logicom",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Parfait comme téléphone secondaire.", "note": 4.2}],
 		"url": "https://www.amazon.fr/s?k=Logicom+Aero+64+Go+Noir",
@@ -533,7 +533,7 @@
 			}
 		],
 		"brand": "Samsung",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Expérience Copilot+ très fluide.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Book4+Edge+Snapdragon+X",
@@ -549,7 +549,7 @@
 			}
 		],
 		"brand": "Lenovo",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "16 Go de RAM est parfait pour le multitâche.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Pack+PC+portable+Lenovo+IdeaPad+Slim+3+Ryzen+5",
@@ -565,7 +565,7 @@
 			}
 		],
 		"brand": "Générique / Reseller",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Très bon écran et configuration solide.", "note": 4.3}],
 		"url": "https://www.amazon.fr/s?k=PC+portable+N95+MX330+16Go+RAM",
@@ -581,7 +581,7 @@
 			}
 		],
 		"brand": "Samsung",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Performances IA fluides avec le Core Ultra.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Book4+Pro+Core+Ultra+5",
@@ -597,7 +597,7 @@
 			}
 		],
 		"brand": "HP",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Bonne machine de remplacement de PC de bureau.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=PC+portable+HP+17-cp3021nf+Ryzen+7",
@@ -613,7 +613,7 @@
 			}
 		],
 		"brand": "Cubot",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Fonctionnel et bon pour la communication.", "note": 4.2}],
 		"url": "https://www.amazon.fr/s?k=CUBOT+A20+Telephone+Portable+Noir",
@@ -629,7 +629,7 @@
 			}
 		],
 		"brand": "HP",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Design convertible très pratique.", "note": 4.6}],
 		"url": "https://www.amazon.fr/s?k=HP+OmniBook+X+Flip+Core+Ultra+7",
@@ -645,7 +645,7 @@
 			}
 		],
 		"brand": "Acer",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Idéal pour l'université ou le travail nomade.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Acer+Aspire+14+AI+Core+Ultra+5",
@@ -661,7 +661,7 @@
 			}
 		],
 		"brand": "Logicom",
-		"category": "portable",
+		"categorie": "portable",
 		"seller": "Amazon",
 		"avis": [{"content": "Autonomie correcte et bonne prise en main.", "note": 4.2}],
 		"url": "https://www.amazon.fr/s?k=Logicom+Ezy+2+Smartphone+Noir",
@@ -677,7 +677,7 @@
 			}
 		],
 		"brand": "Xiaomi",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Grande tablette avec un bel écran.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Pack+Tablette+Xiaomi+Redmi+Pad+2+Clavier+Stylet",
@@ -693,7 +693,7 @@
 			}
 		],
 		"brand": "Lenovo",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Un excellent rapport qualité-prix pour le pack complet.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Lenovo+IdeaTab+Pro+12.7+Clavier+Stylet",
@@ -709,7 +709,7 @@
 			}
 		],
 		"brand": "Lenovo",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Léger et l'écran est de bonne qualité.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Lenovo+Idea+Tab+11+Stylet+Coque",
@@ -725,7 +725,7 @@
 			}
 		],
 		"brand": "Générique / Reseller",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Très bon prix pour un pack complet.", "note": 4.2}],
 		"url": "https://www.amazon.fr/s?k=Tablette+tactile+10+pouces+avec+Clavier+et+Stylo",
@@ -741,7 +741,7 @@
 			}
 		],
 		"brand": "Lenovo",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "La coque protège bien l'appareil.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Lenovo+Tab+One+8.7+64+Go",
@@ -757,7 +757,7 @@
 			}
 		],
 		"brand": "Samsung",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Excellent rapport qualité-prix chez Samsung.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+A9++128+Go",
@@ -773,7 +773,7 @@
 			}
 		],
 		"brand": "Générique / Reseller",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Fait bien le travail pour un usage basique.", "note": 4.2}],
 		"url": "https://www.amazon.fr/s?k=Tablette+10.1+Pouces+Android+13+clavier",
@@ -789,7 +789,13 @@
 			}
 		],
 		"brand": "Lenovo",
-		"category": "tablette",
+		"categorie": "tablette",
+		"seller": "Fnac",
+		"avis": [{"content": "Bonne qualité d'écran pour regarder des films.", "note": 4.3}],
+		"url": "https://www.fnac.com/LENOVO-TAB-M11-4-128GB-PLUS-PEN/a19319161/w-4#omnsearchpos=8",
+		"price": 161.3
+	},
+	{
 		"seller": "Amazon",
 		"avis": [{"content": "Bonne alternative à l'iPad en Android.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Lenovo+Tab+M11+128+Go+Pen",
@@ -805,7 +811,7 @@
 			}
 		],
 		"brand": "Samsung",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Légère et idéale pour la lecture.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+S10+Lite+128+Go+Book+Cover",
@@ -821,7 +827,7 @@
 			}
 		],
 		"brand": "Samsung",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Bon rapport qualité/prix pour la taille.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+A9++128+Go+Bleu",
@@ -837,7 +843,7 @@
 			}
 		],
 		"brand": "Logicom",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Bon rapport qualité-prix, facile à utiliser.", "note": 4.2}],
 		"url": "https://www.amazon.fr/s?k=Tablette+Logicom+Tab+210+64+Go",
@@ -853,7 +859,7 @@
 			}
 		],
 		"brand": "Générique / Reseller",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "L'étui de protection est un plus appréciable.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=Tablette+Android+15+12Go+RAM+256Go+SSD",
@@ -869,7 +875,7 @@
 			}
 		],
 		"brand": "Lenovo",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Très bon rapport qualité-prix, idéal pour le travail nomade.", "note": 4.6}],
 		"url": "https://www.amazon.fr/s?k=Pack+Lenovo+Idea+Tab+11+Clavier+Stylet",
@@ -885,7 +891,7 @@
 			}
 		],
 		"brand": "Archos",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Bonne taille pour les jeunes enfants.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Tablette+Archos+T101+enfant+Coque",
@@ -901,7 +907,7 @@
 			}
 		],
 		"brand": "Samsung",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Idéale pour le visionnage de films et séries.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Pack+Samsung+Galaxy+Tab+A11++128+Go",
@@ -917,7 +923,7 @@
 			}
 		],
 		"brand": "Apple",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Parfait pour les applications de base.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Apple+iPad+32+Go+WiFi+9.7+Reconditionné",
@@ -933,7 +939,7 @@
 			}
 		],
 		"brand": "Samsung",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Performances stables et bonne fluidité.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+A9++256+Go",
@@ -949,7 +955,7 @@
 			}
 		],
 		"brand": "Xiaomi",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Qualité de fabrication très satisfaisante.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Xiaomi+Redmi+Pad+SE+128+Go+Noir",
@@ -965,7 +971,7 @@
 			}
 		],
 		"brand": "Samsung",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Bonne qualité audio.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+A9++64+Go",
@@ -981,7 +987,7 @@
 			}
 		],
 		"brand": "Veidoo",
-		"category": "tablette",
+		"categorie": "tablette",
 		"seller": "Amazon",
 		"avis": [{"content": "Robuste et bien adaptée aux petites mains.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=Tablette+Enfant+Veidoo+7+Pouces+Rose",
@@ -997,7 +1003,7 @@
 			}
 		],
 		"brand": "Microsoft",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "L'écran tactile est très réactif.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=Microsoft+Surface+Laptop+Snapdragon+X+Plus+Violet",
@@ -1013,7 +1019,7 @@
 			}
 		],
 		"brand": "Acer",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Léger et fonctionne bien pour la navigation.", "note": 4.1}],
 		"url": "https://www.amazon.fr/s?k=Acer+Aspire+Lite+15+Celeron+4+Go+RAM",
@@ -1029,7 +1035,7 @@
 			}
 		],
 		"brand": "Lenovo",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Démarrage rapide grâce au SSD.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Lenovo+IdeaPad+Slim+3+Core+i3+15.6",
@@ -1045,7 +1051,7 @@
 			}
 		],
 		"brand": "Générique / Reseller",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Bonnes performances pour le prix.", "note": 4.2}],
 		"url": "https://www.amazon.fr/s?k=PC+portable+Pentium+Gold+32Go+RAM",
@@ -1061,7 +1067,7 @@
 			}
 		],
 		"brand": "HP",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Très bonne autonomie et design agréable.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=PC+portable+HP+15-fd1016nf+i5+16Go+RAM",
@@ -1077,7 +1083,7 @@
 			}
 		],
 		"brand": "Acer",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Excellent rapport qualité-prix.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Acer+Aspire+Go+15+Ryzen+5",
@@ -1093,7 +1099,7 @@
 			}
 		],
 		"brand": "Lenovo",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Bonne qualité d'écran pour ce prix.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Chromebook+Lenovo+Duet+11",
@@ -1109,7 +1115,7 @@
 			}
 		],
 		"brand": "Greed / Reseller",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Windows 11 Pro et SSD rapide.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=PC+Gamer+Ryzen+7+RTX+5060",
@@ -1125,7 +1131,7 @@
 			}
 		],
 		"brand": "HP",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Design sobre et efficace.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=PC+portable+Gaming+HP+Victus+15+RX+6550M",
@@ -1141,7 +1147,7 @@
 			}
 		],
 		"brand": "Acer",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Idéal pour les petits budgets.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Chromebook+Acer+314+8+Go+RAM",
@@ -1157,7 +1163,7 @@
 			}
 		],
 		"brand": "Lenovo",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Idéal pour le streaming et les applications Android.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Chromebook+Lenovo+Duet+11",
@@ -1173,7 +1179,7 @@
 			}
 		],
 		"brand": "Asus",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Écran tactile réactif et bonne autonomie.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Chromebook+Asus+CX3402CVA+i3+Pack",
@@ -1189,7 +1195,7 @@
 			}
 		],
 		"brand": "HP",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Fiable et robuste (gamme ProBook).", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=HP+ProBook+Core+i5-4200M+reconditionné",
@@ -1205,7 +1211,7 @@
 			}
 		],
 		"brand": "Asus",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Parfait pour le streaming vidéo.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=PC+portable+Asus+Vivobook+15+Celeron+8Go",
@@ -1221,7 +1227,7 @@
 			}
 		],
 		"brand": "Générique / Reseller",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Ryzen 3 et SSD pour une bonne rapidité.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=PC+Portable+Tactile+360+Ryzen+3",
@@ -1237,7 +1243,7 @@
 			}
 		],
 		"brand": "HP",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "16 Go de RAM très appréciables.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=HP+Zbook+Firefly+14+G7+Core+i5+Reconditionné",
@@ -1253,7 +1259,7 @@
 			}
 		],
 		"brand": "Acer",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Rapide et parfait pour le Cloud Gaming.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Chromebook+Acer+Plus+516+Core+i3",
@@ -1269,7 +1275,7 @@
 			}
 		],
 		"brand": "Lenovo",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Écran tactile réactif et portable durable.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=Lenovo+T14+G2+Core+i5+Reconditionné",
@@ -1285,7 +1291,7 @@
 			}
 		],
 		"brand": "Samsung",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Performances solides pour le travail quotidien.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Book4+Edge+Snapdragon+X",
@@ -1301,7 +1307,7 @@
 			}
 		],
 		"brand": "HP",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Portable très fiable et bien équipé.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=PC+portable+HP+14-ep0052nf+Core+i7",
@@ -1317,7 +1323,7 @@
 			}
 		],
 		"brand": "Générique / Reseller",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Idéal pour les étudiants et la bureautique.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=PC+portable+N95+MX330+16Go+RAM",
@@ -1333,7 +1339,7 @@
 			}
 		],
 		"brand": "HP",
-		"category": "ordinateur",
+		"categorie": "ordinateur",
 		"seller": "Amazon",
 		"avis": [{"content": "Performances solides pour un PC grand format.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=PC+portable+HP+17-cp3021nf+Ryzen+7",
@@ -1349,7 +1355,7 @@
 			}
 		],
 		"brand": "TCL",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Smart TV complète avec toutes les applications.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=TV+Tcl+QLED+55P89K+2025",
@@ -1365,7 +1371,7 @@
 			}
 		],
 		"brand": "Smart Tech",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Fnac",
 		"avis": [{"content": "Prix choc pour une TV 55 pouces 4K.", "note": 4.3}],
 		"url": "https://www.fnac.com/mp52594754/Smart-Tech-TV-LED-4K-UHD-55-139-cm-Smart-TV-Web-OS-55UW02K-Molotov-Netflix-Prime-Video-Disney-3xHDMI-2xUSB-MEMC-Dolby-Audio/w-4#omnsearchpos=1",
@@ -1393,7 +1399,7 @@
 			}
 		],
 		"brand": "Smart Tech",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Fnac",
 		"avis": [{"content": "Parfait comme écran de moniteur ou petite TV.", "note": 4.3}],
 		"url": "https://www.fnac.com/mp50932845/Smart-Tech-TV-LED-Full-HD-22-55-cm-22FN01V-HDMI-USB-Resolution-1920-1080/w-4#omnsearchpos=2",
@@ -1421,7 +1427,7 @@
 			}
 		],
 		"brand": "Smart Tech",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Fnac",
 		"avis": [{"content": "4K et Smart TV pour un prix imbattable.", "note": 4.3}],
 		"url": "https://www.fnac.com/mp50448451/Smart-Tech-TV-LED-4K-UHD-43-108-cm-Smart-TV-Web-OS-43UW02V-Molotov-Netflix-Prime-Video-Canal-Disney-3xHDMI-2xUSB-MEMC-DOLBY-Audio/w-4#omnsearchpos=3",
@@ -1449,7 +1455,7 @@
 			}
 		],
 		"brand": "Hisense",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Couleurs éclatantes et bon contraste.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=TV+Hisense+QLED+50E79Q+PRO",
@@ -1465,7 +1471,7 @@
 			}
 		],
 		"brand": "Smart Tech",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Fnac",
 		"avis": [{"content": "Très bon rapport taille/prix.", "note": 4.3}],
 		"url": "https://www.fnac.com/mp52594750/Smart-Tech-TV-LED-4K-UHD-50-127cm-Smart-TV-Web-OS-50UW02K-Netflix-Prime-Video-Youtube-3xHDMI-2xUSB/w-4#omnsearchpos=4",
@@ -1493,7 +1499,7 @@
 			}
 		],
 		"brand": "TCL",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Les couleurs sont vives et agréables.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=TV+Tcl+QLED+55P89K+2025",
@@ -1509,7 +1515,7 @@
 			}
 		],
 		"brand": "Samsung",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Expérience cinéma à la maison inégalée.", "note": 4.9}],
 		"url": "https://www.amazon.fr/s?k=TV+Samsung+Neo+QLED+98+QN990F",
@@ -1525,7 +1531,7 @@
 			}
 		],
 		"brand": "Smart Tech",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Fnac",
 		"avis": [{"content": "Très grand écran pour un prix imbattable.", "note": 4.3}],
 		"url": "https://www.fnac.com/mp52594758/Smart-Tech-TV-LED-4K-UHD-65-164-cm-Smart-TV-Web-OS-65UW02K-Molotov-Netflix-Prime-Video-Canal-Disney-3xHDMI-2xUSB-MEMC-Dolby-Audio/w-4#omnsearchpos=7",
@@ -1553,7 +1559,7 @@
 			}
 		],
 		"brand": "Proline",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Bonne qualité d'image HD.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=TV+LED+Proline+L3220HD+Noir",
@@ -1569,7 +1575,7 @@
 			}
 		],
 		"brand": "Thomson",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Légère et facile à accrocher au mur.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=TV+LED+Thomson+32HG2S14",
@@ -1585,7 +1591,7 @@
 			}
 		],
 		"brand": "Smart Tech",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Installation facile et rapide.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+LED+HD+32+Google+TV",
@@ -1601,7 +1607,7 @@
 			}
 		],
 		"brand": "Philips",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Excellent rapport qualité/prix pour une 65 pouces Ambilight.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=TV+LED+Philips+Ambilight+65PUS8000",
@@ -1617,7 +1623,7 @@
 			}
 		],
 		"brand": "TCL",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Très bon rapport qualité-prix en 43 pouces 4K.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=TV+Tcl+QLED+43P79K+2025",
@@ -1633,7 +1639,7 @@
 			}
 		],
 		"brand": "Philips",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Image 4K magnifique et fluide.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=TV+LED+Philips+Ambilight+85PUS8500",
@@ -1649,7 +1655,7 @@
 			}
 		],
 		"brand": "Smart Tech",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Très bonnes couleurs grâce au QLED.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+QLED+50+Android",
@@ -1665,7 +1671,7 @@
 			}
 		],
 		"brand": "Proline",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Image nette et légère.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=TV+LED+Proline+L2420HD",
@@ -1681,7 +1687,7 @@
 			}
 		],
 		"brand": "Philips",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Image lumineuse et agréable.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=TV+LED+Philips+32PHS6050",
@@ -1697,7 +1703,7 @@
 			}
 		],
 		"brand": "Philips",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Ambilight améliore vraiment l'expérience.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=TV+QLED+Philips+43PUS8400+Ambilight",
@@ -1713,7 +1719,7 @@
 			}
 		],
 		"brand": "Philips",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Image fluide et couleurs vives.", "note": 4.4}],
 		"url": "https://www.amazon.fr/s?k=TV+Philips+Ambilight+The+One+55PUS9050",
@@ -1729,7 +1735,7 @@
 			}
 		],
 		"brand": "Philips",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [{"content": "Très bon pour le prix avec l'Ambilight.", "note": 4.5}],
 		"url": "https://www.amazon.fr/s?k=TV+Philips+43PUS6754+Ambilight",
@@ -1745,7 +1751,7 @@
 			}
 		],
 		"brand": "Thomson",
-		"category": "télévision",
+		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [
 			{"content": "Idéal pour les jeux non compétitifs.", "note": 4.5},
