@@ -187,6 +187,7 @@ router.get('/id/:idProduct', (req, res) => {
 				id: dataProduct._id,
 				name: dataProduct.name,
 				desc: dataProduct.desc,
+				picture: dataProduct.picture,
 				brand: dataProduct.brand,
 				categorie: dataProduct.categorie,
 				sellers: dataProduct.sellers,
@@ -194,7 +195,7 @@ router.get('/id/:idProduct', (req, res) => {
 				noteMoy: noteMoy.toFixed(2),
 			};
 
-			res.status(200).json({result: true, products: productReworked});
+			res.status(200).json({result: true, product: productReworked});
 		});
 });
 
