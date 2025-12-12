@@ -7,10 +7,44 @@ const Product = require('../models/product');
 /* GET Lists. */
 router.get('/:idUser', function (req, res) {
 	const idUser = req.params.idUser;
-	List.find({idUser: idUser})
-		.populate('lists')
-		.then((result) => {
-			res.json({result: true, listsUser: result});
+
+	List.find({idUser})
+		.populate('idProduct')
+		.then((lists) => {
+			const formattedLists = lists.map((list) => {
+				return {
+					_id: list._id,
+					name: list.name,
+					idUser: list.idUser,
+					products: list.idProduct.map((product) => {
+						// calcul prix moyen
+						const priceMoy =
+							product.sellers && product.sellers.length
+								? product.sellers.reduce((sum, s) => sum + s.price, 0) / product.sellers.length
+								: 0;
+
+						// calcul note moyenne
+						const allNotes = product.sellers ? product.sellers.flatMap((s) => s.avis.map((a) => a.note)) : [];
+
+						const noteMoy = allNotes.length ? allNotes.reduce((sum, n) => sum + n, 0) / allNotes.length : 0;
+
+						return {
+							id: product._id,
+							name: product.name,
+							desc: product.desc,
+							picture: product.picture,
+							priceMoy: priceMoy.toFixed(2),
+							noteMoy: noteMoy.toFixed(2),
+						};
+					}),
+				};
+			});
+
+			res.json({result: true, listsUser: formattedLists});
+		})
+		.catch((error) => {
+			console.error(error);
+			res.status(500).json({result: false, error});
 		});
 });
 /* Post newList. */
@@ -122,5 +156,8 @@ router.delete('/removeList/:idList', (req, res) => {
 		//   })
 	});
 });
+
+//     res.json({ result: true, list: "Supprimé !" });
+//   })
 
 module.exports = router;
