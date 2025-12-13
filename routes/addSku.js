@@ -8,11 +8,11 @@ router.post('/', (req, res) => {
 		.then((data) => {
 			for (let d of data) {
 				console.log(d.name);
-				table.push(data.name);
+				table.push(d.name);
 			}
+			res.status(200).json({result: true, table: table});
 		});
 
-	res.status(200).json({result: true, table: table});
 	// fetch(`https://raw.githubusercontent.com/Azeddine-EA/mvpApi/main/mvpApi.json`)
 	// 	.then((response) => response.json())
 	// 	.then((data) => {
