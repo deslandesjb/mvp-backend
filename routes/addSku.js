@@ -11,9 +11,12 @@ router.post('/', (req, res) => {
 				table.push(d.name);
 			}
 			res.status(200).json({result: true, table: table});
+
+			//
 		});
 
-	// fetch(`https://raw.githubusercontent.com/Azeddine-EA/mvpApi/main/mvpApi.json`)
+	// file w/ all products on it
+	// fetch(`https://raw.githubusercontent.com/deslandesjb/mvp-backend/refs/heads/main/bdd/allProductsFormated.json`)
 	// 	.then((response) => response.json())
 	// 	.then((data) => {
 	// 		console.log(data);
