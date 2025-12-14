@@ -10,7 +10,7 @@ router.post('/', async (req, res) => {
 		const products = await response.json();
 
 		function generateSku(length = 6) {
-			const chars = 'abcdefghijklmnopqrstuvwxyz0123456789';
+			const chars = '1e4faGh2ijkl3mNc5o6pRQbs8tUd9vWx7yz';
 			let sku = '';
 			for (let i = 0; i < length; i++) {
 				sku += chars[Math.floor(Math.random() * chars.length)];
