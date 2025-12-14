@@ -46,7 +46,6 @@ router.post('/signup', (req, res) => {
 				lists: [],
 			});
 
-<<<<<<< HEAD
 			newUser.save().then((newDoc) => {
 				const defaultList = new List({
 					name: "WishList",
@@ -60,26 +59,16 @@ router.post('/signup', (req, res) => {
 						User.updateOne({_id:newDoc._id},{$push:{lists:savedList._id}}).then(()=>{
 							//res.json({newUser:newDoc})
 							res.json({
-  result: true,
-  token: newDoc.token,
-  firstname: newDoc.firstname,
-  lastname: newDoc.lastname,
-   mail: newDoc.mail
-});
+                        result: true,
+                        token: newDoc.token,
+                        firstname: newDoc.firstname,
+                        lastname: newDoc.lastname,
+                        mail: newDoc.mail
+                        });
 						})
 					})
 					.catch((err) => {
 						res.status(500).json({ result: false, error: "Failed to create default list" });
-=======
-			newUser
-				.save()
-				.then((newDoc) => {
-					const defaultList = new List({
-						name: 'WishList',
-						idUser: newDoc._id,
-						idProduct: [],
-						done: false,
->>>>>>> 13bb9921d83c4633e27ab86548105fd536093b1f
 					});
 
 					defaultList
@@ -103,31 +92,6 @@ router.post('/signup', (req, res) => {
 	});
 });
 
-// POST /signin
-// Vérifie `mail` et `password`, recherche l'utilisateur, compare le hash
-// Si succès -> renvoie `{ result: true, token }`, sinon erreur
-<<<<<<< HEAD
-// router.post('/signin', (req, res) => {
-// 	if (!checkBody(req.body, ["mail","password"])) {
-// 	 res.json({ result: false, error: "Missing or empty fields" });
-// 	   return;
-// 	 }
-=======
-router.post('/signin', (req, res) => {
-	if (!checkBody(req.body, ['mail', 'password'])) {
-		res.json({result: false, error: 'Missing or empty fields'});
-		return;
-	}
->>>>>>> 13bb9921d83c4633e27ab86548105fd536093b1f
-
-// 	User.findOne({mail: req.body.mail}).then((data) => {
-// 		if (data && bcrypt.compareSync(req.body.password, data.password)) {
-// 			res.json({result: true, token: data.token});
-// 		} else {
-// 			res.json({result: false, error: 'User not found or wrong password'});
-// 		}
-// 	})
-// });
 
 router.post('/signin', (req, res) => {
   if (!checkBody(req.body, ["mail","password"])) {
@@ -149,9 +113,6 @@ router.post('/signin', (req, res) => {
   });
 });
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 13bb9921d83c4633e27ab86548105fd536093b1f
 module.exports = router;
