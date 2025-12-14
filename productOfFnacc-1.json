@@ -10,10 +10,15 @@
 		],
 		"brand": "Sony",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Très bonne réduction de bruit pour le prix.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Casque+Sony+WH-CH720N+Noir",
-		"price": 79
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Le meilleur pour commencer le PC Gaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-audio-sans-fil-SONY-Bluetooth-a-reduction-de-bruit-WH-CH720N-Noir/a17689644/w-4#omnsearchpos=1",
+		"price": 79.99
 	},
 	{
 		"name": "Casque supra-auriculaire sans fil Bluetooth JBL Tune 770NC à réduction de bruit adaptative Noir",
@@ -26,9 +31,14 @@
 		],
 		"brand": "JBL",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Un son clair et des bonnes basses.", "note": 4.2}],
-		"url": "https://www.amazon.fr/s?k=Casque+JBL+Tune+770NC+Noir",
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Le meilleur pour commencer le PC Gaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-supra-auriculaire-sans-fil-Bluetooth-JBL-Tune-770NC-a-reduction-de-bruit-adaptative-Noir/a17958281/w-4#omnsearchpos=2",
 		"price": 69.99
 	},
 	{
@@ -42,10 +52,15 @@
 		],
 		"brand": "JBL",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Très bon rapport qualité-prix.", "note": 4.1}],
-		"url": "https://www.amazon.fr/s?k=Casque+JBL+Tune+525BT+Noir",
-		"price": 49
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Le meilleur pour commencer le PC Gaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-supra-auriculaire-sans-fil-Bluetooth-JBL-Tune-525BT-Noir/a18218417/w-4#omnsearchpos=3",
+		"price": 49.99
 	},
 	{
 		"name": "Casque d’écoute sans fil arceau Bose QuietComfort SC Bluetooth avec réduction active du bruit Noir",
@@ -58,10 +73,15 @@
 		],
 		"brand": "Bose",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Confort et qualité Bose garantis.", "note": 4.6}],
-		"url": "https://www.amazon.fr/s?k=Bose+QuietComfort+SC+Noir",
-		"price": 185
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Le meilleur pour commencer le PC Gaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-d-ecoute-sans-fil-arceau-Bose-QuietComfort-SC-Bluetooth-avec-reduction-active-du-bruit-Noir/a20283684/w-4#omnsearchpos=4",
+		"price": 189.99
 	},
 	{
 		"name": "Casque sans fil Bluetooth Marshall Major IV Noir",
@@ -74,10 +94,15 @@
 		],
 		"brand": "Marshall",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Basses puissantes et son clair.", "note": 4.6}],
-		"url": "https://www.amazon.fr/s?k=Casque+Marshall+Major+IV+Noir",
-		"price": 69
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Le meilleur pour commencer le PC Gaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-audio-Marshall-Major-IV-Bluetooth-Noir/a15216837/w-4#omnsearchpos=5",
+		"price": 69.99
 	},
 	{
 		"name": "Casque audio sans fil SONY Bluetooth à réduction de bruit WH-CH720N Bleu",
@@ -90,10 +115,15 @@
 		],
 		"brand": "Sony",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Fonctionne parfaitement pour les trajets quotidiens.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Casque+Sony+WH-CH720N+Bleu",
-		"price": 79
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Le meilleur pour commencer le PC Gaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-audio-sans-fil-SONY-Bluetooth-a-reduction-de-bruit-WH-CH720N-Bleu/a17689643/w-4#omnsearchpos=6",
+		"price": 79.99
 	},
 	{
 		"name": "Casque gaming filaire circum-aural avec micro rétractable Quantum 200 Noir",
@@ -106,8 +136,24 @@
 		],
 		"brand": "JBL",
 		"categorie": "casque",
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Le meilleur pour commencer le PC Gaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-gaming-filaire-circum-aural-avec-micro-retractable-Quantum-200-Noir/a14651892/w-4#omnsearchpos=7",
+		"price": 29.99
+	},
+	{
 		"seller": "Amazon",
-		"avis": [{"content": "Micro clair pour communiquer en ligne.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Micro clair pour communiquer en ligne.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=JBL+Quantum+200+Noir",
 		"price": 29.9
 	},
@@ -122,10 +168,15 @@
 		],
 		"brand": "Sony",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Très bonne alternative aux modèles chers.", "note": 4.4}],
-		"url": "https://www.amazon.fr/s?k=Casque+Sony+WH-CH720+Rose",
-		"price": 79
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Le meilleur pour commencer le PC Gaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-audio-sans-fil-Sony-WH-CH720-Bluetooth-avec-reduction-active-du-bruit-Rose/a21413999/w-4#omnsearchpos=8",
+		"price": 79.99
 	},
 	{
 		"name": "Casque audio arceau sans fil Sony WH1000XM5 noir à réduction de bruit",
@@ -138,10 +189,15 @@
 		],
 		"brand": "Sony",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Son exceptionnel, autonomie longue durée.", "note": 4.8}],
-		"url": "https://www.amazon.fr/s?k=Sony+WH-1000XM5+noir",
-		"price": 275
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Le meilleur pour commencer le PC Gaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-audio-a-reduction-de-bruit-Bluetooth-Sony-WH1000XM5-Noir/a16864769/w-4#omnsearchpos=9",
+		"price": 279.99
 	},
 	{
 		"name": "Casque arceau sans fil Bluetooth Multipoint Sony WHCH520 Noir",
@@ -154,8 +210,24 @@
 		],
 		"brand": "Sony",
 		"categorie": "casque",
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Le meilleur pour commencer le PC Gaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-arceau-sans-fil-Bluetooth-Multipoint-Sony-WHCH520-Noir/a17689640/w-4#omnsearchpos=10",
+		"price": 34.99
+	},
+	{
 		"seller": "Amazon",
-		"avis": [{"content": "Connexion multipoint très pratique.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "Connexion multipoint très pratique.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Sony+WH-CH520+Noir",
 		"price": 34.9
 	},
@@ -170,10 +242,15 @@
 		],
 		"brand": "JBL",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Autonomie longue et recharge rapide.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=JBL+Tune+720BT+Noir",
-		"price": 49
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Le meilleur pour commencer le PC Gaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-arceau-circum-aural-sans-fil-Bluetooth-JBL-Tune-720BT-Noir/a17754086/w-4#omnsearchpos=11",
+		"price": 49.99
 	},
 	{
 		"name": "Casque Circum-Auriculaire sans fil Bluetooth JBL Live 770 NC à réduction de bruit adaptative Noir",
@@ -186,10 +263,15 @@
 		],
 		"brand": "JBL",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Excellent concurrent des modèles haut de gamme.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=JBL+Live+770+NC+Noir",
-		"price": 99
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Le meilleur pour commencer le PC Gaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-Circum-Auriculaire-sans-fil-Bluetooth-JBL-Live-770-NC-a-reduction-de-bruit-adaptative-Noir/a18336880/w-4#omnsearchpos=12",
+		"price": 99.99
 	},
 	{
 		"name": "Casque Audio Sans Fil Bluetooth 5.1 avec Coussinets Confort Modèle Hawaï Avizar Noir",
@@ -203,19 +285,34 @@
 		"brand": "Avizar",
 		"categorie": "casque",
 		"seller": "Fnac",
-		"avis": [{"content": "Prix imbattable, convient pour les enfants.", "note": 3.8}],
+		"avis": [
+			{
+				"content": "Prix imbattable, convient pour les enfants.",
+				"note": 3.8
+			}
+		],
 		"url": "https://www.fnac.com/mp52202149/Casque-Audio-Sans-Fil-Bluetooth-5-1-avec-Coussinets-Confort-Modele-Hawai-Avizar-Noir/w-4#omnsearchpos=13",
 		"price": 29.9
 	},
 	{
 		"seller": "Darty",
-		"avis": [{"content": "Fonctionne bien pour le prix demandé.", "note": 3.9}],
+		"avis": [
+			{
+				"content": "Fonctionne bien pour le prix demandé.",
+				"note": 3.9
+			}
+		],
 		"url": "https://www.darty.com/nav/recherche?text=Avizar+Casque+Hawaï+Noir",
 		"price": 34.9
 	},
 	{
 		"seller": "Amazon",
-		"avis": [{"content": "Léger et confortable.", "note": 4}],
+		"avis": [
+			{
+				"content": "Léger et confortable.",
+				"note": 4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Avizar+Casque+Hawaï+Noir",
 		"price": 29.5
 	},
@@ -230,8 +327,24 @@
 		],
 		"brand": "Sony",
 		"categorie": "casque",
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bon casque d'entrée de gamme ANC.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-audio-sans-fil-SONY-Bluetooth-a-reduction-de-bruit-WH-CH720N-Blanc/a17689642/w-4#omnsearchpos=14",
+		"price": 79.99
+	},
+	{
 		"seller": "Amazon",
-		"avis": [{"content": "Bonne autonomie pour la semaine.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Bonne autonomie pour la semaine.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Casque+Sony+WH-CH720N+Blanc",
 		"price": 79.9
 	},
@@ -246,10 +359,15 @@
 		],
 		"brand": "Bose",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Très confortable, même pour de longues heures.", "note": 4.7}],
-		"url": "https://www.amazon.fr/s?k=Bose+QuietComfort+Ultra+Noir",
-		"price": 399
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Mode immersion bluffant.",
+				"note": 4.8
+			}
+		],
+		"url": "https://www.fnac.com/Casque-sans-fil-Bose-QuietComfort-Ultra-a-reduction-de-bruit-Noir/a18438842/w-4#omnsearchpos=15",
+		"price": 399.99
 	},
 	{
 		"name": "Casque audio arceau circum-aural sans fil Marshall Monitor III ANC avec réduction de bruit active Noir",
@@ -262,10 +380,15 @@
 		],
 		"brand": "Marshall",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Un son clair et puissant, typique de Marshall.", "note": 4.6}],
-		"url": "https://www.amazon.fr/s?k=Marshall+Monitor+III+ANC+Noir",
-		"price": 245
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Le meilleur pour commencer le PC Gaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-audio-arceau-circum-aural-sans-fil-Marshall-Monitor-III-ANC-avec-reduction-de-bruit-active-Noir/a20849512/w-4#omnsearchpos=16",
+		"price": 249.99
 	},
 	{
 		"name": "Casque arceau circum-aural sans fil Bluetooth avec réduction de bruit Sony ULT Wear WH-ULT900NB Noir",
@@ -278,9 +401,14 @@
 		],
 		"brand": "Sony",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Réduction de bruit efficace et bon prix.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Casque+Sony+ULT+Wear+WH-ULT900NB+Noir",
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Les basses sont vraiment impressionnantes.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-arceau-circum-aural-sans-fil-Bluetooth-avec-reduction-de-bruit-Sony-ULT-Wear-WH-ULT900NB-Noir/a19789917/w-4#omnsearchpos=17",
 		"price": 119.99
 	},
 	{
@@ -294,10 +422,15 @@
 		],
 		"brand": "Shokz",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Tiens très bien en place même en mouvement.", "note": 4.7}],
-		"url": "https://www.amazon.fr/s?k=Casque+Shokz+Bluetooth+Noir",
-		"price": 99
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Idéal pour courir en ville en toute sécurité.",
+				"note": 4.6
+			}
+		],
+		"url": "https://www.fnac.com/Casque-de-sport-sans-fil-a-conduction-osseuse-Shokz-Bluetooth-Noir/a20795693/w-4#omnsearchpos=18",
+		"price": 99.99
 	},
 	{
 		"name": "Casque Gaming filaire HyperX Cloud Alpha Noir et Rouge",
@@ -310,10 +443,15 @@
 		],
 		"brand": "HyperX",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Casque très durable et robuste.", "note": 4.6}],
-		"url": "https://www.amazon.fr/s?k=HyperX+Cloud+Alpha+Noir+Rouge",
-		"price": 79.99
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Son excellent pour le prix, très confortable.",
+				"note": 4.5
+			}
+		],
+		"url": "https://www.fnac.com/Casque-Pro-Gaming-HyperX-Cloud-Alpha-Noir-et-Rouge/a10986229/w-4#omnsearchpos=19",
+		"price": 84.99
 	},
 	{
 		"name": "Casque micro gaming sans fil SteelSeries Arctis Nova 5P Bluetooth Blanc",
@@ -326,9 +464,14 @@
 		],
 		"brand": "SteelSeries",
 		"categorie": "casque",
-		"seller": "Amazon",
-		"avis": [{"content": "Connexion Bluetooth stable et rapide.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=SteelSeries+Arctis+Nova+5P+Blanc",
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bon son spatial, parfait pour la PS5.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Casque-micro-gaming-sans-fil-SteelSeries-Arctis-Nova-5P-Bluetooth-Blanc/a21230716/w-4#omnsearchpos=20",
 		"price": 129.99
 	},
 	{
@@ -342,10 +485,15 @@
 		],
 		"brand": "Samsung",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Design premium et très fin.", "note": 4.4}],
-		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Book4+Edge+Snapdragon+X",
-		"price": 1580
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Nouvelle génération de PC IA, impressionnant.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-Samsung-Galaxy-Book4-Edge-15-6-Copilot-Snapdragon-X-16-Go-RAM-512-Go-SSD-Gris-glacier/a22013169/w-4",
+		"price": 1599
 	},
 	{
 		"name": "A52 PRO BLACKVIEW Android Téléphone mobile Bleu -6.5 4Go/128Go 4G smartphone Octa core",
@@ -358,10 +506,15 @@
 		],
 		"brand": "Blackview",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Écran large et bonne capacité de stockage pour le prix.", "note": 4.1}],
-		"url": "https://www.amazon.fr/s?k=BLACKVIEW+A52+PRO+Android+Bleu",
-		"price": 75.99
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Bon prix pour un smartphone 4G.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp49331984/A52-PRO-BLACKVIEW-Android-Telephone-mobile-Bleu-6-5-4Go-128Go-4G-smartphone-Octa-core/w-4#omnsearchpos=1",
+		"price": 77.99
 	},
 	{
 		"name": "PC portable - 15.6\"FHD+ - 32 Go de RAM 512 Go SSD - Intel® Pentium® Gold 6500Y(2C/4T Jusqu'à 2,9 GHz) - Windows 11 PRO - Ordinateur",
@@ -374,10 +527,15 @@
 		],
 		"brand": "Générique / Reseller",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Windows 11 Pro est un plus.", "note": 4.2}],
-		"url": "https://www.amazon.fr/s?k=PC+portable+Pentium+Gold+32Go+RAM",
-		"price": 315
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Bonne configuration pour le prix.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp51758380/PC-portable-15-6FHD-16-Go-de-RAM-512-Go-SSD-Intel-Celeron-N5095-Jusqu-a-2-9-GHz-Windows-11-PRO-WiFi5-Ordinateur/w-4#omnsearchpos=2",
+		"price": 319.99
 	},
 	{
 		"name": "Pack Smartphone Xiaomi Redmi Note 14 6,67\" 5G Double nano SIM 256 Go Noir minuit + Enceinte portable Bluetooth Sound Pocket Noir",
@@ -390,10 +548,15 @@
 		],
 		"brand": "Xiaomi",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "L'enceinte est un petit bonus sympa.", "note": 4.3}],
-		"url": "https://www.amazon.fr/s?k=Xiaomi+Redmi+Note+14+5G+Enceinte",
-		"price": 249
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Excellent rapport qualité/prix pour le pack.",
+				"note": 4.5
+			}
+		],
+		"url": "https://www.fnac.com/Pack-Smartphone-Xiaomi-Redmi-Note-14-6-67-5G-Double-nano-SIM-256-Go-Noir-minuit-Enceinte-portable-Bluetooth-Sound-Pocket-Noir/a22133142/w-4#omnsearchpos=3",
+		"price": 252
 	},
 	{
 		"name": "PC portable Acer Aspire Lite 15 AL15-32P-C96Y 15,6\" Full HD 60 Hz Intel® Celeron® 4 Go RAM 128 Go eMMC Argent",
@@ -406,10 +569,15 @@
 		],
 		"brand": "Acer",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Léger et facile à transporter.", "note": 4.1}],
-		"url": "https://www.amazon.fr/s?k=Acer+Aspire+Lite+15+Celeron",
-		"price": 245
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Parfait pour un usage basique et le streaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-Acer-Aspire-Lite-15-AL15-32P-C96Y-15-6-Full-HD-60-Hz-Intel-Celeron-4-Go-RAM-128-Go-eMMC-Argent/a22206169/w-4#omnsearchpos=4",
+		"price": 249.99
 	},
 	{
 		"name": "PC portable HP 15-fd1016nf Intel® Core™ i5 16 Go RAM 512 Go SSD Argent Naturel",
@@ -422,10 +590,15 @@
 		],
 		"brand": "HP",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Design élégant et discret.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=PC+portable+HP+15-fd1016nf+i5",
-		"price": 689
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Bonne puissance pour le télétravail.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-HP-15-fd1016nf-Intel-Core-i5-16-Go-RAM-512-Go-SSD-Argent-Naturel/a21832062/w-4#omnsearchpos=5",
+		"price": 699
 	},
 	{
 		"name": "Smartphone Samsung Galaxy A16 6,7\" Nano SIM 128 Go Bleu nuit",
@@ -438,10 +611,15 @@
 		],
 		"brand": "Samsung",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Interface simple et conviviale.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+A16+Bleu+nuit",
-		"price": 169
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Excellent écran AMOLED.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Smartphone-Samsung-Galaxy-A16-6-7-Nano-SIM-128-Go-Bleu-nuit/a20923327/w-4#omnsearchpos=6",
+		"price": 172
 	},
 	{
 		"name": "Téléphone portable basique Logicom Posh 405 1,77\" Double SIM 48 Mo Noir",
@@ -454,10 +632,15 @@
 		],
 		"brand": "Logicom",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Simple, efficace et pas cher.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Logicom+Posh+405+Noir",
-		"price": 20
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bonne autonomie, fait le travail.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Telephone-portable-basique-Logicom-Posh-405-1-77-Double-SIM-48-Mo-Noir/a21392405/w-4#omnsearchpos=7",
+		"price": 21.99
 	},
 	{
 		"name": "Smartphone Doogee Note 58 6.75 32Go 128Go Android 15 Telephone Portable dual sim 4G-Argent",
@@ -470,10 +653,15 @@
 		],
 		"brand": "Doogee",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Capacité de stockage suffisante.", "note": 4.2}],
-		"url": "https://www.amazon.fr/s?k=Doogee+Note+58+Telephone+Argent",
-		"price": 94.99
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Bonne alternative aux grandes brands.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp51983663/Smartphone-Doogee-Note-58-6-75-32Go-128Go-Android-15-Telephone-Portable-dual-sim-4G-Argent/w-4#omnsearchpos=8",
+		"price": 96.99
 	},
 	{
 		"name": "PC portable Acer Aspire Go 15 AG15-42P-R99J 15,6\" Full HD 60 Hz AMD Ryzen™ 5 8 Go RAM 512 Go SSD Argent",
@@ -486,10 +674,15 @@
 		],
 		"brand": "Acer",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Convient au montage vidéo léger.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Acer+Aspire+Go+15+Ryzen+5",
-		"price": 495
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Performances rapides avec Ryzen 5.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-Acer-Aspire-Go-15-AG15-42P-R99J-15-6-Full-HD-60-Hz-AMD-Ryzen-5-8-Go-RAM-512-Go-SSD-Argent/a21777483/w-4#omnsearchpos=9",
+		"price": 499.99
 	},
 	{
 		"name": "PC portable Lenovo IdeaPad Slim 3 15IAN8 15,6\" Intel® Core™ i3 8 Go RAM 128 Go SSD Gris arctique",
@@ -502,10 +695,15 @@
 		],
 		"brand": "Lenovo",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "SSD rapide pour le démarrage.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Lenovo+IdeaPad+Slim+3+i3+15.6",
-		"price": 475
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bonne machine pour un prix abordable.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-Lenovo-IdeaPad-Slim-3-15IAN8-15-6-Intel-Core-i3-8-Go-RAM-128-Go-SSD-Gris-arctique/a21263285/w-4#omnsearchpos=10",
+		"price": 479.99
 	},
 	{
 		"name": "Smartphone Logicom Aero 6,5\" Double nano SIM 64 Go Noir",
@@ -518,10 +716,15 @@
 		],
 		"brand": "Logicom",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Parfait comme téléphone secondaire.", "note": 4.2}],
-		"url": "https://www.amazon.fr/s?k=Logicom+Aero+64+Go+Noir",
-		"price": 79.99
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très simple et intuitif.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Smartphone-Logicom-Aero-6-5-Double-nano-SIM-64-Go-Noir/a20987463/w-4#omnsearchpos=11",
+		"price": 81
 	},
 	{
 		"name": "PC portable Samsung Galaxy Book4 Edge 15,6\" Copilot+ Snapdragon® X 16 Go RAM 512 Go SSD Gris glacier",
@@ -534,10 +737,15 @@
 		],
 		"brand": "Samsung",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Expérience Copilot+ très fluide.", "note": 4.4}],
-		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Book4+Edge+Snapdragon+X",
-		"price": 1580
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Performances étonnantes pour la finesse.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-Samsung-Galaxy-Book4-Edge-15-6-Copilot-Snapdragon-X-16-Go-RAM-512-Go-SSD-Gris-glacier/a22013169/w-4#omnsearchpos=12",
+		"price": 1599
 	},
 	{
 		"name": "Pack PC portable Lenovo IdeaPad Slim 3 15ABR8 15,6\" AMD Ryzen™ 5 16 Go RAM 512 Go SSD Gris + Sac à dos Noir",
@@ -550,10 +758,15 @@
 		],
 		"brand": "Lenovo",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "16 Go de RAM est parfait pour le multitâche.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Pack+PC+portable+Lenovo+IdeaPad+Slim+3+Ryzen+5",
-		"price": 595
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Le pack est très avantageux pour le prix.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Pack-PC-portable-Lenovo-IdeaPad-Slim-3-15ABR8-15-6-AMD-Ryzen-5-16-Go-RAM-512-Go-SSD-Gris-Sac-a-dos-Noir/a21832185/w-4#omnsearchpos=13",
+		"price": 599.99
 	},
 	{
 		"name": "PC portable-Intel Alder Lake N95(4 cœurs/4 threads)-NVIDIA GeForce MX330-16Go RAM DDR4 512Go SSD-Windows 11 PRO-Ordinateur Portable",
@@ -566,10 +779,15 @@
 		],
 		"brand": "Générique / Reseller",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Très bon écran et configuration solide.", "note": 4.3}],
-		"url": "https://www.amazon.fr/s?k=PC+portable+N95+MX330+16Go+RAM",
-		"price": 345
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bonne machine pour le prix.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp50824821/Ordinateur-Portable-2520-1680-IPS-24-Go-DDR4-512-Go-SSD-Intel-Alder-Lake-N95-Jusqu-a-3-4-GHz-PC-Portable-leger-avec-16-1-Pouces-Double-Wi-Fi-BT5-0-USB-3-0-AZERTY/w-4#omnsearchpos=14",
+		"price": 349.99
 	},
 	{
 		"name": "PC Portable Samsung Galaxy Book4 Pro 14\" WQXGA+ écran tactile 120 Hz Intel® Core™ Ultra 5 16 Go RAM 512 Go SSD Gris anthracite",
@@ -582,10 +800,15 @@
 		],
 		"brand": "Samsung",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Performances IA fluides avec le Core Ultra.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Book4+Pro+Core+Ultra+5",
-		"price": 1489
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "L'écran OLED est sublime.",
+				"note": 4.7
+			}
+		],
+		"url": "https://www.fnac.com/Samsung-Galaxy-Book4-Pro-Intel-Core-Ultra-5-125H-jusqu-a-4-5-GHz-Evo-Win-11-Home-Intel-Arc-Graphics-16-Go-RAM-512-Go-SSD-NVMe-14-AMOLED-ecran-tactile-2880-x-1800-WQXGA-120-Hz-Wi-Fi-6E-Bluetooth-gris-clavier-AZERTY/a21189381/w-4#omnsearchpos=15",
+		"price": 1499.99
 	},
 	{
 		"name": "PC portable HP 17-cp3021nf 17,3\" AMD Ryzen™ 7 16 Go RAM 1 To SSD Argent Naturel",
@@ -598,10 +821,15 @@
 		],
 		"brand": "HP",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Bonne machine de remplacement de PC de bureau.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=PC+portable+HP+17-cp3021nf+Ryzen+7",
-		"price": 789
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Écran 17 pouces très agréable pour travailler.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-HP-17-cp3021nf-17-3-AMD-Ryzen-7-16-Go-RAM-1-To-SSD-Argent-Naturel/a21739376/w-4#omnsearchpos=16",
+		"price": 799
 	},
 	{
 		"name": "CUBOT A20 Téléphone Portable 6.745” HD+ 12GO RAM 128GO Smartphone Android 14 5100mAh Dual SIM 4G-Noir",
@@ -614,9 +842,14 @@
 		],
 		"brand": "Cubot",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Fonctionnel et bon pour la communication.", "note": 4.2}],
-		"url": "https://www.amazon.fr/s?k=CUBOT+A20+Telephone+Portable+Noir",
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Grande mémoire pour un prix abordable.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp51176523/CUBOT-A20-Telephone-Portable-6-745-HD-12GO-RAM-128GO-Smartphone-Android-14-5100mAh-Dual-SIM-4G-Noir/w-4#omnsearchpos=17",
 		"price": 89.99
 	},
 	{
@@ -630,10 +863,15 @@
 		],
 		"brand": "HP",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Design convertible très pratique.", "note": 4.6}],
-		"url": "https://www.amazon.fr/s?k=HP+OmniBook+X+Flip+Core+Ultra+7",
-		"price": 2489
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Performances IA ultra-rapides et écran OLED sublime.",
+				"note": 4.8
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-HP-OmniBook-X-Flip-Next-Gen-AI-14-fm0007nf-14-Ecran-tactile-OLED-Copilot-Intel-Core-Ultra-7-32-Go-RAM-1-To-SSD-Bleu-atmospherique/a21999098/w-4#omnsearchpos=18",
+		"price": 2499
 	},
 	{
 		"name": "PC portable Acer Aspire 14 AI A14-52M 14\" Copilot+ Intel® Core™ Ultra 5 16 Go RAM 512 Go SSD Gris acier",
@@ -646,10 +884,15 @@
 		],
 		"brand": "Acer",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Idéal pour l'université ou le travail nomade.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Acer+Aspire+14+AI+Core+Ultra+5",
-		"price": 795
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Excellent rapport qualité-prix pour un PC AI.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-Acer-Aspire-14-AI-A14-52M-14-Copilot-Intel-Core-Ultra-5-16-Go-RAM-512-Go-SSD-Gris-acier/a21313371/w-4#omnsearchpos=19",
+		"price": 799.99
 	},
 	{
 		"name": "Smartphone Logicom Ezy 2 5\" Double Nano SIM Noir",
@@ -662,10 +905,15 @@
 		],
 		"brand": "Logicom",
 		"categorie": "portable",
-		"seller": "Amazon",
-		"avis": [{"content": "Autonomie correcte et bonne prise en main.", "note": 4.2}],
-		"url": "https://www.amazon.fr/s?k=Logicom+Ezy+2+Smartphone+Noir",
-		"price": 59
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très léger et facile à glisser dans une poche.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Smartphone-Logicom-Ezy-2-5-Double-Nano-SIM-Noir/a21829232/w-4#omnsearchpos=20",
+		"price": 59.99
 	},
 	{
 		"name": "Pack Tablette tactile Xiaomi Redmi Pad 2 11\" Wifi 128 Go Gris + Etui + Clavier + Stylet",
@@ -678,10 +926,15 @@
 		],
 		"brand": "Xiaomi",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Grande tablette avec un bel écran.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Pack+Tablette+Xiaomi+Redmi+Pad+2+Clavier+Stylet",
-		"price": 199
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Un pack très complet pour ce prix.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Pack-Tablette-tactile-Xiaomi-Redmi-Pad-2-11-Wifi-128-Go-Gris-Etui-Clavier-Stylet/a22056206/w-4#omnsearchpos=1",
+		"price": 199.99
 	},
 	{
 		"name": "Tablette Tactile Lenovo Idea Tab Pro 12,7\" 128 Go Gris Luna + stylet Lenovo Tab Pen Plus + Clavier",
@@ -694,10 +947,15 @@
 		],
 		"brand": "Lenovo",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Un excellent rapport qualité-prix pour le pack complet.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Lenovo+IdeaTab+Pro+12.7+Clavier+Stylet",
-		"price": 345
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "L'écran 12,7 pouces est parfait pour le dessin.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Tablette-Tactile-Lenovo-Idea-Tab-Pro-12-7-128-Go-Gris-Luna-stylet-Lenovo-Tab-Pen-Plus-Clavier/a21960289/w-4#omnsearchpos=2",
+		"price": 349.99
 	},
 	{
 		"name": "Pack Tablette Tactile Lenovo Idea Tab 11\" Wi-Fi 128 Go Gris anthracite + Stylet + Coque de protection",
@@ -710,10 +968,15 @@
 		],
 		"brand": "Lenovo",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Léger et l'écran est de bonne qualité.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Lenovo+Idea+Tab+11+Stylet+Coque",
-		"price": 195
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Tablette familiale parfaite.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Pack-Tablette-Tactile-Lenovo-Idea-Tab-11-Wi-Fi-128-Go-Gris-anthracite-Stylet-Coque-de-protection/a21768862/w-4#omnsearchpos=3",
+		"price": 199.99
 	},
 	{
 		"name": "Tablette tactile 5G WiFi Android 12 32Go avec Clavier et Stylo 10\"",
@@ -726,8 +989,24 @@
 		],
 		"brand": "Générique / Reseller",
 		"categorie": "tablette",
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Clavier et stylo inclus, super pour le prix.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp48940261/Tablette-10-Pouces-Android-12-avec-5G-WiFi-2Go-RAM-32Go-ROM-1TB-Extensible-Bluetooth-5-8-coeurs-2-0-GHz-7000mAh-2-en-1-Tablette-Tactile-avec-Clavier-et-Stylo-et-Cas-or/w-4#omnsearchpos=4",
+		"price": 74.99
+	},
+	{
 		"seller": "Amazon",
-		"avis": [{"content": "Très bon prix pour un pack complet.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Très bon prix pour un pack complet.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Tablette+tactile+10+pouces+avec+Clavier+et+Stylo",
 		"price": 74.5
 	},
@@ -742,10 +1021,15 @@
 		],
 		"brand": "Lenovo",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "La coque protège bien l'appareil.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Lenovo+Tab+One+8.7+64+Go",
-		"price": 119
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très compacte et pratique en voyage.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Pack-Tablette-Tactile-Lenovo-Tab-One-8-7-64-Go-Gris-anthracite-coque-de-protection-transparente/a21742099/w-4#omnsearchpos=5",
+		"price": 119.99
 	},
 	{
 		"name": "Tablette Tactile Samsung Galaxy Tab A9+ 11\" Wifi 128 Go Anthracite",
@@ -758,10 +1042,15 @@
 		],
 		"brand": "Samsung",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Excellent rapport qualité-prix chez Samsung.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+A9++128+Go",
-		"price": 269.99
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bon pour le streaming sur grand écran.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Tablette-Tactile-Samsung-Galaxy-Tab-A9-11-Wifi-128-Go-Anthracite/a21688745/w-4#omnsearchpos=6",
+		"price": 270.99
 	},
 	{
 		"name": "Tablette 10.1 Pouces, Android 13, Wi-Fi6, 12Go+256Go Tablette Tactile Dual Caméra 8MP+16MP Octa-Core 7560mAh Batterie, Tablette avec clavier et étui-Noir",
@@ -774,8 +1063,24 @@
 		],
 		"brand": "Générique / Reseller",
 		"categorie": "tablette",
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Excellent pack pour le prix, très bon pour les voyages.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp50527169/Tablette-10-1-Pouces-Android-13-Wi-Fi6-12Go-256Go-Tablette-Tactile-Dual-Camera-8MP-16MP-Octa-Core-7560mAh-Batterie-Tablette-avec-clavier-et-etui-Noir/w-4#omnsearchpos=7",
+		"price": 74.99
+	},
+	{
 		"seller": "Amazon",
-		"avis": [{"content": "Fait bien le travail pour un usage basique.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Fait bien le travail pour un usage basique.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Tablette+10.1+Pouces+Android+13+clavier",
 		"price": 74.5
 	},
@@ -791,15 +1096,14 @@
 		"brand": "Lenovo",
 		"categorie": "tablette",
 		"seller": "Fnac",
-		"avis": [{"content": "Bonne qualité d'écran pour regarder des films.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "Bonne qualité d'écran pour regarder des films.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.fnac.com/LENOVO-TAB-M11-4-128GB-PLUS-PEN/a19319161/w-4#omnsearchpos=8",
 		"price": 161.3
-	},
-	{
-		"seller": "Amazon",
-		"avis": [{"content": "Bonne alternative à l'iPad en Android.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Lenovo+Tab+M11+128+Go+Pen",
-		"price": 160
 	},
 	{
 		"name": "Pack Tablette Tactile Samsung Galaxy Tab S10 Lite 10,9\" Wi-Fi 128 Go Anthracite + Book Cover",
@@ -812,10 +1116,15 @@
 		],
 		"brand": "Samsung",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Légère et idéale pour la lecture.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+S10+Lite+128+Go+Book+Cover",
-		"price": 415
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Écran AMOLED lumineux, parfait pour les films.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Pack-Tablette-Tactile-Samsung-Galaxy-Tab-S10-Lite-10-9-Wi-Fi-128-Go-Anthracite-Book-Cover/a21903823/w-4#omnsearchpos=9",
+		"price": 419.99
 	},
 	{
 		"name": "Tablette Tactile Samsung Galaxy Tab A9+ 11\" Wifi 128 Go Bleu marine",
@@ -828,10 +1137,15 @@
 		],
 		"brand": "Samsung",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Bon rapport qualité/prix pour la taille.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+A9++128+Go+Bleu",
-		"price": 269.99
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Couleur très élégante et bel écran.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Tablette-Tactile-Samsung-Galaxy-Tab-A9-11-Wifi-128-Go-Bleu-marine/a21688739/w-4#omnsearchpos=10",
+		"price": 270.99
 	},
 	{
 		"name": "Tablette Tactile Logicom Tab 210 10,1\" 64 Go Noir",
@@ -844,10 +1158,15 @@
 		],
 		"brand": "Logicom",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Bon rapport qualité-prix, facile à utiliser.", "note": 4.2}],
-		"url": "https://www.amazon.fr/s?k=Tablette+Logicom+Tab+210+64+Go",
-		"price": 79
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Fonctionnelle pour les applications de base.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Tablette-Tactile-Logicom-Tab-210-10-1-64-Go-Noir/a22170241/w-4#omnsearchpos=11",
+		"price": 79.99
 	},
 	{
 		"name": "Tablette， 12 + 256 Go ，Android 15，blue，wifi+ Etui de protection，blue",
@@ -860,8 +1179,24 @@
 		],
 		"brand": "Générique / Reseller",
 		"categorie": "tablette",
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bonne capacité de mémoire pour le prix.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp52585608/Tablette-12-256-Go-Android-15-blue-wifi-Etui-de-protection-blue/w-4#omnsearchpos=12",
+		"price": 74.99
+	},
+	{
 		"seller": "Amazon",
-		"avis": [{"content": "L'étui de protection est un plus appréciable.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "L'étui de protection est un plus appréciable.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Tablette+Android+15+12Go+RAM+256Go+SSD",
 		"price": 74.5
 	},
@@ -876,10 +1211,15 @@
 		],
 		"brand": "Lenovo",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Très bon rapport qualité-prix, idéal pour le travail nomade.", "note": 4.6}],
-		"url": "https://www.amazon.fr/s?k=Pack+Lenovo+Idea+Tab+11+Clavier+Stylet",
-		"price": 215
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Excellent pack pour la productivité.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Pack-Tablette-Tactile-Lenovo-Idea-Tab-11-Wi-Fi-128-Go-Gris-anthracite-Stylet-et-coque-de-protection-avec-clavier/a21768863/w-4#omnsearchpos=13",
+		"price": 219.99
 	},
 	{
 		"name": "Tablette tactile enfant Archos T101 10,1\" Wifi 64 Go + Coque Support",
@@ -892,10 +1232,15 @@
 		],
 		"brand": "Archos",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Bonne taille pour les jeunes enfants.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Tablette+Archos+T101+enfant+Coque",
-		"price": 99
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Coque très résistante aux chocs.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Tablette-tactile-enfant-Archos-T101-10-1-Wifi-64-Go-Coque-Support/a21511500/w-4#omnsearchpos=14",
+		"price": 99.99
 	},
 	{
 		"name": "Pack Tablette tactile Samsung Galaxy Tab A11+ 11\" 128 Go Gris + Book Cover Hybride",
@@ -908,10 +1253,15 @@
 		],
 		"brand": "Samsung",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Idéale pour le visionnage de films et séries.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Pack+Samsung+Galaxy+Tab+A11++128+Go",
-		"price": 255
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bon rapport qualité-prix sur ce pack.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Pack-Tablette-tactile-Samsung-Galaxy-Tab-A11-11-128-Go-Gris-Book-Cover-Hybride/a22197508/w-4#omnsearchpos=15",
+		"price": 259.99
 	},
 	{
 		"name": "Apple iPad 32 Go WiFi Gris Sidéral 9.7\"",
@@ -924,10 +1274,15 @@
 		],
 		"brand": "Apple",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Parfait pour les applications de base.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Apple+iPad+32+Go+WiFi+9.7+Reconditionné",
-		"price": 95
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bonne tablette pour un prix modique (reconditionné).",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Apple-9-7-inch-iPad-Wi-Fi-6eme-generation-tablette-32-Go-9-7-IPS-2048-x-1536-gris-sideral/a11921276/w-4#omnsearchpos=16",
+		"price": 93.99
 	},
 	{
 		"name": "Tablette Tactile Samsung Galaxy Tab A9+ 11\" Wifi 256 Go Anthracite",
@@ -940,10 +1295,15 @@
 		],
 		"brand": "Samsung",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Performances stables et bonne fluidité.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+A9++256+Go",
-		"price": 239
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "256 Go, c'est idéal pour stocker des films.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Tablette-Tactile-Samsung-Galaxy-Tab-A9-11-Wifi-256-Go-Anthracite/a21688742/w-4#omnsearchpos=17",
+		"price": 239.99
 	},
 	{
 		"name": "Tablette Tactile Xiaomi Redmi Pad SE 11\" Wifi 128 Go Noir graphite",
@@ -956,10 +1316,15 @@
 		],
 		"brand": "Xiaomi",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Qualité de fabrication très satisfaisante.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Xiaomi+Redmi+Pad+SE+128+Go+Noir",
-		"price": 195
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Super écran pour ce prix.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Tablette-Tactile-Xiaomi-Redmi-Pad-SE-11-Wifi-128-Go-Noir-graphite/a21123371/w-4#omnsearchpos=18",
+		"price": 199.99
 	},
 	{
 		"name": "Tablette tactile Samsung Galaxy Tab A9+ 11\" Wifi 64 Go Gris Anthracite",
@@ -972,10 +1337,15 @@
 		],
 		"brand": "Samsung",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Bonne qualité audio.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+A9++64+Go",
-		"price": 215
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Excellent écran 11 pouces.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Tablette-tactile-Samsung-Galaxy-Tab-A9-11-Wifi-64-Go-Gris-Anthracite/a18973391/w-4#omnsearchpos=19",
+		"price": 219.99
 	},
 	{
 		"name": "Tablette Enfant 7 Pouces, Veidoo Android 2Go+32Go, Écran Tactile HD, Contrôle Parental, Éducative - Rose",
@@ -988,10 +1358,15 @@
 		],
 		"brand": "Veidoo",
 		"categorie": "tablette",
-		"seller": "Amazon",
-		"avis": [{"content": "Robuste et bien adaptée aux petites mains.", "note": 4.4}],
-		"url": "https://www.amazon.fr/s?k=Tablette+Enfant+Veidoo+7+Pouces+Rose",
-		"price": 45
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très abordable pour une première tablette enfant.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp50056796/Tablette-Enfant-7-Pouces-Veidoo-Android-2Go-32Go-Ecran-Tactile-HD-Controle-Parental-Educative-Rose/w-4#omnsearchpos=20",
+		"price": 45.99
 	},
 	{
 		"name": "PC Portable Microsoft Surface Laptop 13\" Ecran Tactile Copilot+ PC Qualcomm® Snapdragon® X Plus 16 Go RAM 512 Go SSD Violet",
@@ -1004,9 +1379,14 @@
 		],
 		"brand": "Microsoft",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "L'écran tactile est très réactif.", "note": 4.4}],
-		"url": "https://www.amazon.fr/s?k=Microsoft+Surface+Laptop+Snapdragon+X+Plus+Violet",
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Design magnifique et puissance IA prometteuse.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-Portable-Microsoft-Surface-Laptop-13-Ecran-Tactile-Copilot-PC-Qualcomm-Snapdragon-X-Plus-16-Go-RAM-512-Go-SSD-Violet/a21480672/w-4",
 		"price": 1199
 	},
 	{
@@ -1020,10 +1400,15 @@
 		],
 		"brand": "Acer",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Léger et fonctionne bien pour la navigation.", "note": 4.1}],
-		"url": "https://www.amazon.fr/s?k=Acer+Aspire+Lite+15+Celeron+4+Go+RAM",
-		"price": 245
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Prix imbattable pour un 15 pouces.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-Acer-Aspire-Lite-15-AL15-32P-C96Y-15-6-Full-HD-60-Hz-Intel-Celeron-4-Go-RAM-128-Go-eMMC-Argent/a22206169/w-4#omnsearchpos=1",
+		"price": 249.99
 	},
 	{
 		"name": "PC portable Lenovo IdeaPad Slim 3 15IAN8 15,6\" Intel® Core™ i3 8 Go RAM 128 Go SSD Gris arctique",
@@ -1036,10 +1421,15 @@
 		],
 		"brand": "Lenovo",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Démarrage rapide grâce au SSD.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Lenovo+IdeaPad+Slim+3+Core+i3+15.6",
-		"price": 475
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Bonne machine pour un usage quotidien.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-Lenovo-IdeaPad-Slim-3-15IAN8-15-6-Intel-Core-i3-8-Go-RAM-128-Go-SSD-Gris-arctique/a21263285/w-4#omnsearchpos=2",
+		"price": 479.99
 	},
 	{
 		"name": "PC portable - 15.6\"FHD+ - 32 Go de RAM 512 Go SSD - Intel® Pentium® Gold 6500Y(2C/4T Jusqu'à 2,9 GHz) - Windows 11 PRO - Ordinateur",
@@ -1052,10 +1442,15 @@
 		],
 		"brand": "Générique / Reseller",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Bonnes performances pour le prix.", "note": 4.2}],
-		"url": "https://www.amazon.fr/s?k=PC+portable+Pentium+Gold+32Go+RAM",
-		"price": 315
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "32 Go de RAM pour un prix très intéressant.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp51758380/PC-portable-15-6FHD-16-Go-de-RAM-512-Go-SSD-Intel-Celeron-N5095-Jusqu-a-2-9-GHz-Windows-11-PRO-WiFi5-Ordinateur/w-4#omnsearchpos=3",
+		"price": 319.99
 	},
 	{
 		"name": "PC portable HP 15-fd1016nf Intel® Core™ i5 16 Go RAM 512 Go SSD Argent Naturel",
@@ -1068,10 +1463,15 @@
 		],
 		"brand": "HP",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Très bonne autonomie et design agréable.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=PC+portable+HP+15-fd1016nf+i5+16Go+RAM",
-		"price": 689
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Excellent processeur et mémoire pour le prix.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-HP-15-fd1016nf-Intel-Core-i5-16-Go-RAM-512-Go-SSD-Argent-Naturel/a21832062/w-4#omnsearchpos=4",
+		"price": 699
 	},
 	{
 		"name": "PC portable Acer Aspire Go 15 AG15-42P-R99J 15,6\" Full HD 60 Hz AMD Ryzen™ 5 8 Go RAM 512 Go SSD Argent",
@@ -1084,10 +1484,15 @@
 		],
 		"brand": "Acer",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Excellent rapport qualité-prix.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Acer+Aspire+Go+15+Ryzen+5",
-		"price": 495
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Rapide et fiable pour un usage quotidien.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-Acer-Aspire-Go-15-AG15-42P-R99J-15-6-Full-HD-60-Hz-AMD-Ryzen-5-8-Go-RAM-512-Go-SSD-Argent/a21777483/w-4#omnsearchpos=5",
+		"price": 499.99
 	},
 	{
 		"name": "Chromebook Lenovo Duet 11M889 10,95\" MediaTek 8 Go RAM 128 Go eMMC Tactile Gris luna",
@@ -1100,10 +1505,15 @@
 		],
 		"brand": "Lenovo",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Bonne qualité d'écran pour ce prix.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Chromebook+Lenovo+Duet+11",
-		"price": 275
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très léger, parfait pour les déplacements.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Chromebook-Lenovo-Duet-11M889-10-95-MediaTek-8-Go-RAM-128-Go-eMMC-Tactile-Gris-luna/a20974631/w-4",
+		"price": 279.99
 	},
 	{
 		"name": "Greed® MK2 - PC Gamer - AMD Ryzen 7 5700X + Nvidia Geforce RTX 5060 - Ordinateur de Bureau / PC Gaming - 4,6 GHz - 4K & Raytracing - 32GO DDR4 RAM - 1To SSD - WiFi + Windows 11 Pro",
@@ -1116,10 +1526,15 @@
 		],
 		"brand": "Greed / Reseller",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Windows 11 Pro et SSD rapide.", "note": 4.4}],
-		"url": "https://www.amazon.fr/s?k=PC+Gamer+Ryzen+7+RTX+5060",
-		"price": 1479
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bonne configuration pour le prix.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp49559018/Pc-Gaming-Greed-MK2-Nvidia-Geforce-RTX-3060-AMD-Ryzen-7-32-Go-RAM-1-To-SSD-Win-11-Pro/w-4#omnsearchpos=6",
+		"price": 1499
 	},
 	{
 		"name": "PC portable Gaming HP Victus 15-fb3025nf 15,6\" Full HD 144 Hz AMD Ryzen™ 5 16 Go RAM 512 Go SSD AMD Radeon RX 6550M Argent Mica",
@@ -1132,10 +1547,15 @@
 		],
 		"brand": "HP",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Design sobre et efficace.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=PC+portable+Gaming+HP+Victus+15+RX+6550M",
-		"price": 695
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "L'écran 144 Hz est excellent pour le jeu.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-Gaming-HP-Victus-15-fb3025nf-15-6-Full-HD-144-Hz-AMD-Ryzen-5-16-Go-RAM-512-Go-SSD-AMD-Radeon-760M-Argent-Mica/a21739637/w-4#omnsearchpos=7",
+		"price": 699
 	},
 	{
 		"name": "Chromebook Acer 314 CBOA314-1HC69G 14'' 60 Hz LCD Intel® Celeron 8 Go RAM 128 Go eMMC Noir",
@@ -1148,10 +1568,15 @@
 		],
 		"brand": "Acer",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Idéal pour les petits budgets.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Chromebook+Acer+314+8+Go+RAM",
-		"price": 295
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bon pour les cours en ligne.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Chromebook-Acer-314-CBOA314-1HC69G-14-60-Hz-LCD-Intel-Celeron-8-Go-RAM-128-Go-eMMC-Noir/a21327890/w-4#omnsearchpos=8",
+		"price": 299.99
 	},
 	{
 		"name": "Chromebook Lenovo Duet 11M889 10,95\" MediaTek 8 Go RAM 128 Go eMMC Tactile Gris luna",
@@ -1164,10 +1589,15 @@
 		],
 		"brand": "Lenovo",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Idéal pour le streaming et les applications Android.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Chromebook+Lenovo+Duet+11",
-		"price": 275
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très polyvalent et compact.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Chromebook-Lenovo-Duet-11M889-10-95-MediaTek-8-Go-RAM-128-Go-eMMC-Tactile-Gris-luna/a20974631/w-4#omnsearchpos=9",
+		"price": 279.99
 	},
 	{
 		"name": "Pack Chromebook Asus Plus CX3402CVA-MW0999 14\" écran tactile Intel® Core™ i3 8 Go RAM 256 Go SSD Gris + Pochette + Souris",
@@ -1180,10 +1610,15 @@
 		],
 		"brand": "Asus",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Écran tactile réactif et bonne autonomie.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Chromebook+Asus+CX3402CVA+i3+Pack",
-		"price": 445
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Pack complet et très pratique pour la mobilité.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Pack-Chromebook-Asus-Plus-CX3402CVA-MW0999-14-Intel-Core-i3-8-Go-RAM-256-Go-SSD-Tactile-Gris-Pochette-Souris/a21149585/w-4#omnsearchpos=10",
+		"price": 449.99
 	},
 	{
 		"name": "Ordinateur portable - HP - HP ProBook - - 256Go SSD - Intel Core i5-4200M 2,5GHz - 8Go (8192Mo)",
@@ -1196,10 +1631,15 @@
 		],
 		"brand": "HP",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Fiable et robuste (gamme ProBook).", "note": 4.4}],
-		"url": "https://www.amazon.fr/s?k=HP+ProBook+Core+i5-4200M+reconditionné",
-		"price": 275
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Bonne machine reconditionnée pour le télétravail.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp47079569/Ordinateur-Portable-HP-ProBook-640-G1-8Go-240Go-SSD-Argent-Noir/w-4#omnsearchpos=11",
+		"price": 279
 	},
 	{
 		"name": "PC portable Asus Vivobook 15 E510KA-DRFBQ1307W 15,6\" Full HD 60 Hz Intel® Celeron® 8 Go RAM 128 Go eMMC Noir",
@@ -1212,10 +1652,15 @@
 		],
 		"brand": "Asus",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Parfait pour le streaming vidéo.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=PC+portable+Asus+Vivobook+15+Celeron+8Go",
-		"price": 325
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Design fin et très léger.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-Asus-Vivobook-15-E510KA-DRFBQ1307W-15-6-Full-HD-60-Hz-Intel-Celeron-8-Go-RAM-128-Go-eMMC-Noir/a21968457/w-4#omnsearchpos=12",
+		"price": 329.99
 	},
 	{
 		"name": "PC Portable YOGA-15,6FullView Ecran Tactile 360°Rotation-AMD RYZEN3 3200U-16Go RAM-512Go SSD-Ordinateur Portable- AZERTY",
@@ -1228,10 +1673,15 @@
 		],
 		"brand": "Générique / Reseller",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Ryzen 3 et SSD pour une bonne rapidité.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=PC+Portable+Tactile+360+Ryzen+3",
-		"price": 365
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Fonction tactile et convertible très réussie.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp52190124/PC-Portable-YOGA-15-6FullView-Ecran-Tactile-360-Rotation-AMD-RYZEN3-3200U-16Go-RAM-512Go-SSD-Ordinateur-Portable-AZERTY/w-4#omnsearchpos=13",
+		"price": 369.99
 	},
 	{
 		"name": "PC portable HP Zbook Firefly 14 G7 14\" Full HD Intel® Core™ i5 16 Go RAM 256 Go SSD Argent Reconditionné",
@@ -1244,10 +1694,15 @@
 		],
 		"brand": "HP",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "16 Go de RAM très appréciables.", "note": 4.4}],
-		"url": "https://www.amazon.fr/s?k=HP+Zbook+Firefly+14+G7+Core+i5+Reconditionné",
-		"price": 345
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Excellent PC pro, reconditionné en très bon état.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-HP-Zbook-Firefly-14-G7-14-Full-HD-Intel-Core-i5-16-Go-RAM-256-Go-SSD-Argent-Reconditionne/a22029734/w-4#omnsearchpos=14",
+		"price": 349
 	},
 	{
 		"name": "Chromebook Acer Plus 516 CB516-1HT 16” Tactile Intel® Core™ i3 8 Go RAM 512 Go SSD Gris Acier",
@@ -1260,10 +1715,15 @@
 		],
 		"brand": "Acer",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Rapide et parfait pour le Cloud Gaming.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Chromebook+Acer+Plus+516+Core+i3",
-		"price": 495
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Grand écran 16 pouces pour un Chromebook.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Chromebook-Acer-Plus-516-CB516-1HT-16-Tactile-Intel-Core-i3-8-Go-RAM-512-Go-SSD-Gris-Acier/a21327889/w-4#omnsearchpos=15",
+		"price": 499.99
 	},
 	{
 		"name": "PC portable Lenovo T14 G2 14\" Ecran Tactile Intel® Core i5 16 Go RAM 256 Go SSD Noir Reconditionné",
@@ -1276,10 +1736,15 @@
 		],
 		"brand": "Lenovo",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Écran tactile réactif et portable durable.", "note": 4.4}],
-		"url": "https://www.amazon.fr/s?k=Lenovo+T14+G2+Core+i5+Reconditionné",
-		"price": 475
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Clavier ThinkPad toujours aussi excellent.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-Lenovo-T14-G2-14-Ecran-Tactile-Intel-Core-i5-16-Go-RAM-256-Go-SSD-Noir-Reconditionne/a22005093/w-4#omnsearchpos=16",
+		"price": 479
 	},
 	{
 		"name": "PC portable Samsung Galaxy Book4 Edge 15,6\" Copilot+ Snapdragon® X 16 Go RAM 512 Go SSD Gris glacier",
@@ -1292,10 +1757,15 @@
 		],
 		"brand": "Samsung",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Performances solides pour le travail quotidien.", "note": 4.4}],
-		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Book4+Edge+Snapdragon+X",
-		"price": 1580
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Autonomie révolutionnaire grâce à la puce Snapdragon.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-Samsung-Galaxy-Book4-Edge-15-6-Copilot-Snapdragon-X-16-Go-RAM-512-Go-SSD-Gris-glacier/a22013169/w-4#omnsearchpos=17",
+		"price": 1599
 	},
 	{
 		"name": "PC portable HP 14-ep0052nf 14\" Intel® Core™ i7 16 Go RAM 512 Go SSD Argent Naturel",
@@ -1308,10 +1778,15 @@
 		],
 		"brand": "HP",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Portable très fiable et bien équipé.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=PC+portable+HP+14-ep0052nf+Core+i7",
-		"price": 699
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Core i7 dans ce format est très agréable.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-HP-14-ep0052nf-14-Intel-Core-i7-16-Go-RAM-512-Go-SSD-Argent-Naturel/a21739373/w-4#omnsearchpos=18",
+		"price": 703.99
 	},
 	{
 		"name": "PC portable-Intel Alder Lake N95(4 cœurs/4 threads)-NVIDIA GeForce MX330-16Go RAM DDR4 512Go SSD-Windows 11 PRO-Ordinateur Portable",
@@ -1324,10 +1799,15 @@
 		],
 		"brand": "Générique / Reseller",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Idéal pour les étudiants et la bureautique.", "note": 4.4}],
-		"url": "https://www.amazon.fr/s?k=PC+portable+N95+MX330+16Go+RAM",
-		"price": 345
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bon pour le prix avec la MX330.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp50824821/Ordinateur-Portable-2520-1680-IPS-24-Go-DDR4-512-Go-SSD-Intel-Alder-Lake-N95-Jusqu-a-3-4-GHz-PC-Portable-leger-avec-16-1-Pouces-Double-Wi-Fi-BT5-0-USB-3-0-AZERTY/w-4#omnsearchpos=19",
+		"price": 349.99
 	},
 	{
 		"name": "PC portable HP 17-cp3021nf 17,3\" AMD Ryzen™ 7 16 Go RAM 1 To SSD Argent Naturel",
@@ -1340,10 +1820,15 @@
 		],
 		"brand": "HP",
 		"categorie": "ordinateur",
-		"seller": "Amazon",
-		"avis": [{"content": "Performances solides pour un PC grand format.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=PC+portable+HP+17-cp3021nf+Ryzen+7",
-		"price": 795
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Grand écran très confortable pour le multitâche.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/PC-portable-HP-17-cp3021nf-17-3-AMD-Ryzen-7-16-Go-RAM-1-To-SSD-Argent-Naturel/a21739376/w-4#omnsearchpos=20",
+		"price": 799
 	},
 	{
 		"name": "TV Tcl QLED 55P89K 138 cm 2025",
@@ -1356,10 +1841,15 @@
 		],
 		"brand": "TCL",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Smart TV complète avec toutes les applications.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=TV+Tcl+QLED+55P89K+2025",
-		"price": 595
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "QLED et 55 pouces pour un excellent prix.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/TV-QLED-Tcl-55P89K-138-cm-4K-UHD-Aluminium-brosse/a21500223/w-4",
+		"price": 599.99
 	},
 	{
 		"name": "Smart Tech TV LED 4K UHD 55' (139 cm) Smart TV Web OS-55UW02K- Molotov, Netflix, Prime Video, Disney+ - 3xHDMI - 2xUSB - MEMC- Dolby Audio",
@@ -1373,21 +1863,25 @@
 		"brand": "Smart Tech",
 		"categorie": "télévision",
 		"seller": "Fnac",
-		"avis": [{"content": "Prix choc pour une TV 55 pouces 4K.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "Prix choc pour une TV 55 pouces 4K.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.fnac.com/mp52594754/Smart-Tech-TV-LED-4K-UHD-55-139-cm-Smart-TV-Web-OS-55UW02K-Molotov-Netflix-Prime-Video-Disney-3xHDMI-2xUSB-MEMC-Dolby-Audio/w-4#omnsearchpos=1",
 		"price": 299.9
 	},
 	{
 		"seller": "Darty",
-		"avis": [{"content": "Web OS est une interface très fluide.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Web OS est une interface très fluide.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.darty.com/nav/recherche?text=TV+Smart+Tech+55UW02K+Web+OS",
 		"price": 319.9
-	},
-	{
-		"seller": "Amazon",
-		"avis": [{"content": "Très bon choix pour un salon.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+LED+4K+UHD+55+Web+OS",
-		"price": 295
 	},
 	{
 		"name": "Smart Tech TV LED Full HD 22 (55 cm) 22FN01V, HDMI, USB, Résolution: 1920 * 1080",
@@ -1401,21 +1895,25 @@
 		"brand": "Smart Tech",
 		"categorie": "télévision",
 		"seller": "Fnac",
-		"avis": [{"content": "Parfait comme écran de moniteur ou petite TV.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "Parfait comme écran de moniteur ou petite TV.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.fnac.com/mp50932845/Smart-Tech-TV-LED-Full-HD-22-55-cm-22FN01V-HDMI-USB-Resolution-1920-1080/w-4#omnsearchpos=2",
 		"price": 99.9
 	},
 	{
 		"seller": "Darty",
-		"avis": [{"content": "Léger et facile à installer.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Léger et facile à installer.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.darty.com/nav/recherche?text=TV+Smart+Tech+22+Full+HD",
 		"price": 109.9
-	},
-	{
-		"seller": "Amazon",
-		"avis": [{"content": "Très bon rapport qualité-prix en petite taille.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+LED+Full+HD+22",
-		"price": 99
 	},
 	{
 		"name": "Smart Tech TV LED 4K UHD 43' (108 cm) Smart TV Web OS-43UW02V- Netflix, Prime Video, Youtube - 3xHDMI - 2xUSB - MEMC- DOLBY Audio",
@@ -1429,21 +1927,25 @@
 		"brand": "Smart Tech",
 		"categorie": "télévision",
 		"seller": "Fnac",
-		"avis": [{"content": "4K et Smart TV pour un prix imbattable.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "4K et Smart TV pour un prix imbattable.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.fnac.com/mp50448451/Smart-Tech-TV-LED-4K-UHD-43-108-cm-Smart-TV-Web-OS-43UW02V-Molotov-Netflix-Prime-Video-Canal-Disney-3xHDMI-2xUSB-MEMC-DOLBY-Audio/w-4#omnsearchpos=3",
 		"price": 219.9
 	},
 	{
 		"seller": "Darty",
-		"avis": [{"content": "Web OS est très fluide pour les applications.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Web OS est très fluide pour les applications.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.darty.com/nav/recherche?text=TV+Smart+Tech+43UW02V+Web+OS",
 		"price": 229.9
-	},
-	{
-		"seller": "Amazon",
-		"avis": [{"content": "Image correcte pour le prix d'entrée.", "note": 4.2}],
-		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+LED+4K+UHD+43+Web+OS",
-		"price": 215
 	},
 	{
 		"name": "TV Hisense QLED 50E79Q PRO 126 cm 2025",
@@ -1456,10 +1958,15 @@
 		],
 		"brand": "Hisense",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Couleurs éclatantes et bon contraste.", "note": 4.4}],
-		"url": "https://www.amazon.fr/s?k=TV+Hisense+QLED+50E79Q+PRO",
-		"price": 445
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "QLED de bonne qualité pour le prix.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/TV-Hisense-QLED-50E79Q-PRO-126-cm-2025/a21739200/w-4",
+		"price": 449.99
 	},
 	{
 		"name": "Smart Tech TV LED 4K UHD 50' (127cm) Smart TV Web OS-50UW02K- Netflix, Prime Video, Youtube 3xHDMI 2xUSB",
@@ -1473,21 +1980,25 @@
 		"brand": "Smart Tech",
 		"categorie": "télévision",
 		"seller": "Fnac",
-		"avis": [{"content": "Très bon rapport taille/prix.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "Très bon rapport taille/prix.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.fnac.com/mp52594750/Smart-Tech-TV-LED-4K-UHD-50-127cm-Smart-TV-Web-OS-50UW02K-Netflix-Prime-Video-Youtube-3xHDMI-2xUSB/w-4#omnsearchpos=4",
 		"price": 259.9
 	},
 	{
 		"seller": "Darty",
-		"avis": [{"content": "Image nette et Smart TV facile à prendre en main.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Image nette et Smart TV facile à prendre en main.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.darty.com/nav/recherche?text=TV+Smart+Tech+50UW02K+Web+OS",
 		"price": 279.9
-	},
-	{
-		"seller": "Amazon",
-		"avis": [{"content": "Parfait pour regarder Netflix en 4K sans se ruiner.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+LED+4K+UHD+50+Web+OS",
-		"price": 255
 	},
 	{
 		"name": "TV Tcl QLED 55P89K 138 cm 2025",
@@ -1500,10 +2011,15 @@
 		],
 		"brand": "TCL",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Les couleurs sont vives et agréables.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=TV+Tcl+QLED+55P89K+2025",
-		"price": 495
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Excellent rapport qualité/prix pour du QLED 55 pouces.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/TV-QLED-Tcl-55P89K-138-cm-4K-UHD-Aluminium-brosse/a21500223/w-4#omnsearchpos=5",
+		"price": 499.99
 	},
 	{
 		"name": "TV Samsung Neo QLED TQ98QN990F 249 cm 2025",
@@ -1516,10 +2032,15 @@
 		],
 		"brand": "Samsung",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Expérience cinéma à la maison inégalée.", "note": 4.9}],
-		"url": "https://www.amazon.fr/s?k=TV+Samsung+Neo+QLED+98+QN990F",
-		"price": 32500
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Une taille et une qualité d'image exceptionnelles.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/TV-Samsung-Neo-QLED-TQ98QN990F-249-cm-2025/a22038417/w-4#omnsearchpos=6",
+		"price": 32999
 	},
 	{
 		"name": "Smart Tech TV LED 4K UHD 65' (164 cm) Smart TV Web OS-65UW02K- Molotov, Netflix, Prime Video, Canal+, Disney+ - 3xHDMI - 2xUSB - MEMC- Dolby Audio",
@@ -1533,21 +2054,25 @@
 		"brand": "Smart Tech",
 		"categorie": "télévision",
 		"seller": "Fnac",
-		"avis": [{"content": "Très grand écran pour un prix imbattable.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "Très grand écran pour un prix imbattable.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.fnac.com/mp52594758/Smart-Tech-TV-LED-4K-UHD-65-164-cm-Smart-TV-Web-OS-65UW02K-Molotov-Netflix-Prime-Video-Canal-Disney-3xHDMI-2xUSB-MEMC-Dolby-Audio/w-4#omnsearchpos=7",
 		"price": 389.9
 	},
 	{
 		"seller": "Darty",
-		"avis": [{"content": "Parfait pour regarder le sport en grand format.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Parfait pour regarder le sport en grand format.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.darty.com/nav/recherche?text=TV+Smart+Tech+65UW02K+Web+OS",
 		"price": 399.9
-	},
-	{
-		"seller": "Amazon",
-		"avis": [{"content": "Image 4K nette et Smart TV efficace.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+LED+4K+UHD+65+Web+OS",
-		"price": 385
 	},
 	{
 		"name": "TV LED Proline L3220HD 80 cm HD Noir",
@@ -1560,10 +2085,15 @@
 		],
 		"brand": "Proline",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Bonne qualité d'image HD.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=TV+LED+Proline+L3220HD+Noir",
-		"price": 99
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bon prix pour cette taille.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/TV-LED-Proline-L3220HD-80-cm-HD-2023-Noir/a17907842/w-4#omnsearchpos=8",
+		"price": 99.99
 	},
 	{
 		"name": "TV LED Thomson 32HG2S14 81 cm HD",
@@ -1576,10 +2106,15 @@
 		],
 		"brand": "Thomson",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Légère et facile à accrocher au mur.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=TV+LED+Thomson+32HG2S14",
-		"price": 165
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Belle image HD pour les chaînes classiques.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/TV-LED-Thomson-32HG2S14-81-cm-HD-2024/a20611414/w-4#omnsearchpos=9",
+		"price": 169.99
 	},
 	{
 		"name": "Smart Tech TV LED HD 32\" (80 cm) Smart TV Google 32HG01V HDMI, USB, Résolution: 1366 * 768",
@@ -1592,10 +2127,15 @@
 		],
 		"brand": "Smart Tech",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Installation facile et rapide.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+LED+HD+32+Google+TV",
-		"price": 130
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Google TV est très pratique pour les applications.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp50017636/Smart-Tech-TV-LED-HD-32-80-cm-Smart-TV-Google-32HG01V-HDMI-USB-Resolution-1366-768/w-4#omnsearchpos=10",
+		"price": 135.26
 	},
 	{
 		"name": "TV LED Philips Ambilight 65PUS8000/12 164 cm 2025",
@@ -1608,10 +2148,15 @@
 		],
 		"brand": "Philips",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Excellent rapport qualité/prix pour une 65 pouces Ambilight.", "note": 4.4}],
-		"url": "https://www.amazon.fr/s?k=TV+LED+Philips+Ambilight+65PUS8000",
-		"price": 695
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "L'Ambilight est toujours un régal.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/TV-LED-Philips-65PUS8000-164-cm-4K-UHD-Ambilight-2025/a21552997/w-4#omnsearchpos=11",
+		"price": 699.99
 	},
 	{
 		"name": "TV Tcl QLED 43P79K 108 cm 2025",
@@ -1624,10 +2169,15 @@
 		],
 		"brand": "TCL",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Très bon rapport qualité-prix en 43 pouces 4K.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=TV+Tcl+QLED+43P79K+2025",
-		"price": 275
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Bonne TV pour une petite pièce ou du gaming.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/TV-QLED-Tcl-43P79K-108-cm-4K-UHD-Aluminium-brosse/a21500213/w-4#omnsearchpos=12",
+		"price": 279.99
 	},
 	{
 		"name": "TV LED Philips Ambilight 85PUS8500/12 215 cm 2025",
@@ -1640,10 +2190,15 @@
 		],
 		"brand": "Philips",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Image 4K magnifique et fluide.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=TV+LED+Philips+Ambilight+85PUS8500",
-		"price": 1390
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Une taille impressionnante pour l'immersion.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/TV-QLED-Philips-85PUS8500-215-cm-4K-UHD-Ambilight-2025/a21552989/w-4#omnsearchpos=13",
+		"price": 1399
 	},
 	{
 		"name": "Smart Tech TV QLED 4K UHD 50' (126 cm) 50QA20VAUK Smart TV Android - 4xHDMI - 2xUSB - Dolby Audio",
@@ -1656,10 +2211,15 @@
 		],
 		"brand": "Smart Tech",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Très bonnes couleurs grâce au QLED.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+QLED+50+Android",
-		"price": 315
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "QLED sous Android, très bon rapport qualité/prix.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/mp52418261/Smart-Tech-TV-QLED-4K-UHD-50-126-cm-50QA20VAUK-Smart-TV-Android-4xHDMI-2xUSB-Dolby-Audio/w-4#omnsearchpos=14",
+		"price": 319.99
 	},
 	{
 		"name": "TV LED Proline L2420HD 60 cm HD Noir",
@@ -1672,10 +2232,15 @@
 		],
 		"brand": "Proline",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Image nette et légère.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=TV+LED+Proline+L2420HD",
-		"price": 84
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bon prix pour une 24 pouces.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/TV-LED-Proline-L2420HD-60-cm-HD-2023-Noir/a17907845/w-4#omnsearchpos=15",
+		"price": 84.99
 	},
 	{
 		"name": "TV LED Philips 32PHS6050 80 cm 2025",
@@ -1688,10 +2253,15 @@
 		],
 		"brand": "Philips",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Image lumineuse et agréable.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=TV+LED+Philips+32PHS6050",
-		"price": 155
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Bonne TV pour la cuisine.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/TV-LED-Philips-32PHS6050-80-cm-2025/a21683237/w-4#omnsearchpos=16",
+		"price": 159.99
 	},
 	{
 		"name": "TV QLED Philips 4K UHD Ambilight 43PUS8400/12 108 cm 2025",
@@ -1704,10 +2274,15 @@
 		],
 		"brand": "Philips",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Ambilight améliore vraiment l'expérience.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=TV+QLED+Philips+43PUS8400+Ambilight",
-		"price": 345
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "QLED et Ambilight, parfait pour une immersion dans une petite pièce.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/TV-QLED-Philips-4K-UHD-Ambilight-43PUS8400-12-108-cm-2025/a21842704/w-4#omnsearchpos=17",
+		"price": 349.99
 	},
 	{
 		"name": "TV Philips Ambilight The One 55PUS9050 139 cm 2025",
@@ -1720,10 +2295,15 @@
 		],
 		"brand": "Philips",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Image fluide et couleurs vives.", "note": 4.4}],
-		"url": "https://www.amazon.fr/s?k=TV+Philips+Ambilight+The+One+55PUS9050",
-		"price": 695
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Très bonne qualité pour un grand salon.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/TV-QLED-Philips-The-One-55PUS9050-139-cm-4K-UHD-Ambilight-2025-Gris-metal/a21517725/w-4#omnsearchpos=18",
+		"price": 699.99
 	},
 	{
 		"name": "TV Philips 43PUS6754 UHD 4K Ambilight 3 côtes Smart TV 43''",
@@ -1736,10 +2316,15 @@
 		],
 		"brand": "Philips",
 		"categorie": "télévision",
-		"seller": "Amazon",
-		"avis": [{"content": "Très bon pour le prix avec l'Ambilight.", "note": 4.5}],
-		"url": "https://www.amazon.fr/s?k=TV+Philips+43PUS6754+Ambilight",
-		"price": 199
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Ambilight très efficace pour les films.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.fnac.com/Philips-43PUS6754-Classe-de-diagonale-43-6700-Series-TV-LCD-retro-eclairee-par-LED-Smart-TV-Saphi-TV-4K-UHD-2160p-3840-x-2160-HDR-argent-intermediaire/a13462858/w-4#omnsearchpos=19",
+		"price": 203.41
 	},
 	{
 		"name": "TV LED Thomson 43UG5C14 109 cm 4K UHD",
@@ -1752,12 +2337,14 @@
 		],
 		"brand": "Thomson",
 		"categorie": "télévision",
-		"seller": "Amazon",
+		"seller": "Fnac",
 		"avis": [
-			{"content": "Idéal pour les jeux non compétitifs.", "note": 4.5},
-			{"content": "Pas ouf", "note": 2}
+			{
+				"content": "Bonne TV 4K pour un prix très compétitif.",
+				"note": 4.3
+			}
 		],
-		"url": "https://www.amazon.fr/s?k=TV+LED+Thomson+43UG5C14+4K+UHD",
-		"price": 295
+		"url": "https://www.fnac.com/TV-LED-Thomson-43UG5C14-109-cm-4K-UHD-2024/a20611417/w-4#omnsearchpos=20",
+		"price": 299.99
 	}
 ]
