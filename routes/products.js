@@ -201,7 +201,7 @@ router.get('/id/:idProduct', (req, res) => {
 
 // Post search
 router.post('/search', (req, res) => {
-	let {search} = req.body;
+	let {search, category} = req.body;
 	search = new RegExp(search, 'i');
 	if (!search) {
 		res.status(406).json({result: false, error: 'One or many of the fields are missing'});
