@@ -11,9 +11,15 @@
 		"brand": "Sony",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Très bonne réduction de bruit pour le prix.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Très bonne réduction de bruit pour le prix.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Casque+Sony+WH-CH720N+Noir",
-		"price": 79
+		"price": 79,
+		"sku": "jmmGpt"
 	},
 	{
 		"name": "Casque supra-auriculaire sans fil Bluetooth JBL Tune 770NC à réduction de bruit adaptative Noir",
@@ -27,9 +33,15 @@
 		"brand": "JBL",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Un son clair et des bonnes basses.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Un son clair et des bonnes basses.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Casque+JBL+Tune+770NC+Noir",
-		"price": 69.99
+		"price": 69.99,
+		"sku": "6j1v5N"
 	},
 	{
 		"name": "Casque supra-auriculaire sans fil Bluetooth JBL Tune 525BT Noir",
@@ -43,9 +55,15 @@
 		"brand": "JBL",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Très bon rapport qualité-prix.", "note": 4.1}],
+		"avis": [
+			{
+				"content": "Très bon rapport qualité-prix.",
+				"note": 4.1
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Casque+JBL+Tune+525BT+Noir",
-		"price": 49
+		"price": 49,
+		"sku": "Nd5vp3"
 	},
 	{
 		"name": "Casque d’écoute sans fil arceau Bose QuietComfort SC Bluetooth avec réduction active du bruit Noir",
@@ -59,9 +77,15 @@
 		"brand": "Bose",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Confort et qualité Bose garantis.", "note": 4.6}],
+		"avis": [
+			{
+				"content": "Confort et qualité Bose garantis.",
+				"note": 4.6
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Bose+QuietComfort+SC+Noir",
-		"price": 185
+		"price": 185,
+		"sku": "48b8iy"
 	},
 	{
 		"name": "Casque sans fil Bluetooth Marshall Major IV Noir",
@@ -75,9 +99,15 @@
 		"brand": "Marshall",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Basses puissantes et son clair.", "note": 4.6}],
+		"avis": [
+			{
+				"content": "Basses puissantes et son clair.",
+				"note": 4.6
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Casque+Marshall+Major+IV+Noir",
-		"price": 69
+		"price": 69,
+		"sku": "dzp3Ni"
 	},
 	{
 		"name": "Casque audio sans fil SONY Bluetooth à réduction de bruit WH-CH720N Bleu",
@@ -91,9 +121,15 @@
 		"brand": "Sony",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Fonctionne parfaitement pour les trajets quotidiens.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Fonctionne parfaitement pour les trajets quotidiens.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Casque+Sony+WH-CH720N+Bleu",
-		"price": 79
+		"price": 79,
+		"sku": "kbGbWy"
 	},
 	{
 		"name": "Casque gaming filaire circum-aural avec micro rétractable Quantum 200 Noir",
@@ -107,9 +143,15 @@
 		"brand": "JBL",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Micro clair pour communiquer en ligne.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Micro clair pour communiquer en ligne.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=JBL+Quantum+200+Noir",
-		"price": 29.9
+		"price": 29.9,
+		"sku": "5kekmo"
 	},
 	{
 		"name": "Casque audio sans fil Sony WH-CH720 Bluetooth avec réduction active du bruit Rose",
@@ -123,9 +165,15 @@
 		"brand": "Sony",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Très bonne alternative aux modèles chers.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Très bonne alternative aux modèles chers.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Casque+Sony+WH-CH720+Rose",
-		"price": 79
+		"price": 79,
+		"sku": "h4em7e"
 	},
 	{
 		"name": "Casque audio arceau sans fil Sony WH1000XM5 noir à réduction de bruit",
@@ -139,9 +187,15 @@
 		"brand": "Sony",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Son exceptionnel, autonomie longue durée.", "note": 4.8}],
+		"avis": [
+			{
+				"content": "Son exceptionnel, autonomie longue durée.",
+				"note": 4.8
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Sony+WH-1000XM5+noir",
-		"price": 275
+		"price": 275,
+		"sku": "Nzxcpt"
 	},
 	{
 		"name": "Casque arceau sans fil Bluetooth Multipoint Sony WHCH520 Noir",
@@ -155,9 +209,15 @@
 		"brand": "Sony",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Connexion multipoint très pratique.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "Connexion multipoint très pratique.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Sony+WH-CH520+Noir",
-		"price": 34.9
+		"price": 34.9,
+		"sku": "9j7Qkl"
 	},
 	{
 		"name": "Casque arceau circum-aural sans fil Bluetooth JBL Tune 720BT Noir",
@@ -171,9 +231,15 @@
 		"brand": "JBL",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Autonomie longue et recharge rapide.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Autonomie longue et recharge rapide.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=JBL+Tune+720BT+Noir",
-		"price": 49
+		"price": 49,
+		"sku": "NQe4s6"
 	},
 	{
 		"name": "Casque Circum-Auriculaire sans fil Bluetooth JBL Live 770 NC à réduction de bruit adaptative Noir",
@@ -187,9 +253,15 @@
 		"brand": "JBL",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Excellent concurrent des modèles haut de gamme.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Excellent concurrent des modèles haut de gamme.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=JBL+Live+770+NC+Noir",
-		"price": 99
+		"price": 99,
+		"sku": "NGxi9G"
 	},
 	{
 		"name": "Casque Audio Sans Fil Bluetooth 5.1 avec Coussinets Confort Modèle Hawaï Avizar Noir",
@@ -203,21 +275,39 @@
 		"brand": "Avizar",
 		"categorie": "casque",
 		"seller": "Fnac",
-		"avis": [{"content": "Prix imbattable, convient pour les enfants.", "note": 3.8}],
+		"avis": [
+			{
+				"content": "Prix imbattable, convient pour les enfants.",
+				"note": 3.8
+			}
+		],
 		"url": "https://www.fnac.com/mp52202149/Casque-Audio-Sans-Fil-Bluetooth-5-1-avec-Coussinets-Confort-Modele-Hawai-Avizar-Noir/w-4#omnsearchpos=13",
-		"price": 29.9
+		"price": 29.9,
+		"sku": "Wh53fc"
 	},
 	{
 		"seller": "Darty",
-		"avis": [{"content": "Fonctionne bien pour le prix demandé.", "note": 3.9}],
+		"avis": [
+			{
+				"content": "Fonctionne bien pour le prix demandé.",
+				"note": 3.9
+			}
+		],
 		"url": "https://www.darty.com/nav/recherche?text=Avizar+Casque+Hawaï+Noir",
-		"price": 34.9
+		"price": 34.9,
+		"sku": "6RlQRv"
 	},
 	{
 		"seller": "Amazon",
-		"avis": [{"content": "Léger et confortable.", "note": 4}],
+		"avis": [
+			{
+				"content": "Léger et confortable.",
+				"note": 4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Avizar+Casque+Hawaï+Noir",
-		"price": 29.5
+		"price": 29.5,
+		"sku": "6RlQRv"
 	},
 	{
 		"name": "Casque audio sans fil SONY Bluetooth à réduction de bruit WH-CH720N Blanc",
@@ -231,9 +321,15 @@
 		"brand": "Sony",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Bonne autonomie pour la semaine.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Bonne autonomie pour la semaine.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Casque+Sony+WH-CH720N+Blanc",
-		"price": 79.9
+		"price": 79.9,
+		"sku": "1tetm7"
 	},
 	{
 		"name": "Casque sans fil supra-aural Bose QuietComfort Ultra avec réduction active du bruit Noir",
@@ -247,9 +343,15 @@
 		"brand": "Bose",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Très confortable, même pour de longues heures.", "note": 4.7}],
+		"avis": [
+			{
+				"content": "Très confortable, même pour de longues heures.",
+				"note": 4.7
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Bose+QuietComfort+Ultra+Noir",
-		"price": 399
+		"price": 399,
+		"sku": "3t6ckp"
 	},
 	{
 		"name": "Casque audio arceau circum-aural sans fil Marshall Monitor III ANC avec réduction de bruit active Noir",
@@ -263,9 +365,15 @@
 		"brand": "Marshall",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Un son clair et puissant, typique de Marshall.", "note": 4.6}],
+		"avis": [
+			{
+				"content": "Un son clair et puissant, typique de Marshall.",
+				"note": 4.6
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Marshall+Monitor+III+ANC+Noir",
-		"price": 245
+		"price": 245,
+		"sku": "778bk7"
 	},
 	{
 		"name": "Casque arceau circum-aural sans fil Bluetooth avec réduction de bruit Sony ULT Wear WH-ULT900NB Noir",
@@ -279,9 +387,15 @@
 		"brand": "Sony",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Réduction de bruit efficace et bon prix.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Réduction de bruit efficace et bon prix.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Casque+Sony+ULT+Wear+WH-ULT900NB+Noir",
-		"price": 119.99
+		"price": 119.99,
+		"sku": "exaehd"
 	},
 	{
 		"name": "Casque de sport sans fil à conduction osseuse Shokz Bluetooth Noir",
@@ -295,9 +409,15 @@
 		"brand": "Shokz",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Tiens très bien en place même en mouvement.", "note": 4.7}],
+		"avis": [
+			{
+				"content": "Tiens très bien en place même en mouvement.",
+				"note": 4.7
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Casque+Shokz+Bluetooth+Noir",
-		"price": 99
+		"price": 99,
+		"sku": "dl9bsm"
 	},
 	{
 		"name": "Casque Gaming filaire HyperX Cloud Alpha Noir et Rouge",
@@ -311,9 +431,15 @@
 		"brand": "HyperX",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Casque très durable et robuste.", "note": 4.6}],
+		"avis": [
+			{
+				"content": "Casque très durable et robuste.",
+				"note": 4.6
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=HyperX+Cloud+Alpha+Noir+Rouge",
-		"price": 79.99
+		"price": 79.99,
+		"sku": "4hjp6i"
 	},
 	{
 		"name": "Casque micro gaming sans fil SteelSeries Arctis Nova 5P Bluetooth Blanc",
@@ -327,9 +453,15 @@
 		"brand": "SteelSeries",
 		"categorie": "casque",
 		"seller": "Amazon",
-		"avis": [{"content": "Connexion Bluetooth stable et rapide.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Connexion Bluetooth stable et rapide.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=SteelSeries+Arctis+Nova+5P+Blanc",
-		"price": 129.99
+		"price": 129.99,
+		"sku": "vc6vsN"
 	},
 	{
 		"name": "PC portable Samsung Galaxy Book4 Edge 15,6\" Copilot+ Snapdragon® X 16 Go RAM 512 Go SSD Gris glacier",
@@ -343,9 +475,15 @@
 		"brand": "Samsung",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Design premium et très fin.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Design premium et très fin.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Book4+Edge+Snapdragon+X",
-		"price": 1580
+		"price": 1580,
+		"sku": "5ktjh5"
 	},
 	{
 		"name": "A52 PRO BLACKVIEW Android Téléphone mobile Bleu -6.5 4Go/128Go 4G smartphone Octa core",
@@ -359,9 +497,15 @@
 		"brand": "Blackview",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Écran large et bonne capacité de stockage pour le prix.", "note": 4.1}],
+		"avis": [
+			{
+				"content": "Écran large et bonne capacité de stockage pour le prix.",
+				"note": 4.1
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=BLACKVIEW+A52+PRO+Android+Bleu",
-		"price": 75.99
+		"price": 75.99,
+		"sku": "d55km4"
 	},
 	{
 		"name": "PC portable - 15.6\"FHD+ - 32 Go de RAM 512 Go SSD - Intel® Pentium® Gold 6500Y(2C/4T Jusqu'à 2,9 GHz) - Windows 11 PRO - Ordinateur",
@@ -375,9 +519,15 @@
 		"brand": "Générique / Reseller",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Windows 11 Pro est un plus.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Windows 11 Pro est un plus.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=PC+portable+Pentium+Gold+32Go+RAM",
-		"price": 315
+		"price": 315,
+		"sku": "Nl5WNQ"
 	},
 	{
 		"name": "Pack Smartphone Xiaomi Redmi Note 14 6,67\" 5G Double nano SIM 256 Go Noir minuit + Enceinte portable Bluetooth Sound Pocket Noir",
@@ -391,9 +541,15 @@
 		"brand": "Xiaomi",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "L'enceinte est un petit bonus sympa.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "L'enceinte est un petit bonus sympa.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Xiaomi+Redmi+Note+14+5G+Enceinte",
-		"price": 249
+		"price": 249,
+		"sku": "vpji4U"
 	},
 	{
 		"name": "PC portable Acer Aspire Lite 15 AL15-32P-C96Y 15,6\" Full HD 60 Hz Intel® Celeron® 4 Go RAM 128 Go eMMC Argent",
@@ -407,9 +563,15 @@
 		"brand": "Acer",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Léger et facile à transporter.", "note": 4.1}],
+		"avis": [
+			{
+				"content": "Léger et facile à transporter.",
+				"note": 4.1
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Acer+Aspire+Lite+15+Celeron",
-		"price": 245
+		"price": 245,
+		"sku": "GG4m29"
 	},
 	{
 		"name": "PC portable HP 15-fd1016nf Intel® Core™ i5 16 Go RAM 512 Go SSD Argent Naturel",
@@ -423,9 +585,15 @@
 		"brand": "HP",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Design élégant et discret.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Design élégant et discret.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=PC+portable+HP+15-fd1016nf+i5",
-		"price": 689
+		"price": 689,
+		"sku": "mNfUi3"
 	},
 	{
 		"name": "Smartphone Samsung Galaxy A16 6,7\" Nano SIM 128 Go Bleu nuit",
@@ -439,9 +607,15 @@
 		"brand": "Samsung",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Interface simple et conviviale.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Interface simple et conviviale.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+A16+Bleu+nuit",
-		"price": 169
+		"price": 169,
+		"sku": "4bop6e"
 	},
 	{
 		"name": "Téléphone portable basique Logicom Posh 405 1,77\" Double SIM 48 Mo Noir",
@@ -455,9 +629,15 @@
 		"brand": "Logicom",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Simple, efficace et pas cher.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Simple, efficace et pas cher.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Logicom+Posh+405+Noir",
-		"price": 20
+		"price": 20,
+		"sku": "kvzp87"
 	},
 	{
 		"name": "Smartphone Doogee Note 58 6.75 32Go 128Go Android 15 Telephone Portable dual sim 4G-Argent",
@@ -471,9 +651,15 @@
 		"brand": "Doogee",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Capacité de stockage suffisante.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Capacité de stockage suffisante.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Doogee+Note+58+Telephone+Argent",
-		"price": 94.99
+		"price": 94.99,
+		"sku": "Gvhid3"
 	},
 	{
 		"name": "PC portable Acer Aspire Go 15 AG15-42P-R99J 15,6\" Full HD 60 Hz AMD Ryzen™ 5 8 Go RAM 512 Go SSD Argent",
@@ -487,9 +673,15 @@
 		"brand": "Acer",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Convient au montage vidéo léger.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Convient au montage vidéo léger.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Acer+Aspire+Go+15+Ryzen+5",
-		"price": 495
+		"price": 495,
+		"sku": "8134i1"
 	},
 	{
 		"name": "PC portable Lenovo IdeaPad Slim 3 15IAN8 15,6\" Intel® Core™ i3 8 Go RAM 128 Go SSD Gris arctique",
@@ -503,9 +695,15 @@
 		"brand": "Lenovo",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "SSD rapide pour le démarrage.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "SSD rapide pour le démarrage.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Lenovo+IdeaPad+Slim+3+i3+15.6",
-		"price": 475
+		"price": 475,
+		"sku": "a13o9z"
 	},
 	{
 		"name": "Smartphone Logicom Aero 6,5\" Double nano SIM 64 Go Noir",
@@ -519,9 +717,15 @@
 		"brand": "Logicom",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Parfait comme téléphone secondaire.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Parfait comme téléphone secondaire.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Logicom+Aero+64+Go+Noir",
-		"price": 79.99
+		"price": 79.99,
+		"sku": "fxcc2b"
 	},
 	{
 		"name": "PC portable Samsung Galaxy Book4 Edge 15,6\" Copilot+ Snapdragon® X 16 Go RAM 512 Go SSD Gris glacier",
@@ -535,9 +739,15 @@
 		"brand": "Samsung",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Expérience Copilot+ très fluide.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Expérience Copilot+ très fluide.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Book4+Edge+Snapdragon+X",
-		"price": 1580
+		"price": 1580,
+		"sku": "5ktjh5"
 	},
 	{
 		"name": "Pack PC portable Lenovo IdeaPad Slim 3 15ABR8 15,6\" AMD Ryzen™ 5 16 Go RAM 512 Go SSD Gris + Sac à dos Noir",
@@ -551,9 +761,15 @@
 		"brand": "Lenovo",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "16 Go de RAM est parfait pour le multitâche.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "16 Go de RAM est parfait pour le multitâche.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Pack+PC+portable+Lenovo+IdeaPad+Slim+3+Ryzen+5",
-		"price": 595
+		"price": 595,
+		"sku": "kkpN4x"
 	},
 	{
 		"name": "PC portable-Intel Alder Lake N95(4 cœurs/4 threads)-NVIDIA GeForce MX330-16Go RAM DDR4 512Go SSD-Windows 11 PRO-Ordinateur Portable",
@@ -567,9 +783,15 @@
 		"brand": "Générique / Reseller",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Très bon écran et configuration solide.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "Très bon écran et configuration solide.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=PC+portable+N95+MX330+16Go+RAM",
-		"price": 345
+		"price": 345,
+		"sku": "c6zoNl"
 	},
 	{
 		"name": "PC Portable Samsung Galaxy Book4 Pro 14\" WQXGA+ écran tactile 120 Hz Intel® Core™ Ultra 5 16 Go RAM 512 Go SSD Gris anthracite",
@@ -583,9 +805,15 @@
 		"brand": "Samsung",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Performances IA fluides avec le Core Ultra.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Performances IA fluides avec le Core Ultra.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Book4+Pro+Core+Ultra+5",
-		"price": 1489
+		"price": 1489,
+		"sku": "Uflpka"
 	},
 	{
 		"name": "PC portable HP 17-cp3021nf 17,3\" AMD Ryzen™ 7 16 Go RAM 1 To SSD Argent Naturel",
@@ -599,9 +827,15 @@
 		"brand": "HP",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Bonne machine de remplacement de PC de bureau.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Bonne machine de remplacement de PC de bureau.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=PC+portable+HP+17-cp3021nf+Ryzen+7",
-		"price": 789
+		"price": 789,
+		"sku": "tc6vQ3"
 	},
 	{
 		"name": "CUBOT A20 Téléphone Portable 6.745” HD+ 12GO RAM 128GO Smartphone Android 14 5100mAh Dual SIM 4G-Noir",
@@ -615,9 +849,15 @@
 		"brand": "Cubot",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Fonctionnel et bon pour la communication.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Fonctionnel et bon pour la communication.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=CUBOT+A20+Telephone+Portable+Noir",
-		"price": 89.99
+		"price": 89.99,
+		"sku": "2s7G9N"
 	},
 	{
 		"name": "PC portable HP OmniBook X Flip Next Gen AI 14-fm0007nf 14” Ecran tactile OLED Copilot+ Intel® Core™ Ultra 7 32 Go RAM 1 To SSD Bleu atmosphérique",
@@ -631,9 +871,15 @@
 		"brand": "HP",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Design convertible très pratique.", "note": 4.6}],
+		"avis": [
+			{
+				"content": "Design convertible très pratique.",
+				"note": 4.6
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=HP+OmniBook+X+Flip+Core+Ultra+7",
-		"price": 2489
+		"price": 2489,
+		"sku": "clae35"
 	},
 	{
 		"name": "PC portable Acer Aspire 14 AI A14-52M 14\" Copilot+ Intel® Core™ Ultra 5 16 Go RAM 512 Go SSD Gris acier",
@@ -647,9 +893,15 @@
 		"brand": "Acer",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Idéal pour l'université ou le travail nomade.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Idéal pour l'université ou le travail nomade.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Acer+Aspire+14+AI+Core+Ultra+5",
-		"price": 795
+		"price": 795,
+		"sku": "Ne5hiG"
 	},
 	{
 		"name": "Smartphone Logicom Ezy 2 5\" Double Nano SIM Noir",
@@ -663,9 +915,15 @@
 		"brand": "Logicom",
 		"categorie": "portable",
 		"seller": "Amazon",
-		"avis": [{"content": "Autonomie correcte et bonne prise en main.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Autonomie correcte et bonne prise en main.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Logicom+Ezy+2+Smartphone+Noir",
-		"price": 59
+		"price": 59,
+		"sku": "oof4Qv"
 	},
 	{
 		"name": "Pack Tablette tactile Xiaomi Redmi Pad 2 11\" Wifi 128 Go Gris + Etui + Clavier + Stylet",
@@ -679,9 +937,15 @@
 		"brand": "Xiaomi",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Grande tablette avec un bel écran.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Grande tablette avec un bel écran.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Pack+Tablette+Xiaomi+Redmi+Pad+2+Clavier+Stylet",
-		"price": 199
+		"price": 199,
+		"sku": "aeWWoW"
 	},
 	{
 		"name": "Tablette Tactile Lenovo Idea Tab Pro 12,7\" 128 Go Gris Luna + stylet Lenovo Tab Pen Plus + Clavier",
@@ -695,9 +959,15 @@
 		"brand": "Lenovo",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Un excellent rapport qualité-prix pour le pack complet.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Un excellent rapport qualité-prix pour le pack complet.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Lenovo+IdeaTab+Pro+12.7+Clavier+Stylet",
-		"price": 345
+		"price": 345,
+		"sku": "m152xp"
 	},
 	{
 		"name": "Pack Tablette Tactile Lenovo Idea Tab 11\" Wi-Fi 128 Go Gris anthracite + Stylet + Coque de protection",
@@ -711,9 +981,15 @@
 		"brand": "Lenovo",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Léger et l'écran est de bonne qualité.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Léger et l'écran est de bonne qualité.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Lenovo+Idea+Tab+11+Stylet+Coque",
-		"price": 195
+		"price": 195,
+		"sku": "ofe27c"
 	},
 	{
 		"name": "Tablette tactile 5G WiFi Android 12 32Go avec Clavier et Stylo 10\"",
@@ -727,9 +1003,15 @@
 		"brand": "Générique / Reseller",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Très bon prix pour un pack complet.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Très bon prix pour un pack complet.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Tablette+tactile+10+pouces+avec+Clavier+et+Stylo",
-		"price": 74.5
+		"price": 74.5,
+		"sku": "42GmUe"
 	},
 	{
 		"name": "Pack Tablette Tactile Lenovo Tab One 8,7\" 64 Go Gris anthracite + coque de protection transparente",
@@ -743,9 +1025,15 @@
 		"brand": "Lenovo",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "La coque protège bien l'appareil.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "La coque protège bien l'appareil.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Lenovo+Tab+One+8.7+64+Go",
-		"price": 119
+		"price": 119,
+		"sku": "172G8G"
 	},
 	{
 		"name": "Tablette Tactile Samsung Galaxy Tab A9+ 11\" Wifi 128 Go Anthracite",
@@ -759,9 +1047,15 @@
 		"brand": "Samsung",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Excellent rapport qualité-prix chez Samsung.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Excellent rapport qualité-prix chez Samsung.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+A9++128+Go",
-		"price": 269.99
+		"price": 269.99,
+		"sku": "4Neico"
 	},
 	{
 		"name": "Tablette 10.1 Pouces, Android 13, Wi-Fi6, 12Go+256Go Tablette Tactile Dual Caméra 8MP+16MP Octa-Core 7560mAh Batterie, Tablette avec clavier et étui-Noir",
@@ -775,9 +1069,15 @@
 		"brand": "Générique / Reseller",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Fait bien le travail pour un usage basique.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Fait bien le travail pour un usage basique.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Tablette+10.1+Pouces+Android+13+clavier",
-		"price": 74.5
+		"price": 74.5,
+		"sku": "zfyR64"
 	},
 	{
 		"name": "Tablette Tactile Lenovo Tab M11 11\" 128 Go Gris luna + Lenovo Tab Pen",
@@ -791,15 +1091,27 @@
 		"brand": "Lenovo",
 		"categorie": "tablette",
 		"seller": "Fnac",
-		"avis": [{"content": "Bonne qualité d'écran pour regarder des films.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "Bonne qualité d'écran pour regarder des films.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.fnac.com/LENOVO-TAB-M11-4-128GB-PLUS-PEN/a19319161/w-4#omnsearchpos=8",
-		"price": 161.3
+		"price": 161.3,
+		"sku": "Uih6bz"
 	},
 	{
 		"seller": "Amazon",
-		"avis": [{"content": "Bonne alternative à l'iPad en Android.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Bonne alternative à l'iPad en Android.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Lenovo+Tab+M11+128+Go+Pen",
-		"price": 160
+		"price": 160,
+		"sku": "6RlQRv"
 	},
 	{
 		"name": "Pack Tablette Tactile Samsung Galaxy Tab S10 Lite 10,9\" Wi-Fi 128 Go Anthracite + Book Cover",
@@ -813,9 +1125,15 @@
 		"brand": "Samsung",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Légère et idéale pour la lecture.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Légère et idéale pour la lecture.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+S10+Lite+128+Go+Book+Cover",
-		"price": 415
+		"price": 415,
+		"sku": "tNUooy"
 	},
 	{
 		"name": "Tablette Tactile Samsung Galaxy Tab A9+ 11\" Wifi 128 Go Bleu marine",
@@ -829,9 +1147,15 @@
 		"brand": "Samsung",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Bon rapport qualité/prix pour la taille.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Bon rapport qualité/prix pour la taille.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+A9++128+Go+Bleu",
-		"price": 269.99
+		"price": 269.99,
+		"sku": "js4eNz"
 	},
 	{
 		"name": "Tablette Tactile Logicom Tab 210 10,1\" 64 Go Noir",
@@ -845,9 +1169,15 @@
 		"brand": "Logicom",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Bon rapport qualité-prix, facile à utiliser.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Bon rapport qualité-prix, facile à utiliser.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Tablette+Logicom+Tab+210+64+Go",
-		"price": 79
+		"price": 79,
+		"sku": "9RmckW"
 	},
 	{
 		"name": "Tablette， 12 + 256 Go ，Android 15，blue，wifi+ Etui de protection，blue",
@@ -861,9 +1191,15 @@
 		"brand": "Générique / Reseller",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "L'étui de protection est un plus appréciable.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "L'étui de protection est un plus appréciable.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Tablette+Android+15+12Go+RAM+256Go+SSD",
-		"price": 74.5
+		"price": 74.5,
+		"sku": "UpWvey"
 	},
 	{
 		"name": "Pack Tablette Tactile Lenovo Idea Tab 11\" Wi-Fi 128 Go Gris anthracite + Stylet et coque de protection avec clavier",
@@ -877,9 +1213,15 @@
 		"brand": "Lenovo",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Très bon rapport qualité-prix, idéal pour le travail nomade.", "note": 4.6}],
+		"avis": [
+			{
+				"content": "Très bon rapport qualité-prix, idéal pour le travail nomade.",
+				"note": 4.6
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Pack+Lenovo+Idea+Tab+11+Clavier+Stylet",
-		"price": 215
+		"price": 215,
+		"sku": "9cvp7W"
 	},
 	{
 		"name": "Tablette tactile enfant Archos T101 10,1\" Wifi 64 Go + Coque Support",
@@ -893,9 +1235,15 @@
 		"brand": "Archos",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Bonne taille pour les jeunes enfants.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Bonne taille pour les jeunes enfants.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Tablette+Archos+T101+enfant+Coque",
-		"price": 99
+		"price": 99,
+		"sku": "p3m34h"
 	},
 	{
 		"name": "Pack Tablette tactile Samsung Galaxy Tab A11+ 11\" 128 Go Gris + Book Cover Hybride",
@@ -909,9 +1257,15 @@
 		"brand": "Samsung",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Idéale pour le visionnage de films et séries.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Idéale pour le visionnage de films et séries.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Pack+Samsung+Galaxy+Tab+A11++128+Go",
-		"price": 255
+		"price": 255,
+		"sku": "sojiU2"
 	},
 	{
 		"name": "Apple iPad 32 Go WiFi Gris Sidéral 9.7\"",
@@ -925,9 +1279,15 @@
 		"brand": "Apple",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Parfait pour les applications de base.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Parfait pour les applications de base.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Apple+iPad+32+Go+WiFi+9.7+Reconditionné",
-		"price": 95
+		"price": 95,
+		"sku": "Gxvzb9"
 	},
 	{
 		"name": "Tablette Tactile Samsung Galaxy Tab A9+ 11\" Wifi 256 Go Anthracite",
@@ -941,9 +1301,15 @@
 		"brand": "Samsung",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Performances stables et bonne fluidité.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Performances stables et bonne fluidité.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+A9++256+Go",
-		"price": 239
+		"price": 239,
+		"sku": "lj7U6R"
 	},
 	{
 		"name": "Tablette Tactile Xiaomi Redmi Pad SE 11\" Wifi 128 Go Noir graphite",
@@ -957,9 +1323,15 @@
 		"brand": "Xiaomi",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Qualité de fabrication très satisfaisante.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Qualité de fabrication très satisfaisante.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Xiaomi+Redmi+Pad+SE+128+Go+Noir",
-		"price": 195
+		"price": 195,
+		"sku": "pt2Gpo"
 	},
 	{
 		"name": "Tablette tactile Samsung Galaxy Tab A9+ 11\" Wifi 64 Go Gris Anthracite",
@@ -973,9 +1345,15 @@
 		"brand": "Samsung",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Bonne qualité audio.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Bonne qualité audio.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Tab+A9++64+Go",
-		"price": 215
+		"price": 215,
+		"sku": "j1vheG"
 	},
 	{
 		"name": "Tablette Enfant 7 Pouces, Veidoo Android 2Go+32Go, Écran Tactile HD, Contrôle Parental, Éducative - Rose",
@@ -989,9 +1367,15 @@
 		"brand": "Veidoo",
 		"categorie": "tablette",
 		"seller": "Amazon",
-		"avis": [{"content": "Robuste et bien adaptée aux petites mains.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Robuste et bien adaptée aux petites mains.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Tablette+Enfant+Veidoo+7+Pouces+Rose",
-		"price": 45
+		"price": 45,
+		"sku": "plf9af"
 	},
 	{
 		"name": "PC Portable Microsoft Surface Laptop 13\" Ecran Tactile Copilot+ PC Qualcomm® Snapdragon® X Plus 16 Go RAM 512 Go SSD Violet",
@@ -1005,9 +1389,15 @@
 		"brand": "Microsoft",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "L'écran tactile est très réactif.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "L'écran tactile est très réactif.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Microsoft+Surface+Laptop+Snapdragon+X+Plus+Violet",
-		"price": 1199
+		"price": 1199,
+		"sku": "s1bso8"
 	},
 	{
 		"name": "PC portable Acer Aspire Lite 15 AL15-32P-C96Y 15,6\" Full HD 60 Hz Intel® Celeron® 4 Go RAM 128 Go eMMC Argent",
@@ -1021,9 +1411,15 @@
 		"brand": "Acer",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Léger et fonctionne bien pour la navigation.", "note": 4.1}],
+		"avis": [
+			{
+				"content": "Léger et fonctionne bien pour la navigation.",
+				"note": 4.1
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Acer+Aspire+Lite+15+Celeron+4+Go+RAM",
-		"price": 245
+		"price": 245,
+		"sku": "GG4m29"
 	},
 	{
 		"name": "PC portable Lenovo IdeaPad Slim 3 15IAN8 15,6\" Intel® Core™ i3 8 Go RAM 128 Go SSD Gris arctique",
@@ -1037,9 +1433,15 @@
 		"brand": "Lenovo",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Démarrage rapide grâce au SSD.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Démarrage rapide grâce au SSD.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Lenovo+IdeaPad+Slim+3+Core+i3+15.6",
-		"price": 475
+		"price": 475,
+		"sku": "a13o9z"
 	},
 	{
 		"name": "PC portable - 15.6\"FHD+ - 32 Go de RAM 512 Go SSD - Intel® Pentium® Gold 6500Y(2C/4T Jusqu'à 2,9 GHz) - Windows 11 PRO - Ordinateur",
@@ -1053,9 +1455,15 @@
 		"brand": "Générique / Reseller",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Bonnes performances pour le prix.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Bonnes performances pour le prix.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=PC+portable+Pentium+Gold+32Go+RAM",
-		"price": 315
+		"price": 315,
+		"sku": "Nl5WNQ"
 	},
 	{
 		"name": "PC portable HP 15-fd1016nf Intel® Core™ i5 16 Go RAM 512 Go SSD Argent Naturel",
@@ -1069,9 +1477,15 @@
 		"brand": "HP",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Très bonne autonomie et design agréable.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Très bonne autonomie et design agréable.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=PC+portable+HP+15-fd1016nf+i5+16Go+RAM",
-		"price": 689
+		"price": 689,
+		"sku": "mNfUi3"
 	},
 	{
 		"name": "PC portable Acer Aspire Go 15 AG15-42P-R99J 15,6\" Full HD 60 Hz AMD Ryzen™ 5 8 Go RAM 512 Go SSD Argent",
@@ -1085,9 +1499,15 @@
 		"brand": "Acer",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Excellent rapport qualité-prix.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Excellent rapport qualité-prix.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Acer+Aspire+Go+15+Ryzen+5",
-		"price": 495
+		"price": 495,
+		"sku": "8134i1"
 	},
 	{
 		"name": "Chromebook Lenovo Duet 11M889 10,95\" MediaTek 8 Go RAM 128 Go eMMC Tactile Gris luna",
@@ -1101,9 +1521,15 @@
 		"brand": "Lenovo",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Bonne qualité d'écran pour ce prix.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Bonne qualité d'écran pour ce prix.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Chromebook+Lenovo+Duet+11",
-		"price": 275
+		"price": 275,
+		"sku": "R4kcpo"
 	},
 	{
 		"name": "Greed® MK2 - PC Gamer - AMD Ryzen 7 5700X + Nvidia Geforce RTX 5060 - Ordinateur de Bureau / PC Gaming - 4,6 GHz - 4K & Raytracing - 32GO DDR4 RAM - 1To SSD - WiFi + Windows 11 Pro",
@@ -1117,9 +1543,15 @@
 		"brand": "Greed / Reseller",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Windows 11 Pro et SSD rapide.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Windows 11 Pro et SSD rapide.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=PC+Gamer+Ryzen+7+RTX+5060",
-		"price": 1479
+		"price": 1479,
+		"sku": "Ucz8av"
 	},
 	{
 		"name": "PC portable Gaming HP Victus 15-fb3025nf 15,6\" Full HD 144 Hz AMD Ryzen™ 5 16 Go RAM 512 Go SSD AMD Radeon RX 6550M Argent Mica",
@@ -1133,9 +1565,15 @@
 		"brand": "HP",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Design sobre et efficace.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Design sobre et efficace.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=PC+portable+Gaming+HP+Victus+15+RX+6550M",
-		"price": 695
+		"price": 695,
+		"sku": "f9aQco"
 	},
 	{
 		"name": "Chromebook Acer 314 CBOA314-1HC69G 14'' 60 Hz LCD Intel® Celeron 8 Go RAM 128 Go eMMC Noir",
@@ -1149,9 +1587,15 @@
 		"brand": "Acer",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Idéal pour les petits budgets.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Idéal pour les petits budgets.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Chromebook+Acer+314+8+Go+RAM",
-		"price": 295
+		"price": 295,
+		"sku": "h7Qf9h"
 	},
 	{
 		"name": "Chromebook Lenovo Duet 11M889 10,95\" MediaTek 8 Go RAM 128 Go eMMC Tactile Gris luna",
@@ -1165,9 +1609,15 @@
 		"brand": "Lenovo",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Idéal pour le streaming et les applications Android.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Idéal pour le streaming et les applications Android.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Chromebook+Lenovo+Duet+11",
-		"price": 275
+		"price": 275,
+		"sku": "R4kcpo"
 	},
 	{
 		"name": "Pack Chromebook Asus Plus CX3402CVA-MW0999 14\" écran tactile Intel® Core™ i3 8 Go RAM 256 Go SSD Gris + Pochette + Souris",
@@ -1181,9 +1631,15 @@
 		"brand": "Asus",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Écran tactile réactif et bonne autonomie.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Écran tactile réactif et bonne autonomie.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Chromebook+Asus+CX3402CVA+i3+Pack",
-		"price": 445
+		"price": 445,
+		"sku": "Wycako"
 	},
 	{
 		"name": "Ordinateur portable - HP - HP ProBook - - 256Go SSD - Intel Core i5-4200M 2,5GHz - 8Go (8192Mo)",
@@ -1197,9 +1653,15 @@
 		"brand": "HP",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Fiable et robuste (gamme ProBook).", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Fiable et robuste (gamme ProBook).",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=HP+ProBook+Core+i5-4200M+reconditionné",
-		"price": 275
+		"price": 275,
+		"sku": "443chi"
 	},
 	{
 		"name": "PC portable Asus Vivobook 15 E510KA-DRFBQ1307W 15,6\" Full HD 60 Hz Intel® Celeron® 8 Go RAM 128 Go eMMC Noir",
@@ -1213,9 +1675,15 @@
 		"brand": "Asus",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Parfait pour le streaming vidéo.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Parfait pour le streaming vidéo.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=PC+portable+Asus+Vivobook+15+Celeron+8Go",
-		"price": 325
+		"price": 325,
+		"sku": "xa1s1l"
 	},
 	{
 		"name": "PC Portable YOGA-15,6FullView Ecran Tactile 360°Rotation-AMD RYZEN3 3200U-16Go RAM-512Go SSD-Ordinateur Portable- AZERTY",
@@ -1229,9 +1697,15 @@
 		"brand": "Générique / Reseller",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Ryzen 3 et SSD pour une bonne rapidité.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Ryzen 3 et SSD pour une bonne rapidité.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=PC+Portable+Tactile+360+Ryzen+3",
-		"price": 365
+		"price": 365,
+		"sku": "z7ydfR"
 	},
 	{
 		"name": "PC portable HP Zbook Firefly 14 G7 14\" Full HD Intel® Core™ i5 16 Go RAM 256 Go SSD Argent Reconditionné",
@@ -1245,9 +1719,15 @@
 		"brand": "HP",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "16 Go de RAM très appréciables.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "16 Go de RAM très appréciables.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=HP+Zbook+Firefly+14+G7+Core+i5+Reconditionné",
-		"price": 345
+		"price": 345,
+		"sku": "d25Q75"
 	},
 	{
 		"name": "Chromebook Acer Plus 516 CB516-1HT 16” Tactile Intel® Core™ i3 8 Go RAM 512 Go SSD Gris Acier",
@@ -1261,9 +1741,15 @@
 		"brand": "Acer",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Rapide et parfait pour le Cloud Gaming.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Rapide et parfait pour le Cloud Gaming.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Chromebook+Acer+Plus+516+Core+i3",
-		"price": 495
+		"price": 495,
+		"sku": "pl5osp"
 	},
 	{
 		"name": "PC portable Lenovo T14 G2 14\" Ecran Tactile Intel® Core i5 16 Go RAM 256 Go SSD Noir Reconditionné",
@@ -1277,9 +1763,15 @@
 		"brand": "Lenovo",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Écran tactile réactif et portable durable.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Écran tactile réactif et portable durable.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Lenovo+T14+G2+Core+i5+Reconditionné",
-		"price": 475
+		"price": 475,
+		"sku": "Nhh8zk"
 	},
 	{
 		"name": "PC portable Samsung Galaxy Book4 Edge 15,6\" Copilot+ Snapdragon® X 16 Go RAM 512 Go SSD Gris glacier",
@@ -1293,9 +1785,15 @@
 		"brand": "Samsung",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Performances solides pour le travail quotidien.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Performances solides pour le travail quotidien.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Samsung+Galaxy+Book4+Edge+Snapdragon+X",
-		"price": 1580
+		"price": 1580,
+		"sku": "5ktjh5"
 	},
 	{
 		"name": "PC portable HP 14-ep0052nf 14\" Intel® Core™ i7 16 Go RAM 512 Go SSD Argent Naturel",
@@ -1309,9 +1807,15 @@
 		"brand": "HP",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Portable très fiable et bien équipé.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Portable très fiable et bien équipé.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=PC+portable+HP+14-ep0052nf+Core+i7",
-		"price": 699
+		"price": 699,
+		"sku": "311pi7"
 	},
 	{
 		"name": "PC portable-Intel Alder Lake N95(4 cœurs/4 threads)-NVIDIA GeForce MX330-16Go RAM DDR4 512Go SSD-Windows 11 PRO-Ordinateur Portable",
@@ -1325,9 +1829,15 @@
 		"brand": "Générique / Reseller",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Idéal pour les étudiants et la bureautique.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Idéal pour les étudiants et la bureautique.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=PC+portable+N95+MX330+16Go+RAM",
-		"price": 345
+		"price": 345,
+		"sku": "c6zoNl"
 	},
 	{
 		"name": "PC portable HP 17-cp3021nf 17,3\" AMD Ryzen™ 7 16 Go RAM 1 To SSD Argent Naturel",
@@ -1341,9 +1851,15 @@
 		"brand": "HP",
 		"categorie": "ordinateur",
 		"seller": "Amazon",
-		"avis": [{"content": "Performances solides pour un PC grand format.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Performances solides pour un PC grand format.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=PC+portable+HP+17-cp3021nf+Ryzen+7",
-		"price": 795
+		"price": 795,
+		"sku": "tc6vQ3"
 	},
 	{
 		"name": "TV Tcl QLED 55P89K 138 cm 2025",
@@ -1357,9 +1873,15 @@
 		"brand": "TCL",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Smart TV complète avec toutes les applications.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Smart TV complète avec toutes les applications.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=TV+Tcl+QLED+55P89K+2025",
-		"price": 595
+		"price": 595,
+		"sku": "7WfU1b"
 	},
 	{
 		"name": "Smart Tech TV LED 4K UHD 55' (139 cm) Smart TV Web OS-55UW02K- Molotov, Netflix, Prime Video, Disney+ - 3xHDMI - 2xUSB - MEMC- Dolby Audio",
@@ -1373,21 +1895,39 @@
 		"brand": "Smart Tech",
 		"categorie": "télévision",
 		"seller": "Fnac",
-		"avis": [{"content": "Prix choc pour une TV 55 pouces 4K.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "Prix choc pour une TV 55 pouces 4K.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.fnac.com/mp52594754/Smart-Tech-TV-LED-4K-UHD-55-139-cm-Smart-TV-Web-OS-55UW02K-Molotov-Netflix-Prime-Video-Disney-3xHDMI-2xUSB-MEMC-Dolby-Audio/w-4#omnsearchpos=1",
-		"price": 299.9
+		"price": 299.9,
+		"sku": "kf56Rm"
 	},
 	{
 		"seller": "Darty",
-		"avis": [{"content": "Web OS est une interface très fluide.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Web OS est une interface très fluide.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.darty.com/nav/recherche?text=TV+Smart+Tech+55UW02K+Web+OS",
-		"price": 319.9
+		"price": 319.9,
+		"sku": "6RlQRv"
 	},
 	{
 		"seller": "Amazon",
-		"avis": [{"content": "Très bon choix pour un salon.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Très bon choix pour un salon.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+LED+4K+UHD+55+Web+OS",
-		"price": 295
+		"price": 295,
+		"sku": "6RlQRv"
 	},
 	{
 		"name": "Smart Tech TV LED Full HD 22 (55 cm) 22FN01V, HDMI, USB, Résolution: 1920 * 1080",
@@ -1401,21 +1941,39 @@
 		"brand": "Smart Tech",
 		"categorie": "télévision",
 		"seller": "Fnac",
-		"avis": [{"content": "Parfait comme écran de moniteur ou petite TV.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "Parfait comme écran de moniteur ou petite TV.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.fnac.com/mp50932845/Smart-Tech-TV-LED-Full-HD-22-55-cm-22FN01V-HDMI-USB-Resolution-1920-1080/w-4#omnsearchpos=2",
-		"price": 99.9
+		"price": 99.9,
+		"sku": "3oz6tQ"
 	},
 	{
 		"seller": "Darty",
-		"avis": [{"content": "Léger et facile à installer.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Léger et facile à installer.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.darty.com/nav/recherche?text=TV+Smart+Tech+22+Full+HD",
-		"price": 109.9
+		"price": 109.9,
+		"sku": "6RlQRv"
 	},
 	{
 		"seller": "Amazon",
-		"avis": [{"content": "Très bon rapport qualité-prix en petite taille.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Très bon rapport qualité-prix en petite taille.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+LED+Full+HD+22",
-		"price": 99
+		"price": 99,
+		"sku": "6RlQRv"
 	},
 	{
 		"name": "Smart Tech TV LED 4K UHD 43' (108 cm) Smart TV Web OS-43UW02V- Netflix, Prime Video, Youtube - 3xHDMI - 2xUSB - MEMC- DOLBY Audio",
@@ -1429,21 +1987,39 @@
 		"brand": "Smart Tech",
 		"categorie": "télévision",
 		"seller": "Fnac",
-		"avis": [{"content": "4K et Smart TV pour un prix imbattable.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "4K et Smart TV pour un prix imbattable.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.fnac.com/mp50448451/Smart-Tech-TV-LED-4K-UHD-43-108-cm-Smart-TV-Web-OS-43UW02V-Molotov-Netflix-Prime-Video-Canal-Disney-3xHDMI-2xUSB-MEMC-DOLBY-Audio/w-4#omnsearchpos=3",
-		"price": 219.9
+		"price": 219.9,
+		"sku": "ozj5ta"
 	},
 	{
 		"seller": "Darty",
-		"avis": [{"content": "Web OS est très fluide pour les applications.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Web OS est très fluide pour les applications.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.darty.com/nav/recherche?text=TV+Smart+Tech+43UW02V+Web+OS",
-		"price": 229.9
+		"price": 229.9,
+		"sku": "6RlQRv"
 	},
 	{
 		"seller": "Amazon",
-		"avis": [{"content": "Image correcte pour le prix d'entrée.", "note": 4.2}],
+		"avis": [
+			{
+				"content": "Image correcte pour le prix d'entrée.",
+				"note": 4.2
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+LED+4K+UHD+43+Web+OS",
-		"price": 215
+		"price": 215,
+		"sku": "6RlQRv"
 	},
 	{
 		"name": "TV Hisense QLED 50E79Q PRO 126 cm 2025",
@@ -1457,9 +2033,15 @@
 		"brand": "Hisense",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Couleurs éclatantes et bon contraste.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Couleurs éclatantes et bon contraste.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=TV+Hisense+QLED+50E79Q+PRO",
-		"price": 445
+		"price": 445,
+		"sku": "tac8je"
 	},
 	{
 		"name": "Smart Tech TV LED 4K UHD 50' (127cm) Smart TV Web OS-50UW02K- Netflix, Prime Video, Youtube 3xHDMI 2xUSB",
@@ -1473,21 +2055,39 @@
 		"brand": "Smart Tech",
 		"categorie": "télévision",
 		"seller": "Fnac",
-		"avis": [{"content": "Très bon rapport taille/prix.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "Très bon rapport taille/prix.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.fnac.com/mp52594750/Smart-Tech-TV-LED-4K-UHD-50-127cm-Smart-TV-Web-OS-50UW02K-Netflix-Prime-Video-Youtube-3xHDMI-2xUSB/w-4#omnsearchpos=4",
-		"price": 259.9
+		"price": 259.9,
+		"sku": "RNbRap"
 	},
 	{
 		"seller": "Darty",
-		"avis": [{"content": "Image nette et Smart TV facile à prendre en main.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Image nette et Smart TV facile à prendre en main.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.darty.com/nav/recherche?text=TV+Smart+Tech+50UW02K+Web+OS",
-		"price": 279.9
+		"price": 279.9,
+		"sku": "6RlQRv"
 	},
 	{
 		"seller": "Amazon",
-		"avis": [{"content": "Parfait pour regarder Netflix en 4K sans se ruiner.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Parfait pour regarder Netflix en 4K sans se ruiner.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+LED+4K+UHD+50+Web+OS",
-		"price": 255
+		"price": 255,
+		"sku": "6RlQRv"
 	},
 	{
 		"name": "TV Tcl QLED 55P89K 138 cm 2025",
@@ -1501,9 +2101,15 @@
 		"brand": "TCL",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Les couleurs sont vives et agréables.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Les couleurs sont vives et agréables.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=TV+Tcl+QLED+55P89K+2025",
-		"price": 495
+		"price": 495,
+		"sku": "7WfU1b"
 	},
 	{
 		"name": "TV Samsung Neo QLED TQ98QN990F 249 cm 2025",
@@ -1517,9 +2123,15 @@
 		"brand": "Samsung",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Expérience cinéma à la maison inégalée.", "note": 4.9}],
+		"avis": [
+			{
+				"content": "Expérience cinéma à la maison inégalée.",
+				"note": 4.9
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=TV+Samsung+Neo+QLED+98+QN990F",
-		"price": 32500
+		"price": 32500,
+		"sku": "3b5etG"
 	},
 	{
 		"name": "Smart Tech TV LED 4K UHD 65' (164 cm) Smart TV Web OS-65UW02K- Molotov, Netflix, Prime Video, Canal+, Disney+ - 3xHDMI - 2xUSB - MEMC- Dolby Audio",
@@ -1533,21 +2145,39 @@
 		"brand": "Smart Tech",
 		"categorie": "télévision",
 		"seller": "Fnac",
-		"avis": [{"content": "Très grand écran pour un prix imbattable.", "note": 4.3}],
+		"avis": [
+			{
+				"content": "Très grand écran pour un prix imbattable.",
+				"note": 4.3
+			}
+		],
 		"url": "https://www.fnac.com/mp52594758/Smart-Tech-TV-LED-4K-UHD-65-164-cm-Smart-TV-Web-OS-65UW02K-Molotov-Netflix-Prime-Video-Canal-Disney-3xHDMI-2xUSB-MEMC-Dolby-Audio/w-4#omnsearchpos=7",
-		"price": 389.9
+		"price": 389.9,
+		"sku": "9R6o4x"
 	},
 	{
 		"seller": "Darty",
-		"avis": [{"content": "Parfait pour regarder le sport en grand format.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Parfait pour regarder le sport en grand format.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.darty.com/nav/recherche?text=TV+Smart+Tech+65UW02K+Web+OS",
-		"price": 399.9
+		"price": 399.9,
+		"sku": "6RlQRv"
 	},
 	{
 		"seller": "Amazon",
-		"avis": [{"content": "Image 4K nette et Smart TV efficace.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Image 4K nette et Smart TV efficace.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+LED+4K+UHD+65+Web+OS",
-		"price": 385
+		"price": 385,
+		"sku": "6RlQRv"
 	},
 	{
 		"name": "TV LED Proline L3220HD 80 cm HD Noir",
@@ -1561,9 +2191,15 @@
 		"brand": "Proline",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Bonne qualité d'image HD.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Bonne qualité d'image HD.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=TV+LED+Proline+L3220HD+Noir",
-		"price": 99
+		"price": 99,
+		"sku": "43zUyb"
 	},
 	{
 		"name": "TV LED Thomson 32HG2S14 81 cm HD",
@@ -1577,9 +2213,15 @@
 		"brand": "Thomson",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Légère et facile à accrocher au mur.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Légère et facile à accrocher au mur.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=TV+LED+Thomson+32HG2S14",
-		"price": 165
+		"price": 165,
+		"sku": "vWcljv"
 	},
 	{
 		"name": "Smart Tech TV LED HD 32\" (80 cm) Smart TV Google 32HG01V HDMI, USB, Résolution: 1366 * 768",
@@ -1593,9 +2235,15 @@
 		"brand": "Smart Tech",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Installation facile et rapide.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Installation facile et rapide.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+LED+HD+32+Google+TV",
-		"price": 130
+		"price": 130,
+		"sku": "eW7Uld"
 	},
 	{
 		"name": "TV LED Philips Ambilight 65PUS8000/12 164 cm 2025",
@@ -1609,9 +2257,15 @@
 		"brand": "Philips",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Excellent rapport qualité/prix pour une 65 pouces Ambilight.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Excellent rapport qualité/prix pour une 65 pouces Ambilight.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=TV+LED+Philips+Ambilight+65PUS8000",
-		"price": 695
+		"price": 695,
+		"sku": "io6sW9"
 	},
 	{
 		"name": "TV Tcl QLED 43P79K 108 cm 2025",
@@ -1625,9 +2279,15 @@
 		"brand": "TCL",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Très bon rapport qualité-prix en 43 pouces 4K.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Très bon rapport qualité-prix en 43 pouces 4K.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=TV+Tcl+QLED+43P79K+2025",
-		"price": 275
+		"price": 275,
+		"sku": "GiQvlN"
 	},
 	{
 		"name": "TV LED Philips Ambilight 85PUS8500/12 215 cm 2025",
@@ -1641,9 +2301,15 @@
 		"brand": "Philips",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Image 4K magnifique et fluide.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Image 4K magnifique et fluide.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=TV+LED+Philips+Ambilight+85PUS8500",
-		"price": 1390
+		"price": 1390,
+		"sku": "G3ckls"
 	},
 	{
 		"name": "Smart Tech TV QLED 4K UHD 50' (126 cm) 50QA20VAUK Smart TV Android - 4xHDMI - 2xUSB - Dolby Audio",
@@ -1657,9 +2323,15 @@
 		"brand": "Smart Tech",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Très bonnes couleurs grâce au QLED.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Très bonnes couleurs grâce au QLED.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=Smart+Tech+TV+QLED+50+Android",
-		"price": 315
+		"price": 315,
+		"sku": "2cbylf"
 	},
 	{
 		"name": "TV LED Proline L2420HD 60 cm HD Noir",
@@ -1673,9 +2345,15 @@
 		"brand": "Proline",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Image nette et légère.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Image nette et légère.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=TV+LED+Proline+L2420HD",
-		"price": 84
+		"price": 84,
+		"sku": "48763a"
 	},
 	{
 		"name": "TV LED Philips 32PHS6050 80 cm 2025",
@@ -1689,9 +2367,15 @@
 		"brand": "Philips",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Image lumineuse et agréable.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Image lumineuse et agréable.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=TV+LED+Philips+32PHS6050",
-		"price": 155
+		"price": 155,
+		"sku": "9v8vR9"
 	},
 	{
 		"name": "TV QLED Philips 4K UHD Ambilight 43PUS8400/12 108 cm 2025",
@@ -1705,9 +2389,15 @@
 		"brand": "Philips",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Ambilight améliore vraiment l'expérience.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Ambilight améliore vraiment l'expérience.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=TV+QLED+Philips+43PUS8400+Ambilight",
-		"price": 345
+		"price": 345,
+		"sku": "79U384"
 	},
 	{
 		"name": "TV Philips Ambilight The One 55PUS9050 139 cm 2025",
@@ -1721,9 +2411,15 @@
 		"brand": "Philips",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Image fluide et couleurs vives.", "note": 4.4}],
+		"avis": [
+			{
+				"content": "Image fluide et couleurs vives.",
+				"note": 4.4
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=TV+Philips+Ambilight+The+One+55PUS9050",
-		"price": 695
+		"price": 695,
+		"sku": "hf2WkG"
 	},
 	{
 		"name": "TV Philips 43PUS6754 UHD 4K Ambilight 3 côtes Smart TV 43''",
@@ -1737,9 +2433,15 @@
 		"brand": "Philips",
 		"categorie": "télévision",
 		"seller": "Amazon",
-		"avis": [{"content": "Très bon pour le prix avec l'Ambilight.", "note": 4.5}],
+		"avis": [
+			{
+				"content": "Très bon pour le prix avec l'Ambilight.",
+				"note": 4.5
+			}
+		],
 		"url": "https://www.amazon.fr/s?k=TV+Philips+43PUS6754+Ambilight",
-		"price": 199
+		"price": 199,
+		"sku": "Q4Rmo3"
 	},
 	{
 		"name": "TV LED Thomson 43UG5C14 109 cm 4K UHD",
@@ -1754,10 +2456,385 @@
 		"categorie": "télévision",
 		"seller": "Amazon",
 		"avis": [
-			{"content": "Idéal pour les jeux non compétitifs.", "note": 4.5},
-			{"content": "Pas ouf", "note": 2}
+			{
+				"content": "Idéal pour les jeux non compétitifs.",
+				"note": 4.5
+			},
+			{
+				"content": "Pas ouf",
+				"note": 2
+			}
 		],
 		"url": "https://www.amazon.fr/s?k=TV+LED+Thomson+43UG5C14+4K+UHD",
-		"price": 295
+		"price": 295,
+		"sku": "5xzpmj"
+	},
+	{
+		"name": "Casque audio sans fil SONY Bluetooth à réduction de bruit WH-CH720N Noir",
+		"desc": "Portable Gaming d'entrée de gamme, idéal pour les joueurs avec un budget limité.",
+		"picture": [
+			{
+				"title": "Casque audio sans fil SONY Bluetooth à réduction de bruit WH-CH720N Noir",
+				"url": "https://static.fnac-static.com/multimedia/Images/FR/MDM/85/be/44/21282437/1540-1/tsp20250922175304/Casque-audio-sans-fil-SONY-Bluetooth-a-reduction-de-bruit-WH-CH720N-Noir.jpg"
+			}
+		],
+		"brand": "Sony",
+		"categorie": "casque",
+		"seller": "Darty",
+		"avis": [
+			{
+				"content": "Bonne qualité sonore et confortable.",
+				"note": 4.2
+			}
+		],
+		"url": "https://www.darty.com/nav/recherche?text=Sony+WH-CH720N+Noir",
+		"price": 84.99,
+		"sku": "jmmGpt"
+	},
+	{
+		"name": "Casque supra-auriculaire sans fil Bluetooth JBL Tune 770NC à réduction de bruit adaptative Noir",
+		"desc": "Portable Gaming d'entrée de gamme, idéal pour les joueurs avec un budget limité.",
+		"picture": [
+			{
+				"title": "Casque supra-auriculaire sans fil Bluetooth JBL Tune 770NC à réduction de bruit adaptative Noir",
+				"url": "https://static.fnac-static.com/multimedia/Images/FR/MDM/19/e8/4d/21882905/1540-1/tsp20251204144315/Casque-supra-auriculaire-sans-fil-Bluetooth-JBL-Tune-770NC-a-reduction-de-bruit-adaptative-Noir.jpg"
+			}
+		],
+		"brand": "JBL",
+		"categorie": "casque",
+		"seller": "Darty",
+		"avis": [
+			{
+				"content": "Léger et l'autonomie est au rendez-vous.",
+				"note": 4.4
+			}
+		],
+		"url": "https://www.darty.com/nav/recherche?text=JBL+Tune+770NC+Noir",
+		"price": 75,
+		"sku": "6j1v5N"
+	},
+	{
+		"name": "Casque supra-auriculaire sans fil Bluetooth JBL Tune 525BT Noir",
+		"desc": "Portable Gaming d'entrée de gamme, idéal pour les joueurs avec un budget limité.",
+		"picture": [
+			{
+				"title": "Casque supra-auriculaire sans fil Bluetooth JBL Tune 525BT Noir",
+				"url": "https://static.fnac-static.com/multimedia/Images/FR/MDM/85/13/50/22025093/1540-1/tsp20251029130729/Casque-supra-auriculaire-sans-fil-Bluetooth-JBL-Tune-525BT-Noir.jpg"
+			}
+		],
+		"brand": "JBL",
+		"categorie": "casque",
+		"seller": "Darty",
+		"avis": [
+			{
+				"content": "Casque de base idéal pour les appels.",
+				"note": 4
+			}
+		],
+		"url": "https://www.darty.com/nav/recherche?text=JBL+Tune+525BT+Noir",
+		"price": 54.99,
+		"sku": "Nd5vp3"
+	},
+	{
+		"name": "Casque d’écoute sans fil arceau Bose QuietComfort SC Bluetooth avec réduction active du bruit Noir",
+		"desc": "Portable Gaming d'entrée de gamme, idéal pour les joueurs avec un budget limité.",
+		"picture": [
+			{
+				"title": "Casque d’écoute sans fil arceau Bose QuietComfort SC Bluetooth avec réduction active du bruit Noir",
+				"url": "https://static.fnac-static.com/multimedia/Images/FR/MDM/cb/ce/68/23645899/1540-1/tsp20250829102458/Casque-d-ecoute-sans-fil-arceau-Bose-QuietComfort-SC-Bluetooth-avec-reduction-active-du-bruit-Noir.jpg"
+			}
+		],
+		"brand": "Bose",
+		"categorie": "casque",
+		"seller": "Darty",
+		"avis": [
+			{
+				"content": "Réduction de bruit exceptionnelle pour cette gamme.",
+				"note": 4.7
+			}
+		],
+		"url": "https://www.darty.com/nav/recherche?text=Bose+QuietComfort+SC+Noir",
+		"price": 199,
+		"sku": "48b8iy"
+	},
+	{
+		"name": "Casque sans fil Bluetooth Marshall Major IV Noir",
+		"desc": "Portable Gaming d'entrée de gamme, idéal pour les joueurs avec un budget limité.",
+		"picture": [
+			{
+				"title": "Casque sans fil Bluetooth Marshall Major IV Noir",
+				"url": "https://static.fnac-static.com/multimedia/Images/FR/MDM/7b/7f/f0/15761275/1540-1/tsp20251205131610/Casque-sans-fil-Bluetooth-Marshall-Major-IV-Noir.jpg"
+			}
+		],
+		"brand": "Marshall",
+		"categorie": "casque",
+		"seller": "Darty",
+		"avis": [
+			{
+				"content": "Autonomie incroyable ! Look très réussi.",
+				"note": 4.5
+			}
+		],
+		"url": "https://www.darty.com/nav/recherche?text=Marshall+Major+IV+Noir",
+		"price": 75,
+		"sku": "dzp3Ni"
+	},
+	{
+		"name": "Casque audio sans fil SONY Bluetooth à réduction de bruit WH-CH720N Bleu",
+		"desc": "Portable Gaming d'entrée de gamme, idéal pour les joueurs avec un budget limité.",
+		"picture": [
+			{
+				"title": "Casque audio sans fil SONY Bluetooth à réduction de bruit WH-CH720N Bleu",
+				"url": "https://static.fnac-static.com/multimedia/Images/FR/MDM/84/be/44/21282436/1540-1/tsp20250922175304/Casque-audio-sans-fil-SONY-Bluetooth-a-reduction-de-bruit-WH-CH720N-Bleu.jpg"
+			}
+		],
+		"brand": "Sony",
+		"categorie": "casque",
+		"seller": "Darty",
+		"avis": [
+			{
+				"content": "Le bleu est très réussi.",
+				"note": 4.2
+			}
+		],
+		"url": "https://www.darty.com/nav/recherche?text=Sony+WH-CH720N+Bleu",
+		"price": 84.99,
+		"sku": "kbGbWy"
+	},
+	{
+		"name": "Casque gaming filaire circum-aural avec micro rétractable Quantum 200 Noir",
+		"desc": "Portable Gaming d'entrée de gamme, idéal pour les joueurs avec un budget limité.",
+		"picture": [
+			{
+				"title": "Casque gaming filaire circum-aural avec micro rétractable Quantum 200 Noir",
+				"url": "https://static.fnac-static.com/multimedia/Images/FR/MDM/e7/d9/e2/14866919/1540-1/tsp20251204133608/Casque-gaming-filaire-circum-aural-avec-micro-retractable-Quantum-200-Noir.jpg"
+			}
+		],
+		"brand": "JBL",
+		"categorie": "casque",
+		"seller": "Darty",
+		"avis": [
+			{
+				"content": "Confortable même après des heures de jeu.",
+				"note": 4.1
+			}
+		],
+		"url": "https://www.darty.com/nav/recherche?text=JBL+Quantum+200+Noir",
+		"price": 34.99,
+		"sku": "5kekmo"
+	},
+	{
+		"seller": "Amazon",
+		"avis": [
+			{
+				"content": "Micro clair pour communiquer en ligne.",
+				"note": 4.2
+			}
+		],
+		"url": "https://www.amazon.fr/s?k=JBL+Quantum+200+Noir",
+		"price": 29.9,
+		"sku": "6RlQRv"
+	},
+	{
+		"name": "Casque audio sans fil Sony WH-CH720 Bluetooth avec réduction active du bruit Rose",
+		"desc": "Portable Gaming d'entrée de gamme, idéal pour les joueurs avec un budget limité.",
+		"picture": [
+			{
+				"title": "Casque audio sans fil Sony WH-CH720 Bluetooth avec réduction active du bruit Rose",
+				"url": "https://static.fnac-static.com/multimedia/Images/FR/MDM/4c/15/ab/27989324/1540-1/tsp20251119233932/Casque-audio-sans-fil-Sony-WH-CH720-Bluetooth-avec-reduction-active-du-bruit-Rose.jpg"
+			}
+		],
+		"brand": "Sony",
+		"categorie": "casque",
+		"seller": "Darty",
+		"avis": [
+			{
+				"content": "La couleur Rose est très demandée.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.darty.com/nav/recherche?text=Sony+WH-CH720N+Rose",
+		"price": 84.99,
+		"sku": "h4em7e"
+	},
+	{
+		"name": "Casque audio arceau sans fil Sony WH1000XM5 noir à réduction de bruit",
+		"desc": "Portable Gaming d'entrée de gamme, idéal pour les joueurs avec un budget limité.",
+		"picture": [
+			{
+				"title": "Casque audio arceau sans fil Sony WH1000XM5 noir à réduction de bruit",
+				"url": "https://static.fnac-static.com/multimedia/Images/FR/MDM/d9/63/25/19227609/1540-1/tsp20250904152517/Casque-audio-arceau-sans-fil-Sony-WH1000XM5-noir-a-reduction-de-bruit.jpg"
+			}
+		],
+		"brand": "Sony",
+		"categorie": "casque",
+		"seller": "Darty",
+		"avis": [
+			{
+				"content": "La référence en réduction de bruit.",
+				"note": 4.9
+			}
+		],
+		"url": "https://www.darty.com/nav/recherche?text=Sony+WH-1000XM5+noir",
+		"price": 299,
+		"sku": "Nzxcpt"
+	},
+	{
+		"name": "Casque arceau sans fil Bluetooth Multipoint Sony WHCH520 Noir",
+		"desc": "Portable Gaming d'entrée de gamme, idéal pour les joueurs avec un budget limité.",
+		"picture": [
+			{
+				"title": "Casque arceau sans fil Bluetooth Multipoint Sony WHCH520 Noir",
+				"url": "https://static.fnac-static.com/multimedia/Images/FR/MDM/81/be/44/21282433/1540-1/tsp20250922175304/Casque-arceau-sans-fil-Bluetooth-Multipoint-Sony-WHCH520-Noir.jpg"
+			}
+		],
+		"brand": "Sony",
+		"categorie": "casque",
+		"seller": "Darty",
+		"avis": [
+			{
+				"content": "Très léger, on l'oublie vite.",
+				"note": 4.1
+			}
+		],
+		"url": "https://www.darty.com/nav/recherche?text=Sony+WH-CH520+Noir",
+		"price": 39.99,
+		"sku": "9j7Qkl"
+	},
+	{
+		"seller": "Amazon",
+		"avis": [
+			{
+				"content": "Connexion multipoint très pratique.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.amazon.fr/s?k=Sony+WH-CH520+Noir",
+		"price": 34.9,
+		"sku": "6RlQRv"
+	},
+	{
+		"name": "Casque arceau circum-aural sans fil Bluetooth JBL Tune 720BT Noir",
+		"desc": "Portable Gaming d'entrée de gamme, idéal pour les joueurs avec un budget limité.",
+		"picture": [
+			{
+				"title": "Casque arceau circum-aural sans fil Bluetooth JBL Tune 720BT Noir",
+				"url": "https://static.fnac-static.com/multimedia/Images/FR/MDM/e6/da/49/21617382/1540-1/tsp20251205170647/Casque-arceau-circum-aural-sans-fil-Bluetooth-JBL-Tune-720BT-Noir.jpg"
+			}
+		],
+		"brand": "JBL",
+		"categorie": "casque",
+		"seller": "Darty",
+		"avis": [
+			{
+				"content": "Très bon son Pure Bass pour le prix.",
+				"note": 4.3
+			}
+		],
+		"url": "https://www.darty.com/nav/recherche?text=JBL+Tune+720BT+Noir",
+		"price": 54.99,
+		"sku": "NQe4s6"
+	},
+	{
+		"name": "Casque Circum-Auriculaire sans fil Bluetooth JBL Live 770 NC à réduction de bruit adaptative Noir",
+		"desc": "Portable Gaming d'entrée de gamme, idéal pour les joueurs avec un budget limité.",
+		"picture": [
+			{
+				"title": "Casque Circum-Auriculaire sans fil Bluetooth JBL Live 770 NC à réduction de bruit adaptative Noir",
+				"url": "https://static.fnac-static.com/multimedia/Images/FR/MDM/cb/c4/51/22136011/1540-1/tsp20251125171937/Casque-Circum-Auriculaire-sans-fil-Bluetooth-JBL-Live-770-NC-a-reduction-de-bruit-adaptative-Noir.jpg"
+			}
+		],
+		"brand": "JBL",
+		"categorie": "casque",
+		"seller": "Darty",
+		"avis": [
+			{
+				"content": "Un son précis et des fonctions intelligentes.",
+				"note": 4.4
+			}
+		],
+		"url": "https://www.darty.com/nav/recherche?text=JBL+Live+770+NC+Noir",
+		"price": 109.99,
+		"sku": "NGxi9G"
+	},
+	{
+		"name": "Casque Audio Sans Fil Bluetooth 5.1 avec Coussinets Confort Modèle Hawaï Avizar Noir",
+		"desc": "Casque d'entrée de gamme pour le multimédia, idéal pour l'écoute occasionnelle.",
+		"picture": [
+			{
+				"title": "Casque Audio Sans Fil Bluetooth 5.1 avec Coussinets Confort Modèle Hawaï Avizar Noir",
+				"url": "https://static.fnac-static.com/multimedia/Images/2B/02/1E/1B/28434475-1505-1540-1/tsp20251031195636/Casque-Audio-Sans-Fil-Bluetooth-5-1-avec-Couinets-Confort-Modele-Hawai-Avizar-Noir.jpg#e01fa0f6-e12b-4e75-b281-0e8688bb734f"
+			}
+		],
+		"brand": "Avizar",
+		"categorie": "casque",
+		"seller": "Fnac",
+		"avis": [
+			{
+				"content": "Prix imbattable, convient pour les enfants.",
+				"note": 3.8
+			}
+		],
+		"url": "https://www.fnac.com/mp52202149/Casque-Audio-Sans-Fil-Bluetooth-5-1-avec-Coussinets-Confort-Modele-Hawai-Avizar-Noir/w-4#omnsearchpos=13",
+		"price": 29.9,
+		"sku": "Wh53fc"
+	},
+	{
+		"seller": "Darty",
+		"avis": [
+			{
+				"content": "Fonctionne bien pour le prix demandé.",
+				"note": 3.9
+			}
+		],
+		"url": "https://www.darty.com/nav/recherche?text=Avizar+Casque+Hawaï+Noir",
+		"price": 34.9,
+		"sku": "6RlQRv"
+	},
+	{
+		"seller": "Amazon",
+		"avis": [
+			{
+				"content": "Léger et confortable.",
+				"note": 4
+			}
+		],
+		"url": "https://www.amazon.fr/s?k=Avizar+Casque+Hawaï+Noir",
+		"price": 29.5,
+		"sku": "6RlQRv"
+	},
+	{
+		"name": "Casque audio sans fil SONY Bluetooth à réduction de bruit WH-CH720N Blanc",
+		"desc": "Casque sans fil Sony avec réduction de bruit active, idéal pour un usage quotidien.",
+		"picture": [
+			{
+				"title": "Casque audio sans fil SONY Bluetooth à réduction de bruit WH-CH720N Blanc",
+				"url": "https://static.fnac-static.com/multimedia/Images/FR/MDM/83/be/44/21282435/1540-1/tsp20250922175304/Casque-audio-sans-fil-SONY-Bluetooth-a-reduction-de-bruit-WH-CH720N-Blanc.jpg"
+			}
+		],
+		"brand": "Sony",
+		"categorie": "casque",
+		"seller": "Darty",
+		"avis": [
+			{
+				"content": "Le blanc est très élégant.",
+				"note": 4.2
+			}
+		],
+		"url": "https://www.darty.com/nav/recherche?text=Sony+WH-CH720N+Blanc",
+		"price": 84.99,
+		"sku": "1tetm7"
+	},
+	{
+		"seller": "Amazon",
+		"avis": [
+			{
+				"content": "Bonne autonomie pour la semaine.",
+				"note": 4.4
+			}
+		],
+		"url": "https://www.amazon.fr/s?k=Casque+Sony+WH-CH720N+Blanc",
+		"price": 79.9,
+		"sku": "6RlQRv"
 	}
 ]
