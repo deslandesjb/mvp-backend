@@ -15,10 +15,10 @@ router.get('/', (req, res) => {
 			const productsReworked = dataProducts.map((p) => {
 				let allNotes = [];
 				let allPrices = [];
-				for (let sellers of p.sellers) {
-					// console.log(sellers.price);
-					allPrices.push(sellers.price);
-					for (let avis of sellers.avis) {
+				for (let seller of p.sellers) {
+					// console.log(seller.price);
+					allPrices.push(seller.price);
+					for (let avis of seller.avis) {
 						const note = avis.note;
 						allNotes.push(note);
 					}
