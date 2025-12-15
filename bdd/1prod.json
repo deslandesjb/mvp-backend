@@ -1,0 +1,53 @@
+[
+	{
+		"name": "TV Samsung Neo QLED TQ98QN990F 249 cm 2025",
+		"desc": "Téléviseur Samsung Neo QLED de 98 pouces (249 cm) 8K, un modèle très haut de gamme pour une expérience cinéma immersive.",
+		"picture": [
+			{
+				"title": "TV Samsung Neo QLED TQ98QN990F 249 cm 2025",
+				"url": "https://static.fnac-static.com/multimedia/Images/FR/MDM/4b/8d/b7/28806475/1540-1/tsp20251205111905/TV-Samsung-Neo-QLED-TQ98QN990F-249-cm-2025.jpg"
+			}
+		],
+		"brand": "Samsung",
+		"categorie": "télévision",
+		"sellers": [
+			{
+				"seller": "Fnac",
+				"avis": [
+					{
+						"content": "Une taille et une qualité d'image exceptionnelles.",
+						"note": 4.8
+					},
+					{
+						"content": "Top",
+						"note": 4.7
+					}
+				],
+				"url": "https://www.fnac.com/TV-Samsung-Neo-QLED-TQ98QN990F-249-cm-2025/a22038417/w-4#omnsearchpos=6",
+				"price": 32999
+			},
+			{
+				"seller": "Darty",
+				"avis": [
+					{
+						"content": "La meilleure TV 8K de l'année.",
+						"note": 5
+					}
+				],
+				"url": "https://www.darty.com/nav/recherche?text=Samsung+TQ98QN990F+Neo+QLED",
+				"price": 33999
+			},
+			{
+				"seller": "Amazon",
+				"avis": [
+					{
+						"content": "Expérience cinéma à la maison inégalée.",
+						"note": 4.9
+					}
+				],
+				"url": "https://www.amazon.fr/s?k=TV+Samsung+Neo+QLED+98+QN990F",
+				"price": 32600
+			}
+		]
+	}
+]
