@@ -9,7 +9,7 @@ router.get('/:token', function (req, res) {
 	const token = req.params.token;
 	User.findOne({token: {$in: [token]}}).then((user) => {
 		const idUser = user._id;
-		console.log(idUser);
+		// console.log(idUser);
 
 		List.find({idUser})
 			.populate('idProduct')
