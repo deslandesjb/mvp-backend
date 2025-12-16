@@ -1,4 +1,3 @@
-
 // module.exports = router;
 // ======================================================
 // 1. INITIALISATION DU ROUTER
@@ -13,7 +12,6 @@ var router = express.Router();
 // Modèle Product = structure des produits dans MongoDB
 const Product = require('../models/product');
 
-
 // ======================================================
 // 2. ROUTE GET /products
 // Objectif :
@@ -22,64 +20,56 @@ const Product = require('../models/product');
 // - renvoyer des données propres pour la home / listing
 // ======================================================
 router.get('/', (req, res) => {
-
 	// ÉTAPE 1 — Récupération brute des produits depuis MongoDB
-	Product.find()
+	Product.find().then((dataProducts) => {
+		// Sécurité : aucun produit trouvé
+		if (!dataProducts) {
+			res.status(404).json({result: false, error: "Couldn't find products"});
+			return;
+		}
 
-		.then((dataProducts) => {
+		// ÉTAPE 2 — Transformation des données
+		// Mongo renvoie trop d'infos → on simplifie
+		const productsReworked = dataProducts.map((p) => {
+			let allNotes = []; // Toutes les notes du produit
+			let allPrices = []; // Tous les prix du produit
 
-			// Sécurité : aucun produit trouvé
-			if (!dataProducts) {
-				res.status(404).json({ result: false, error: "Couldn't find products" });
-				return;
+			// ÉTAPE 2.1 — Parcours des vendeurs
+			for (let seller of p.sellers) {
+				allPrices.push(seller.price);
+
+				// ÉTAPE 2.2 — Parcours des avis de chaque vendeur
+				for (let avis of seller.avis) {
+					allNotes.push(avis.note);
+				}
 			}
 
-			// ÉTAPE 2 — Transformation des données
-			// Mongo renvoie trop d'infos → on simplifie
-			const productsReworked = dataProducts.map((p) => {
+			// ÉTAPE 3 — Calcul de la note moyenne
+			const noteMoy = allNotes.reduce((total, note) => total + note, 0) / allNotes.length;
 
-				let allNotes = [];   // Toutes les notes du produit
-				let allPrices = [];  // Tous les prix du produit
+			// ÉTAPE 4 — Calcul du prix moyen
+			const priceMoy = allPrices.reduce((total, price) => total + price, 0) / allPrices.length;
 
-				// ÉTAPE 2.1 — Parcours des vendeurs
-				for (let seller of p.sellers) {
-					allPrices.push(seller.price);
-
-					// ÉTAPE 2.2 — Parcours des avis de chaque vendeur
-					for (let avis of seller.avis) {
-						allNotes.push(avis.note);
-					}
-				}
-
-				// ÉTAPE 3 — Calcul de la note moyenne
-				const noteMoy =
-					allNotes.reduce((total, note) => total + note, 0) / allNotes.length;
-
-				// ÉTAPE 4 — Calcul du prix moyen
-				const priceMoy =
-					allPrices.reduce((total, price) => total + price, 0) / allPrices.length;
-
-				// ÉTAPE 5 — Objet final envoyé au frontend
-				return {
-					id: p._id,
-					name: p.name,
-					desc: p.desc,
-					picture: p.picture,
-					brand: p.brand,
-					categorie: p.categorie,
-					priceMoy: priceMoy.toFixed(2),
-					noteMoy: noteMoy.toFixed(2),
-				};
-			});
-
-			// ÉTAPE 6 — Tri : meilleurs produits en premier
-			productsReworked.sort((a, b) => b.noteMoy - a.noteMoy);
-
-			// ÉTAPE 7 — Réponse finale
-			res.status(200).json({ result: true, products: productsReworked });
+			// ÉTAPE 5 — Objet final envoyé au frontend
+			return {
+				id: p._id,
+				name: p.name,
+				desc: p.desc,
+				picture: p.picture,
+				brand: p.brand,
+				categorie: p.categorie,
+				priceMoy: priceMoy.toFixed(2),
+				noteMoy: noteMoy.toFixed(2),
+			};
 		});
-});
 
+		// ÉTAPE 6 — Tri : meilleurs produits en premier
+		productsReworked.sort((a, b) => b.noteMoy - a.noteMoy);
+
+		// ÉTAPE 7 — Réponse finale
+		res.status(200).json({result: true, products: productsReworked});
+	});
+});
 
 // ======================================================
 // 3. ROUTE GET /products/categories
@@ -88,33 +78,27 @@ router.get('/', (req, res) => {
 // - supprimer les doublons
 // ======================================================
 router.get('/categories', (req, res) => {
+	Product.find().then((dataCats) => {
+		if (!dataCats) {
+			res.status(404).json({result: false, error: "Couldn't find products"});
+			return;
+		}
 
-	Product.find()
+		// ÉTAPE 1 — Tableau vide pour stocker les catégories uniques
+		const categories = [];
 
-		.then((dataCats) => {
-
-			if (!dataCats) {
-				res.status(404).json({ result: false, error: "Couldn't find products" });
-				return;
+		// ÉTAPE 2 — Parcours des produits
+		dataCats.forEach((product) => {
+			// On ajoute la catégorie seulement si elle n’existe pas déjà
+			if (!categories.includes(product.categorie)) {
+				categories.push(product.categorie);
 			}
-
-			// ÉTAPE 1 — Tableau vide pour stocker les catégories uniques
-			const categories = [];
-
-			// ÉTAPE 2 — Parcours des produits
-			dataCats.forEach((product) => {
-
-				// On ajoute la catégorie seulement si elle n’existe pas déjà
-				if (!categories.includes(product.categorie)) {
-					categories.push(product.categorie);
-				}
-			});
-
-			// ÉTAPE 3 — Réponse
-			res.status(200).json({ result: true, categories });
 		});
-});
 
+		// ÉTAPE 3 — Réponse
+		res.status(200).json({result: true, categories});
+	});
+});
 
 // ======================================================
 // 4. ROUTE GET /products/:category
@@ -122,12 +106,11 @@ router.get('/categories', (req, res) => {
 // - récupérer les produits d’une catégorie donnée
 // ======================================================
 router.get('/:category', (req, res) => {
-
 	// ÉTAPE 1 — Lecture du paramètre dans l’URL
-	let { category } = req.params;
+	let {category} = req.params;
 
 	if (!category) {
-		res.status(406).json({ result: false, error: 'Missing category' });
+		res.status(406).json({result: false, error: 'Missing category'});
 		return;
 	}
 
@@ -135,52 +118,45 @@ router.get('/:category', (req, res) => {
 	category = new RegExp(category, 'i');
 
 	// ÉTAPE 3 — Requête MongoDB
-	Product.find({ categorie: category })
+	Product.find({categorie: category}).then((dataProducts) => {
+		if (!dataProducts) {
+			res.status(404).json({result: false, error: "Couldn't find products"});
+			return;
+		}
 
-		.then((dataProducts) => {
+		// ÉTAPE 4 — Même logique que GET /
+		const productsReworked = dataProducts.map((p) => {
+			let allNotes = [];
+			let allPrices = [];
 
-			if (!dataProducts) {
-				res.status(404).json({ result: false, error: "Couldn't find products" });
-				return;
+			for (let seller of p.sellers) {
+				allPrices.push(seller.price);
+				for (let avis of seller.avis) {
+					allNotes.push(avis.note);
+				}
 			}
 
-			// ÉTAPE 4 — Même logique que GET /
-			const productsReworked = dataProducts.map((p) => {
+			const noteMoy = allNotes.reduce((t, n) => t + n, 0) / allNotes.length;
 
-				let allNotes = [];
-				let allPrices = [];
+			const priceMoy = allPrices.reduce((t, p) => t + p, 0) / allPrices.length;
 
-				for (let seller of p.sellers) {
-					allPrices.push(seller.price);
-					for (let avis of seller.avis) {
-						allNotes.push(avis.note);
-					}
-				}
-
-				const noteMoy =
-					allNotes.reduce((t, n) => t + n, 0) / allNotes.length;
-
-				const priceMoy =
-					allPrices.reduce((t, p) => t + p, 0) / allPrices.length;
-
-				return {
-					id: p._id,
-					name: p.name,
-					desc: p.desc,
-					brand: p.brand,
-					categorie: p.categorie,
-					priceMoy: priceMoy.toFixed(2),
-					noteMoy: noteMoy.toFixed(2),
-				};
-			});
-
-			// ÉTAPE 5 — Tri par note
-			productsReworked.sort((a, b) => b.noteMoy - a.noteMoy);
-
-			res.status(200).json({ result: true, products: productsReworked });
+			return {
+				id: p._id,
+				name: p.name,
+				desc: p.desc,
+				brand: p.brand,
+				categorie: p.categorie,
+				priceMoy: priceMoy.toFixed(2),
+				noteMoy: noteMoy.toFixed(2),
+			};
 		});
-});
 
+		// ÉTAPE 5 — Tri par note
+		productsReworked.sort((a, b) => b.noteMoy - a.noteMoy);
+
+		res.status(200).json({result: true, products: productsReworked});
+	});
+});
 
 // ======================================================
 // 5. ROUTE GET /products/id/:idProduct
@@ -188,59 +164,52 @@ router.get('/:category', (req, res) => {
 // - récupérer UN produit (page détail)
 // ======================================================
 router.get('/id/:idProduct', (req, res) => {
-
-	const { idProduct } = req.params;
+	const {idProduct} = req.params;
 
 	if (!idProduct) {
-		res.status(406).json({ result: false, error: 'Missing product ID' });
+		res.status(406).json({result: false, error: 'Missing product ID'});
 		return;
 	}
 
 	// ÉTAPE 1 — Recherche par ID
-	Product.findById(idProduct)
+	Product.findById(idProduct).then((product) => {
+		if (!product) {
+			res.status(404).json({result: false, error: 'Product not found'});
+			return;
+		}
 
-		.then((product) => {
+		let allNotes = [];
+		let allPrices = [];
 
-			if (!product) {
-				res.status(404).json({ result: false, error: 'Product not found' });
-				return;
+		// ÉTAPE 2 — Calcul moyennes
+		for (let seller of product.sellers) {
+			allPrices.push(seller.price);
+			for (let avis of seller.avis) {
+				allNotes.push(avis.note);
 			}
+		}
 
-			let allNotes = [];
-			let allPrices = [];
+		const noteMoy = allNotes.reduce((t, n) => t + n, 0) / allNotes.length;
 
-			// ÉTAPE 2 — Calcul moyennes
-			for (let seller of product.sellers) {
-				allPrices.push(seller.price);
-				for (let avis of seller.avis) {
-					allNotes.push(avis.note);
-				}
-			}
+		const priceMoy = allPrices.reduce((t, p) => t + p, 0) / allPrices.length;
 
-			const noteMoy =
-				allNotes.reduce((t, n) => t + n, 0) / allNotes.length;
-
-			const priceMoy =
-				allPrices.reduce((t, p) => t + p, 0) / allPrices.length;
-
-			// ÉTAPE 3 — Produit détaillé
-			res.status(200).json({
-				result: true,
-				product: {
-					id: product._id,
-					name: product.name,
-					desc: product.desc,
-					picture: product.picture,
-					brand: product.brand,
-					categorie: product.categorie,
-					sellers: product.sellers,
-					priceMoy: priceMoy.toFixed(2),
-					noteMoy: noteMoy.toFixed(2),
-				},
-			});
+		// ÉTAPE 3 — Produit détaillé
+		res.status(200).json({
+			result: true,
+			product: {
+				id: product._id,
+				name: product.name,
+				desc: product.desc,
+				picture: product.picture,
+				brand: product.brand,
+				categorie: product.categorie,
+				sellers: product.sellers,
+				priceMoy: priceMoy.toFixed(2),
+				noteMoy: noteMoy.toFixed(2),
+			},
 		});
+	});
 });
-
 
 // ======================================================
 // 6. ROUTE POST /products/search
@@ -250,98 +219,84 @@ router.get('/id/:idProduct', (req, res) => {
 // - tri dynamique
 // ======================================================
 router.post('/search', (req, res) => {
-
 	// ÉTAPE 1 — Données envoyées par le frontend
-	const { search, categories, brands, sellers, minPrice, maxPrice, sortBy , desc} = req.body;
+	const {search, categories, brands, sellers, minPrice, maxPrice, sortBy, desc} = req.body;
 
 	let query = {}; // Requête MongoDB dynamique
 
 	// ÉTAPE 2 — Recherche textuelle globale
 	if (search) {
 		const regex = new RegExp(search, 'i');
-		query.$or = [
-			{ name: regex },
-			{ brand: regex },
-			{ categorie: regex },
-			{ sellers: regex },
-			{ desc: regex },
-		];
+		query.$or = [{name: regex}, {brand: regex}, {categorie: regex}, {sellers: regex}, {desc: regex}];
 	}
 
 	// ÉTAPE 3 — Filtres MongoDB
 	if (categories?.length) {
-		query.categorie = { $in: categories.map(c => new RegExp(c, 'i')) };
+		query.categorie = {$in: categories.map((c) => new RegExp(c, 'i'))};
 	}
 
 	if (brands?.length) {
-		query.brand = { $in: brands.map(b => new RegExp(b, 'i')) };
+		query.brand = {$in: brands.map((b) => new RegExp(b, 'i'))};
 	}
 
 	if (sellers?.length) {
-		query['sellers.name'] = { $in: sellers.map(s => new RegExp(s, 'i')) };
+		query['sellers.name'] = {$in: sellers.map((s) => new RegExp(s, 'i'))};
 	}
-    if(desc?.length){
-		query.desc = { $in: desc.map(d => new RegExp(d, 'i')) };
+	if (desc?.length) {
+		query.desc = {$in: desc.map((d) => new RegExp(d, 'i'))};
 	}
 	// ÉTAPE 4 — Exécution de la requête
-	Product.find(query)
+	Product.find(query).then((results) => {
+		if (!results || results.length === 0) {
+			res.status(200).json({result: true, products: []});
+			return;
+		}
 
-		.then((results) => {
+		// ÉTAPE 5 — Calcul des moyennes
+		let productsReworked = results.map((p) => {
+			let allNotes = [];
+			let allPrices = [];
 
-			if (!results || results.length === 0) {
-				res.status(200).json({ result: true, products: [] });
-				return;
-			}
-
-			// ÉTAPE 5 — Calcul des moyennes
-			let productsReworked = results.map((p) => {
-
-				let allNotes = [];
-				let allPrices = [];
-
-				for (let seller of p.sellers) {
-					allPrices.push(seller.price);
-					for (let avis of seller.avis) {
-						allNotes.push(avis.note);
-					}
+			for (let seller of p.sellers) {
+				allPrices.push(seller.price);
+				for (let avis of seller.avis) {
+					allNotes.push(avis.note);
 				}
-
-				const noteMoy =
-					allNotes.reduce((t, n) => t + n, 0) / allNotes.length || 0;
-
-				const priceMoy =
-					allPrices.reduce((t, p) => t + p, 0) / allPrices.length || 0;
-
-				return {
-					id: p._id,
-					name: p.name,
-					desc: p.desc,
-					picture: p.picture,
-					brand: p.brand,
-					categorie: p.categorie,
-					priceMoy: Number(priceMoy.toFixed(2)),
-					noteMoy: Number(noteMoy.toFixed(2)),
-				};
-			});
-
-			// ÉTAPE 6 — Filtres prix (JS)
-			if (minPrice) productsReworked = productsReworked.filter(p => p.priceMoy >= minPrice);
-			if (maxPrice) productsReworked = productsReworked.filter(p => p.priceMoy <= maxPrice);
-
-			// ÉTAPE 7 — Tri final
-			if (sortBy === 'price_asc') {
-				productsReworked.sort((a, b) => a.priceMoy - b.priceMoy);
-			} else if (sortBy === 'price_desc') {
-				productsReworked.sort((a, b) => b.priceMoy - a.priceMoy);
-			} else {
-				productsReworked.sort((a, b) => b.noteMoy - a.noteMoy);
 			}
 
-			// ÉTAPE 8 — Réponse finale
-			res.status(200).json({ result: true, products: productsReworked });
-		});
-});
+			const noteMoy = allNotes.reduce((t, n) => t + n, 0) / allNotes.length || 0;
 
+			const priceMoy = allPrices.reduce((t, p) => t + p, 0) / allPrices.length || 0;
+
+			return {
+				id: p._id,
+				name: p.name,
+				desc: p.desc,
+				picture: p.picture,
+				brand: p.brand,
+				categorie: p.categorie,
+				priceMoy: Number(priceMoy.toFixed(2)),
+				noteMoy: Number(noteMoy.toFixed(2)),
+			};
+		});
+
+		// ÉTAPE 6 — Filtres prix (JS)
+		if (minPrice) productsReworked = productsReworked.filter((p) => p.priceMoy >= minPrice);
+		if (maxPrice) productsReworked = productsReworked.filter((p) => p.priceMoy <= maxPrice);
+
+		// ÉTAPE 7 — Tri final
+		if (sortBy === 'price_asc') {
+			productsReworked.sort((a, b) => a.priceMoy - b.priceMoy);
+		} else if (sortBy === 'price_desc') {
+			productsReworked.sort((a, b) => b.priceMoy - a.priceMoy);
+		} else {
+			productsReworked.sort((a, b) => b.noteMoy - a.noteMoy);
+		}
+
+		// ÉTAPE 8 — Réponse finale
+		res.status(200).json({result: true, products: productsReworked});
+	});
+});
 
 // ======================================================
 // EXPORT DU ROUTER
