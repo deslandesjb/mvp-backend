@@ -24,7 +24,7 @@ router.get('/', (req, res) => {
 	Product.find().then((dataProducts) => {
 		// Sécurité : aucun produit trouvé
 		if (!dataProducts) {
-			res.status(404).json({result: false, error: "Couldn't find products"});
+			res.status(404).json({ result: false, error: "Couldn't find products" });
 			return;
 		}
 
@@ -67,7 +67,7 @@ router.get('/', (req, res) => {
 		productsReworked.sort((a, b) => b.noteMoy - a.noteMoy);
 
 		// ÉTAPE 7 — Réponse finale
-		res.status(200).json({result: true, products: productsReworked});
+		res.status(200).json({ result: true, products: productsReworked });
 	});
 });
 
@@ -80,7 +80,7 @@ router.get('/', (req, res) => {
 router.get('/categories', (req, res) => {
 	Product.find().then((dataCats) => {
 		if (!dataCats) {
-			res.status(404).json({result: false, error: "Couldn't find products"});
+			res.status(404).json({ result: false, error: "Couldn't find products" });
 			return;
 		}
 
@@ -96,65 +96,7 @@ router.get('/categories', (req, res) => {
 		});
 
 		// ÉTAPE 3 — Réponse
-		res.status(200).json({result: true, categories});
-	});
-});
-
-// ======================================================
-// 4. ROUTE GET /products/:category
-// Objectif :
-// - récupérer les produits d’une catégorie donnée
-// ======================================================
-router.get('/:category', (req, res) => {
-	// ÉTAPE 1 — Lecture du paramètre dans l’URL
-	let {category} = req.params;
-
-	if (!category) {
-		res.status(406).json({result: false, error: 'Missing category'});
-		return;
-	}
-
-	// ÉTAPE 2 — Regex pour ignorer la casse (ex: "tv" = "TV")
-	category = new RegExp(category, 'i');
-
-	// ÉTAPE 3 — Requête MongoDB
-	Product.find({categorie: category}).then((dataProducts) => {
-		if (!dataProducts) {
-			res.status(404).json({result: false, error: "Couldn't find products"});
-			return;
-		}
-
-		// ÉTAPE 4 — Même logique que GET /
-		const productsReworked = dataProducts.map((p) => {
-			let allNotes = [];
-			let allPrices = [];
-
-			for (let seller of p.sellers) {
-				allPrices.push(seller.price);
-				for (let avis of seller.avis) {
-					allNotes.push(avis.note);
-				}
-			}
-
-			const noteMoy = allNotes.reduce((t, n) => t + n, 0) / allNotes.length;
-
-			const priceMoy = allPrices.reduce((t, p) => t + p, 0) / allPrices.length;
-
-			return {
-				id: p._id,
-				name: p.name,
-				desc: p.desc,
-				brand: p.brand,
-				categorie: p.categorie,
-				priceMoy: priceMoy.toFixed(2),
-				noteMoy: noteMoy.toFixed(2),
-			};
-		});
-
-		// ÉTAPE 5 — Tri par note
-		productsReworked.sort((a, b) => b.noteMoy - a.noteMoy);
-
-		res.status(200).json({result: true, products: productsReworked});
+		res.status(200).json({ result: true, categories });
 	});
 });
 
@@ -164,17 +106,17 @@ router.get('/:category', (req, res) => {
 // - récupérer UN produit (page détail)
 // ======================================================
 router.get('/id/:idProduct', (req, res) => {
-	const {idProduct} = req.params;
+	const { idProduct } = req.params;
 
 	if (!idProduct) {
-		res.status(406).json({result: false, error: 'Missing product ID'});
+		res.status(406).json({ result: false, error: 'Missing product ID' });
 		return;
 	}
 
 	// ÉTAPE 1 — Recherche par ID
 	Product.findById(idProduct).then((product) => {
 		if (!product) {
-			res.status(404).json({result: false, error: 'Product not found'});
+			res.status(404).json({ result: false, error: 'Product not found' });
 			return;
 		}
 
@@ -220,35 +162,35 @@ router.get('/id/:idProduct', (req, res) => {
 // ======================================================
 router.post('/search', (req, res) => {
 	// ÉTAPE 1 — Données envoyées par le frontend
-	const {search, categories, brands, sellers, minPrice, maxPrice, sortBy, desc} = req.body;
+	const { search, categories, brands, sellers, minPrice, maxPrice, sortBy, desc } = req.body;
 
 	let query = {}; // Requête MongoDB dynamique
 
 	// ÉTAPE 2 — Recherche textuelle globale
 	if (search) {
 		const regex = new RegExp(search, 'i');
-		query.$or = [{name: regex}, {brand: regex}, {categorie: regex}, {sellers: regex}, {desc: regex}];
+		query.$or = [{ name: regex }, { brand: regex }, { categorie: regex }, { sellers: regex }, { desc: regex }];
 	}
 
 	// ÉTAPE 3 — Filtres MongoDB
 	if (categories?.length) {
-		query.categorie = {$in: categories.map((c) => new RegExp(c, 'i'))};
+		query.categorie = { $in: categories.map((c) => new RegExp(c, 'i')) };
 	}
 
 	if (brands?.length) {
-		query.brand = {$in: brands.map((b) => new RegExp(b, 'i'))};
+		query.brand = { $in: brands.map((b) => new RegExp(b, 'i')) };
 	}
 
 	if (sellers?.length) {
-		query['sellers.name'] = {$in: sellers.map((s) => new RegExp(s, 'i'))};
+		query['sellers.name'] = { $in: sellers.map((s) => new RegExp(s, 'i')) };
 	}
 	if (desc?.length) {
-		query.desc = {$in: desc.map((d) => new RegExp(d, 'i'))};
+		query.desc = { $in: desc.map((d) => new RegExp(d, 'i')) };
 	}
 	// ÉTAPE 4 — Exécution de la requête
 	Product.find(query).then((results) => {
 		if (!results || results.length === 0) {
-			res.status(200).json({result: true, products: []});
+			res.status(200).json({ result: true, products: [] });
 			return;
 		}
 
@@ -294,7 +236,7 @@ router.post('/search', (req, res) => {
 		}
 
 		// ÉTAPE 8 — Réponse finale
-		res.status(200).json({result: true, products: productsReworked});
+		res.status(200).json({ result: true, products: productsReworked });
 	});
 });
 
