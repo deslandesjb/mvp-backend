@@ -2,7 +2,7 @@
 	"useTabs": true,
 	"printWidth": 120,
 	"pluginSearchDirs": false,
-	"bracketSpacing": false,
+	"bracketSpacing": true,
 	"bracketSameLine": true,
 	"htmlWhitespaceSensitivity": "strict",
 	"singleQuote": true
