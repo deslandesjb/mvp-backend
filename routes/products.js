@@ -100,6 +100,29 @@ router.get('/categories', (req, res) => {
 	});
 });
 
+router.get('/brands', (req, res) => {
+	Product.find().then((dataBrands) => {
+		if (!dataBrands) {
+			res.status(404).json({ result: false, error: "Couldn't find products" });
+			return;
+		}
+
+		// ÉTAPE 1 — Tableau vide pour stocker les brands uniques
+		const brands = [];
+
+		// ÉTAPE 2 — Parcours des produits
+		dataBrands.forEach((product) => {
+			// On ajoute la brands seulement si elle n’existe pas déjà
+			if (!brands.includes(product.brand)) {
+				brands.push(product.brand);
+			}
+		});
+
+		// ÉTAPE 3 — Réponse
+		res.status(200).json({ result: true, brands });
+	});
+});
+
 // ======================================================
 // 5. ROUTE GET /products/id/:idProduct
 // Objectif :
