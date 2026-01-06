@@ -1,56 +1,47 @@
-// module.exports = router;
-// ======================================================
-// 1. INITIALISATION DU ROUTER
-// ======================================================
-
-// Express sert à créer des routes HTTP (GET, POST, etc.)
 var express = require('express');
-
-// Router permet de regrouper toutes les routes "produits"
 var router = express.Router();
-
-// Modèle Product = structure des produits dans MongoDB
 const Product = require('../models/product');
 
+// fonction calcul moyenne
+const moyenne = (notes) => {
+	let total = 0;
+	for (let i = 0; i < notes.length; i++) {
+		total += notes[i];
+	}
+	const moyenne = total / notes.length;
+	return moyenne;
+};
+
 // ======================================================
-// 2. ROUTE GET /products
-// Objectif :
-// - récupérer tous les produits
-// - calculer prix moyen et note moyenne
-// - renvoyer des données propres pour la home / listing
+// ROUTE GET /
+// recupération tout les produits pour la Homepage
 // ======================================================
 router.get('/', (req, res) => {
-	// ÉTAPE 1 — Récupération brute des produits depuis MongoDB
 	Product.find().then((dataProducts) => {
-		// Sécurité : aucun produit trouvé
+		// pas de produits
 		if (!dataProducts) {
-			res.status(404).json({ result: false, error: "Couldn't find products" });
+			res.status(404).json({ result: false, error: "Couldn't find any products" });
 			return;
 		}
 
-		// ÉTAPE 2 — Transformation des données
-		// Mongo renvoie trop d'infos → on simplifie
+		// calcul moyennes notes et prix :
 		const productsReworked = dataProducts.map((p) => {
-			let allNotes = []; // Toutes les notes du produit
-			let allPrices = []; // Tous les prix du produit
+			// stock notes et prix dans un tableau
+			let allNotes = [];
+			let allPrices = [];
 
-			// ÉTAPE 2.1 — Parcours des vendeurs
 			for (let seller of p.sellers) {
 				allPrices.push(seller.price);
-
-				// ÉTAPE 2.2 — Parcours des avis de chaque vendeur
 				for (let avis of seller.avis) {
 					allNotes.push(avis.note);
 				}
 			}
 
-			// ÉTAPE 3 — Calcul de la note moyenne
-			const noteMoy = allNotes.reduce((total, note) => total + note, 0) / allNotes.length;
+			// Calcul de la note + prix moyenne
+			const noteMoy = moyenne(allNotes);
+			const priceMoy = moyenne(allPrices);
 
-			// ÉTAPE 4 — Calcul du prix moyen
-			const priceMoy = allPrices.reduce((total, price) => total + price, 0) / allPrices.length;
-
-			// ÉTAPE 5 — Objet final envoyé au frontend
+			// result
 			return {
 				id: p._id,
 				name: p.name,
@@ -63,102 +54,96 @@ router.get('/', (req, res) => {
 			};
 		});
 
-		// ÉTAPE 6 — Tri : meilleurs produits en premier
+		// Tri meilleur note a la plus basse
 		productsReworked.sort((a, b) => b.noteMoy - a.noteMoy);
 
-		// ÉTAPE 7 — Réponse finale
 		res.status(200).json({ result: true, products: productsReworked });
 	});
 });
 
 // ======================================================
-// 3. ROUTE GET /products/categories
-// Objectif :
-// - récupérer toutes les catégories
-// - supprimer les doublons
+// ROUTE GET /categories
+// recupération catégories UNIQUES
 // ======================================================
 router.get('/categories', (req, res) => {
 	Product.find().then((dataCats) => {
+		// si pas de produits
 		if (!dataCats) {
 			res.status(404).json({ result: false, error: "Couldn't find products" });
 			return;
 		}
-
-		// ÉTAPE 1 — Tableau vide pour stocker les catégories uniques
+		// parcours tous les produits et stock categories uniques dans un tableau
 		const categories = [];
-
-		// ÉTAPE 2 — Parcours des produits
 		dataCats.forEach((product) => {
-			// On ajoute la catégorie seulement si elle n’existe pas déjà
+			// si existe pas deja dans tableau
 			if (!categories.includes(product.categorie)) {
 				categories.push(product.categorie);
 			}
 		});
 
-		// ÉTAPE 3 — Réponse
 		res.status(200).json({ result: true, categories });
 	});
 });
 
+// ======================================================
+// ROUTE GET /brands
+// recupération brands UNIQUES
+// ======================================================
 router.get('/brands', (req, res) => {
 	Product.find().then((dataBrands) => {
+		// si pas de produits
 		if (!dataBrands) {
 			res.status(404).json({ result: false, error: "Couldn't find products" });
 			return;
 		}
 
-		// ÉTAPE 1 — Tableau vide pour stocker les brands uniques
+		// parcours tous les produits et stock brands uniques dans un tableau
 		const brands = [];
-
-		// ÉTAPE 2 — Parcours des produits
 		dataBrands.forEach((product) => {
-			// On ajoute la brands seulement si elle n’existe pas déjà
+			// si existe pas deja dans tableau
 			if (!brands.includes(product.brand)) {
 				brands.push(product.brand);
 			}
 		});
 
-		// ÉTAPE 3 — Réponse
 		res.status(200).json({ result: true, brands });
 	});
 });
 
 // ======================================================
-// 5. ROUTE GET /products/id/:idProduct
-// Objectif :
-// - récupérer UN produit (page détail)
+// ROUTE GET /id/:idProduct
+// pour page produit
 // ======================================================
 router.get('/id/:idProduct', (req, res) => {
 	const { idProduct } = req.params;
 
+	// si pas d'ID
 	if (!idProduct) {
 		res.status(406).json({ result: false, error: 'Missing product ID' });
 		return;
 	}
 
-	// ÉTAPE 1 — Recherche par ID
+	// recherche produit par ID
 	Product.findById(idProduct).then((product) => {
+		// si pas de produit
 		if (!product) {
 			res.status(404).json({ result: false, error: 'Product not found' });
 			return;
 		}
-
+		// stock toutes notes et prix pour le produit
 		let allNotes = [];
 		let allPrices = [];
-
-		// ÉTAPE 2 — Calcul moyennes
 		for (let seller of product.sellers) {
 			allPrices.push(seller.price);
 			for (let avis of seller.avis) {
 				allNotes.push(avis.note);
 			}
 		}
+		// calcul moyenne note et prix
+		const noteMoy = moyenne(allNotes);
+		const priceMoy = moyenne(allPrices);
 
-		const noteMoy = allNotes.reduce((t, n) => t + n, 0) / allNotes.length;
-
-		const priceMoy = allPrices.reduce((t, p) => t + p, 0) / allPrices.length;
-
-		// ÉTAPE 3 — Produit détaillé
+		// resultat pour fiche produit
 		res.status(200).json({
 			result: true,
 			product: {
@@ -177,48 +162,18 @@ router.get('/id/:idProduct', (req, res) => {
 });
 
 // ======================================================
-// 6. ROUTE POST /products/search
-// Objectif :
-// - recherche avancée
-// - filtres multiples
-// - tri dynamique
+// ROUTE POST /search
+// - recherche dans les champs nom desc brands categorie
+// - filtres
 // ======================================================
 router.post('/search', (req, res) => {
-	// ÉTAPE 1 — Données envoyées par le frontend
-	const { search, categories, brands, sellers, minPrice, maxPrice, sortBy, desc } = req.body;
+	// filtres du front
+	const { search, categories, brands, minPrice, maxPrice, sortBy } = req.body;
 
-	let query = {}; // Requête MongoDB dynamique
-
-	// ÉTAPE 2 — Recherche textuelle globale
-	if (search) {
-		const regex = new RegExp(search, 'i');
-		query.$or = [{ name: regex }, { brand: regex }, { categorie: regex }, { sellers: regex }, { desc: regex }];
-	}
-
-	// ÉTAPE 3 — Filtres MongoDB
-	if (categories?.length) {
-		query.categorie = { $in: categories.map((c) => new RegExp(c, 'i')) };
-	}
-
-	if (brands?.length) {
-		query.brand = { $in: brands.map((b) => new RegExp(b, 'i')) };
-	}
-
-	if (sellers?.length) {
-		query['sellers.name'] = { $in: sellers.map((s) => new RegExp(s, 'i')) };
-	}
-	if (desc?.length) {
-		query.desc = { $in: desc.map((d) => new RegExp(d, 'i')) };
-	}
-	// ÉTAPE 4 — Exécution de la requête
-	Product.find(query).then((results) => {
-		if (!results || results.length === 0) {
-			res.status(200).json({ result: true, products: [] });
-			return;
-		}
-
-		// ÉTAPE 5 — Calcul des moyennes
-		let productsReworked = results.map((p) => {
+	// recup all products
+	Product.find().then((data) => {
+		let products = data.map((p) => {
+			// stock notes et prix dans un tableau
 			let allNotes = [];
 			let allPrices = [];
 
@@ -229,9 +184,9 @@ router.post('/search', (req, res) => {
 				}
 			}
 
-			const noteMoy = allNotes.reduce((t, n) => t + n, 0) / allNotes.length || 0;
-
-			const priceMoy = allPrices.reduce((t, p) => t + p, 0) / allPrices.length || 0;
+			// Calcul de la note + prix moyenne
+			const noteMoy = moyenne(allNotes);
+			const priceMoy = moyenne(allPrices);
 
 			return {
 				id: p._id,
@@ -240,26 +195,50 @@ router.post('/search', (req, res) => {
 				picture: p.picture,
 				brand: p.brand,
 				categorie: p.categorie,
-				priceMoy: Number(priceMoy.toFixed(2)),
-				noteMoy: Number(noteMoy.toFixed(2)),
+				sellers: p.sellers,
+				priceMoy: priceMoy.toFixed(2),
+				noteMoy: noteMoy.toFixed(2),
 			};
 		});
 
-		// ÉTAPE 6 — Filtres prix (JS)
-		if (minPrice) productsReworked = productsReworked.filter((p) => p.priceMoy >= minPrice);
-		if (maxPrice) productsReworked = productsReworked.filter((p) => p.priceMoy <= maxPrice);
-
-		// ÉTAPE 7 — Tri final
-		if (sortBy === 'price_asc') {
-			productsReworked.sort((a, b) => a.priceMoy - b.priceMoy);
-		} else if (sortBy === 'price_desc') {
-			productsReworked.sort((a, b) => b.priceMoy - a.priceMoy);
-		} else {
-			productsReworked.sort((a, b) => b.noteMoy - a.noteMoy);
+		// Filtre Recherche nom / desc / brand / cat
+		if (search) {
+			const searchLower = search.toLowerCase();
+			products = products.filter(
+				(product) =>
+					product.name.toLowerCase().includes(searchLower) ||
+					product.desc.toLowerCase().includes(searchLower) ||
+					product.brand.toLowerCase().includes(searchLower) ||
+					product.categorie.toLowerCase().includes(searchLower)
+			);
 		}
 
-		// ÉTAPE 8 — Réponse finale
-		res.status(200).json({ result: true, products: productsReworked });
+		// Filtre cat
+		if (categories && categories.length > 0) {
+			const categoriesLower = categories.map((cat) => cat.toLowerCase());
+			products = products.filter(
+				(product) => product.categorie && categoriesLower.includes(product.categorie.toLowerCase())
+			);
+		}
+
+		// Filtre brand
+		if (brands && brands.length > 0) {
+			const brandsLower = brands.map((b) => b.toLowerCase());
+			products = products.filter((product) => product.brand && brandsLower.includes(product.brand.toLowerCase()));
+		}
+
+		// Filtre Prix Min / Max
+		if (minPrice) {
+			products = products.filter((product) => product.priceMoy >= minPrice);
+		}
+		if (maxPrice) {
+			products = products.filter((product) => product.priceMoy <= maxPrice);
+		}
+
+		// Tri meilleur note a la plus basse
+		products.sort((a, b) => b.noteMoy - a.noteMoy);
+
+		res.status(200).json({ result: true, products });
 	});
 });
 
