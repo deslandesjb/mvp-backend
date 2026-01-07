@@ -14,7 +14,7 @@ const moyenne = (notes) => {
 
 // ======================================================
 // ROUTE GET /
-// recupération tout les produits pour la Homepage
+// recup tous les produits pour la Homepage
 // ======================================================
 router.get('/', (req, res) => {
 	Product.find().then((dataProducts) => {
@@ -63,7 +63,7 @@ router.get('/', (req, res) => {
 
 // ======================================================
 // ROUTE GET /categories
-// recupération catégories UNIQUES
+// recup catégories UNIQUES
 // ======================================================
 router.get('/categories', (req, res) => {
 	Product.find().then((dataCats) => {
@@ -87,7 +87,7 @@ router.get('/categories', (req, res) => {
 
 // ======================================================
 // ROUTE GET /brands
-// recupération brands UNIQUES
+// recup brands UNIQUES
 // ======================================================
 router.get('/brands', (req, res) => {
 	Product.find().then((dataBrands) => {
@@ -168,7 +168,7 @@ router.get('/id/:idProduct', (req, res) => {
 // ======================================================
 router.post('/search', (req, res) => {
 	// filtres du front
-	const { search, categories, brands, minPrice, maxPrice, sortBy } = req.body;
+	const { search, categories, brands, minPrice, maxPrice } = req.body;
 
 	// recup all products
 	Product.find().then((data) => {
@@ -235,14 +235,11 @@ router.post('/search', (req, res) => {
 			products = products.filter((product) => product.priceMoy <= maxPrice);
 		}
 
-		// Tri meilleur note a la plus basse
+		// tri meilleur note a la plus basse
 		products.sort((a, b) => b.noteMoy - a.noteMoy);
 
 		res.status(200).json({ result: true, products });
 	});
 });
 
-// ======================================================
-// EXPORT DU ROUTER
-// ======================================================
 module.exports = router;
