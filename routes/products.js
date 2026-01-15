@@ -209,7 +209,7 @@ router.post('/search', (req, res) => {
 					product.name.toLowerCase().includes(searchLower) ||
 					product.desc.toLowerCase().includes(searchLower) ||
 					product.brand.toLowerCase().includes(searchLower) ||
-					product.categorie.toLowerCase().includes(searchLower)
+					product.categorie.toLowerCase().includes(searchLower),
 			);
 		}
 
@@ -217,7 +217,7 @@ router.post('/search', (req, res) => {
 		if (categories && categories.length > 0) {
 			const categoriesLower = categories.map((cat) => cat.toLowerCase());
 			products = products.filter(
-				(product) => product.categorie && categoriesLower.includes(product.categorie.toLowerCase())
+				(product) => product.categorie && categoriesLower.includes(product.categorie.toLowerCase()),
 			);
 		}
 

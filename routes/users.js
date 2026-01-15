@@ -11,12 +11,6 @@ const List = require('../models/list');
 const uid2 = require('uid2');
 const bcrypt = require('bcrypt');
 
-router.get('/allUsers', (req, res) => {
-	User.find().then((allUser) => {
-		res.json({ result: true, Users: allUser });
-	});
-});
-
 router.post('/signup', (req, res) => {
 	// 1. Vérification des champs
 	if (!checkBody(req.body, ['firstname', 'lastname', 'password', 'mail'])) {
@@ -32,7 +26,7 @@ router.post('/signup', (req, res) => {
 	}
 
 	// 3. Vérification existence utilisateur
-	User.findOne({ mail: req.body.mail }).then((data) => {
+	User.findOne({ mail: req.body.mail }).then(data => {
 		if (data === null) {
 			const hash = bcrypt.hashSync(req.body.password, 10);
 
@@ -48,7 +42,7 @@ router.post('/signup', (req, res) => {
 			// 4. Sauvegarde du User
 			newUser
 				.save()
-				.then((newDoc) => {
+				.then(newDoc => {
 					// 5. Création de la WishList par défaut
 					const defaultList = new List({
 						name: 'WishList',
@@ -59,7 +53,7 @@ router.post('/signup', (req, res) => {
 
 					defaultList
 						.save()
-						.then((savedList) => {
+						.then(savedList => {
 							// 6. Mise à jour du User pour ajouter l'ID de la liste
 							User.updateOne({ _id: newDoc._id }, { $push: { lists: savedList._id } }).then(() => {
 								// 7. Envoi de la réponse finale (UNE SEULE FOIS)
@@ -72,12 +66,12 @@ router.post('/signup', (req, res) => {
 								});
 							});
 						})
-						.catch((err) => {
+						.catch(err => {
 							// Erreur lors de la création de la liste
 							res.status(500).json({ result: false, error: 'Failed to create default list' });
 						});
 				})
-				.catch((err) => {
+				.catch(err => {
 					// Erreur lors de la sauvegarde du user
 					res.status(500).json({ result: false, error: 'User save failed' });
 				});
@@ -93,7 +87,7 @@ router.post('/signin', (req, res) => {
 		return res.json({ result: false, error: 'Missing or empty fields' });
 	}
 
-	User.findOne({ mail: req.body.mail }).then((user) => {
+	User.findOne({ mail: req.body.mail }).then(user => {
 		if (user && bcrypt.compareSync(req.body.password, user.password)) {
 			res.json({
 				result: true,

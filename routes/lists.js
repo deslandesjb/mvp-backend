@@ -7,19 +7,19 @@ const Product = require('../models/product');
 /* GET Lists. */
 router.get('/:token', function (req, res) {
 	const token = req.params.token;
-	User.findOne({ token: { $in: [token] } }).then((user) => {
+	User.findOne({ token: { $in: [token] } }).then(user => {
 		const idUser = user._id;
 		// console.log(idUser);
 
 		List.find({ idUser })
 			.populate('idProduct')
-			.then((lists) => {
-				const formattedLists = lists.map((list) => {
+			.then(lists => {
+				const formattedLists = lists.map(list => {
 					return {
 						_id: list._id,
 						name: list.name,
 						idUser: list.idUser,
-						products: list.idProduct.map((product) => {
+						products: list.idProduct.map(product => {
 							// calcul prix moyen
 							const priceMoy =
 								product.sellers && product.sellers.length
@@ -27,7 +27,7 @@ router.get('/:token', function (req, res) {
 									: 0;
 
 							// calcul note moyenne
-							const allNotes = product.sellers ? product.sellers.flatMap((s) => s.avis.map((a) => a.note)) : [];
+							const allNotes = product.sellers ? product.sellers.flatMap(s => s.avis.map(a => a.note)) : [];
 
 							const noteMoy = allNotes.length ? allNotes.reduce((sum, n) => sum + n, 0) / allNotes.length : 0;
 
@@ -45,7 +45,7 @@ router.get('/:token', function (req, res) {
 
 				res.json({ result: true, listsUser: formattedLists });
 			})
-			.catch((error) => {
+			.catch(error => {
 				console.error(error);
 				res.status(500).json({ result: false, error });
 			});
@@ -58,12 +58,12 @@ router.post('/newLists/:token/', function (req, res) {
 	const name = req.body.name;
 
 	// $in verifie dans un tableau dans le cas de user il contient un tableau de token
-	User.findOne({ token: { $in: [token] } }).then((user) => {
+	User.findOne({ token: { $in: [token] } }).then(user => {
 		if (!user) {
 			return res.json({ result: false, response: 'User not connected !' });
 		}
 
-		List.find({ idUser: user._id, name: name }).then((found) => {
+		List.find({ idUser: user._id, name: name }).then(found => {
 			console.log('user', found);
 			if (found.length < 1) {
 				const newList = new List({
@@ -72,7 +72,7 @@ router.post('/newLists/:token/', function (req, res) {
 					idProduct: [],
 					done: false,
 				});
-				newList.save().then((list) => {
+				newList.save().then(list => {
 					User.findByIdAndUpdate(user._id, { $push: { lists: list._id } }).then(() => {
 						return res.json({ result: true, newList: list });
 					});
@@ -84,26 +84,6 @@ router.post('/newLists/:token/', function (req, res) {
 	});
 });
 
-/* Post listDone. */
-router.post('/listDone/:idList', async (req, res) => {
-	try {
-		const list = await List.findOne({ _id: req.params.idList });
-		console.log(list);
-		if (!list) {
-			return res.json({ result: false, response: 'List not found !' });
-		}
-		const nouveauStatut = !list.done;
-		const updateResult = await List.updateOne({ _id: list._id }, { done: nouveauStatut });
-		return res.json({
-			result: true,
-			done: nouveauStatut,
-			updateDB: updateResult,
-		});
-	} catch (err) {
-		console.error(err);
-		return res.status(500).json({ result: false, response: 'Server error' });
-	}
-});
 /* Post addToLists. */
 router.post('/addToLists/:token/:idProduct/:idList', async (req, res) => {
 	const { token, idProduct, idList } = req.params;
@@ -147,7 +127,7 @@ router.post('/addToLists/:token/:idProduct/:idList', async (req, res) => {
 });
 /* Post removeList. */
 router.delete('/removeList/:idList', (req, res) => {
-	const { idList, idUser } = req.params;
+	const { idList } = req.params;
 	List.deleteOne({ _id: idList }).then(() => {
 		User.findOneAndUpdate({ lists: { $in: [idList] } }, { $pull: { lists: idList } }).then(() => {
 			res.json({ result: true, list: 'Supprimé !' });
