@@ -1,16 +1,13 @@
 var express = require('express');
 var router = express.Router();
 
-// Routes utilisateur :
-// POST /signup -> crée un utilisateur (mot de passe hashé) + wishlist par défaut, renvoie un token
-// POST /signin -> authentifie l'utilisateur et renvoie son token
-require('../models/connection');
 const { checkBody } = require('../modules/checkBody');
 const User = require('../models/user');
 const List = require('../models/list');
 const uid2 = require('uid2');
 const bcrypt = require('bcrypt');
 
+// POST /signup -> crée un utilisateur (mot de passe hashé) + wishlist par défaut, renvoie un token
 router.post('/signup', (req, res) => {
 	// 1. Vérification des champs
 	if (!checkBody(req.body, ['firstname', 'lastname', 'password', 'mail'])) {
@@ -27,7 +24,7 @@ router.post('/signup', (req, res) => {
 
 	// 3. Vérification existence utilisateur
 	User.findOne({ mail: req.body.mail }).then(data => {
-		if (data === null) {
+		if (!data) {
 			const hash = bcrypt.hashSync(req.body.password, 10);
 
 			const newUser = new User({
@@ -56,7 +53,7 @@ router.post('/signup', (req, res) => {
 						.then(savedList => {
 							// 6. Mise à jour du User pour ajouter l'ID de la liste
 							User.updateOne({ _id: newDoc._id }, { $push: { lists: savedList._id } }).then(() => {
-								// 7. Envoi de la réponse finale (UNE SEULE FOIS)
+								// 7. Envoi de la réponse finale
 								res.json({
 									result: true,
 									token: newDoc.token,
@@ -82,6 +79,7 @@ router.post('/signup', (req, res) => {
 	});
 });
 
+// POST /signin -> authentifie l'utilisateur et renvoie son token
 router.post('/signin', (req, res) => {
 	if (!checkBody(req.body, ['mail', 'password'])) {
 		return res.json({ result: false, error: 'Missing or empty fields' });

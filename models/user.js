@@ -6,7 +6,7 @@ const userSchema = mongoose.Schema({
 	lastname: String,
 	password: String,
 	token: [String],
-	lists: [{type: mongoose.Schema.Types.ObjectId, ref: 'lists'}],
+	lists: [{ type: mongoose.Schema.Types.ObjectId, ref: 'lists' }], // Foreign key Fav
 });
 
 const User = mongoose.model('users', userSchema);

@@ -3,7 +3,7 @@ var router = express.Router();
 const Product = require('../models/product');
 
 // fonction calcul moyenne
-const moyenne = (notes) => {
+const moyenne = notes => {
 	let total = 0;
 	for (let i = 0; i < notes.length; i++) {
 		total += notes[i];
@@ -17,7 +17,7 @@ const moyenne = (notes) => {
 // recup tous les produits pour la Homepage
 // ======================================================
 router.get('/', (req, res) => {
-	Product.find().then((dataProducts) => {
+	Product.find().then(dataProducts => {
 		// pas de produits
 		if (!dataProducts) {
 			res.status(404).json({ result: false, error: "Couldn't find any products" });
@@ -25,7 +25,7 @@ router.get('/', (req, res) => {
 		}
 
 		// calcul moyennes notes et prix :
-		const productsReworked = dataProducts.map((p) => {
+		const productsReworked = dataProducts.map(p => {
 			// stock notes et prix dans un tableau
 			let allNotes = [];
 			let allPrices = [];
@@ -66,7 +66,7 @@ router.get('/', (req, res) => {
 // recup catégories UNIQUES
 // ======================================================
 router.get('/categories', (req, res) => {
-	Product.find().then((dataCats) => {
+	Product.find().then(dataCats => {
 		// si pas de produits
 		if (!dataCats) {
 			res.status(404).json({ result: false, error: "Couldn't find products" });
@@ -74,7 +74,7 @@ router.get('/categories', (req, res) => {
 		}
 		// parcours tous les produits et stock categories uniques dans un tableau
 		const categories = [];
-		dataCats.forEach((product) => {
+		dataCats.forEach(product => {
 			// si existe pas deja dans tableau
 			if (!categories.includes(product.categorie)) {
 				categories.push(product.categorie);
@@ -90,7 +90,7 @@ router.get('/categories', (req, res) => {
 // recup brands UNIQUES
 // ======================================================
 router.get('/brands', (req, res) => {
-	Product.find().then((dataBrands) => {
+	Product.find().then(dataBrands => {
 		// si pas de produits
 		if (!dataBrands) {
 			res.status(404).json({ result: false, error: "Couldn't find products" });
@@ -99,7 +99,7 @@ router.get('/brands', (req, res) => {
 
 		// parcours tous les produits et stock brands uniques dans un tableau
 		const brands = [];
-		dataBrands.forEach((product) => {
+		dataBrands.forEach(product => {
 			// si existe pas deja dans tableau
 			if (!brands.includes(product.brand)) {
 				brands.push(product.brand);
@@ -124,7 +124,7 @@ router.get('/id/:idProduct', (req, res) => {
 	}
 
 	// recherche produit par ID
-	Product.findById(idProduct).then((product) => {
+	Product.findById(idProduct).then(product => {
 		// si pas de produit
 		if (!product) {
 			res.status(404).json({ result: false, error: 'Product not found' });
@@ -171,8 +171,8 @@ router.post('/search', (req, res) => {
 	const { search, categories, brands, minPrice, maxPrice } = req.body;
 
 	// recup all products
-	Product.find().then((data) => {
-		let products = data.map((p) => {
+	Product.find().then(data => {
+		let products = data.map(p => {
 			// stock notes et prix dans un tableau
 			let allNotes = [];
 			let allPrices = [];
@@ -205,7 +205,7 @@ router.post('/search', (req, res) => {
 		if (search) {
 			const searchLower = search.toLowerCase();
 			products = products.filter(
-				(product) =>
+				product =>
 					product.name.toLowerCase().includes(searchLower) ||
 					product.desc.toLowerCase().includes(searchLower) ||
 					product.brand.toLowerCase().includes(searchLower) ||
@@ -215,30 +215,33 @@ router.post('/search', (req, res) => {
 
 		// Filtre cat
 		if (categories && categories.length > 0) {
-			const categoriesLower = categories.map((cat) => cat.toLowerCase());
+			const categoriesLower = categories.map(cat => cat.toLowerCase());
 			products = products.filter(
-				(product) => product.categorie && categoriesLower.includes(product.categorie.toLowerCase()),
+				product => product.categorie && categoriesLower.includes(product.categorie.toLowerCase()),
 			);
 		}
 
 		// Filtre brand
 		if (brands && brands.length > 0) {
-			const brandsLower = brands.map((b) => b.toLowerCase());
-			products = products.filter((product) => product.brand && brandsLower.includes(product.brand.toLowerCase()));
+			const brandsLower = brands.map(b => b.toLowerCase());
+			products = products.filter(product => product.brand && brandsLower.includes(product.brand.toLowerCase()));
 		}
 
 		// Filtre Prix Min / Max
 		if (minPrice) {
-			products = products.filter((product) => product.priceMoy >= minPrice);
+			products = products.filter(product => product.priceMoy >= minPrice);
 		}
 		if (maxPrice) {
-			products = products.filter((product) => product.priceMoy <= maxPrice);
+			products = products.filter(product => product.priceMoy <= maxPrice);
 		}
 
 		// tri meilleur note a la plus basse
 		products.sort((a, b) => b.noteMoy - a.noteMoy);
 
-		res.status(200).json({ result: true, products });
+		res.status(200).json({
+			result: true,
+			products: products,
+		});
 	});
 });
 

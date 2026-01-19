@@ -1,4 +1,5 @@
 require('dotenv').config();
+require('./models/connection');
 
 var express = require('express');
 var path = require('path');
@@ -11,8 +12,6 @@ var productsRouter = require('./routes/products');
 var listsRouter = require('./routes/lists');
 var addSkuRouter = require('./routes/addSku');
 
-
-
 var app = express();
 
 const cors = require('cors');
@@ -20,7 +19,7 @@ app.use(cors());
 
 app.use(logger('dev'));
 app.use(express.json());
-app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 

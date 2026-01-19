@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-// sub-doc
+// sous-doc
 const pictureSchema = mongoose.Schema({
 	title: String,
 	url: String,
@@ -16,15 +16,15 @@ const sellersSchema = mongoose.Schema({
 	price: Number,
 });
 
+// Product Schema
 const productSchema = mongoose.Schema({
 	name: String,
 	desc: String,
-	picture: [pictureSchema],
+	picture: [pictureSchema], // sous-document
 	brand: String,
 	categorie: String,
-	sellers: [sellersSchema],
+	sellers: [sellersSchema], // sous-document
 });
-
 
 const Product = mongoose.model('products', productSchema);
 module.exports = Product;
